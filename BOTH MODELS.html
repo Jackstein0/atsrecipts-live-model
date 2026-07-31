@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Run Totals Report</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2329;
+      --muted: #52606d;
+      --line: #dfe3e8;
+      --soft-line: #eef1f4;
+      --gold: #ffc52f;
+      --cream: #fff1c2;
+      --green: #135c31;
+      --red: #8d3027;
+      --white: rgba(255, 255, 255, 0.97);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 12%, rgba(255, 197, 47, 0.20), transparent 28%),
+        radial-gradient(circle at 82% 18%, rgba(255, 197, 47, 0.12), transparent 24%),
+        linear-gradient(135deg, #102d59 0%, #1c3d70 48%, #0d2448 100%);
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background: url("assets/brewers-logo-wallpaper.png") center 80px / min(72vw, 860px) auto no-repeat fixed;
+      opacity: 0.16;
+      pointer-events: none;
+    }
+    header, main { position: relative; z-index: 1; }
+    header {
+      padding: 24px;
+      color: white;
+      background: rgba(7, 26, 54, 0.92);
+      border-bottom: 4px solid var(--gold);
+    }
+    h1 { margin: 0; font-size: 30px; font-weight: 760; letter-spacing: 0; }
+    .subtitle { margin-top: 14px; color: rgba(255, 255, 255, 0.9); font-size: 16px; font-weight: 600; }
+    main { max-width: 1120px; margin: 0 auto; padding: 20px; }
+    .notice {
+      color: white;
+      font-size: 16px;
+      font-weight: 650;
+      line-height: 1.45;
+      margin: 0 0 14px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+    }
+    .toolbar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+    .tabs {
+      display: inline-flex;
+      gap: 0;
+      padding: 4px;
+      border-radius: 10px;
+      background: rgba(7, 26, 54, 0.42);
+      border: 1px solid rgba(255, 255, 255, 0.42);
+    }
+    .tab {
+      display: inline-flex;
+      align-items: center;
+      height: 34px;
+      padding: 0 14px;
+      border: 0;
+      border-radius: 8px;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.82);
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .tab.active { background: white; color: #0d2448; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18); }
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(120px, 1fr));
+      gap: 0;
+      margin-bottom: 16px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .stat { padding: 4px 10px; min-height: 56px; }
+    .stat-label { color: #2b3238; font-size: 14px; font-weight: 700; }
+    .stat-value { margin-top: 8px; color: #333b42; font-size: 16px; font-weight: 600; }
+    .panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      margin-top: 16px;
+      overflow-x: auto;
+    }
+    .panel h2 { margin: 0 0 8px; font-size: 24px; line-height: 1.15; }
+    .panel p { margin: 8px 0 0; color: #33404a; line-height: 1.45; font-size: 14px; }
+    .comparison {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .mini-card {
+      border: 1px solid var(--soft-line);
+      border-radius: 8px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.72);
+    }
+    .mini-card h3 { margin: 0 0 8px; font-size: 16px; }
+    .line {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--soft-line);
+      font-size: 14px;
+    }
+    .line:last-child { border-bottom: 0; }
+    .line span:last-child { font-weight: 750; font-variant-numeric: tabular-nums; text-align: right; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    td { padding: 4px 0; border-bottom: 1px solid var(--soft-line); font-size: 14px; }
+    tr:last-child td { border-bottom: 0; }
+    .card { background: var(--white); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+    .teams { font-size: 18px; font-weight: 750; margin-bottom: 8px; }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+    .pick { display: inline-block; padding: 4px 8px; border-radius: 999px; font-weight: 750; text-transform: uppercase; }
+    .card td:last-child { text-align: right; font-variant-numeric: tabular-nums; padding-left: 12px; }
+    .watch { background: var(--cream); color: #5c4300; }
+    .lean { background: #dff5e8; color: var(--green); }
+    .pass { background: #edf0f3; color: var(--muted); }
+    .side-over { color: var(--green); }
+    .side-under { color: var(--red); }
+    .empty { padding: 34px; color: var(--muted); text-align: center; background: var(--white); border: 1px solid var(--line); border-radius: 8px; }
+    @media (max-width: 760px) {
+      header, main { padding-left: 14px; padding-right: 14px; }
+      .stat-row { grid-template-columns: repeat(2, minmax(120px, 1fr)); gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MLB Run Totals Report</h1>
+    <div class="subtitle">Generated 2026-07-30 time-sorted</div>
+  </header>
+  <main>
+    <p class="notice">This is a research report, not betting advice. Watch and lean are tracked; pass is shown for context only.</p>
+    <div class="toolbar">
+      <div class="tabs" role="tablist" aria-label="Model selector">
+        <button class="tab active" type="button" data-model="modelB">Model B</button>
+        <button class="tab" type="button" data-model="original">Original Model</button>
+      </div>
+    </div>
+    <section class="stat-row" aria-label="Board summary">
+      <div class="stat"><div class="stat-label">Games</div><div class="stat-value" id="gamesStat">0</div></div>
+      <div class="stat"><div class="stat-label">Watch</div><div class="stat-value" id="watchStat">0</div></div>
+      <div class="stat"><div class="stat-label">Lean</div><div class="stat-value" id="leanStat">0</div></div>
+      <div class="stat"><div class="stat-label">Best EV</div><div class="stat-value" id="evStat">--</div></div>
+      <div class="stat"><div class="stat-label">Model</div><div class="stat-value" id="modelStat">Market-adjusted</div></div>
+    </section>
+    <section class="panel">
+      <h2>Model Records</h2>
+      <div class="comparison" id="modelRecords"></div>
+    </section>
+    <section class="panel">
+      <h2 id="boardTitle">Model B Games</h2>
+      <div id="board"></div>
+    </section>
+    <section class="panel">
+      <h2>Backtest Record</h2>
+      <div class="comparison" id="backtestRecord"></div>
+      <p>Important: the historical market totals in this scaffold may include proxy lines unless replaced with real pregame sportsbook totals and odds.</p>
+    </section>
+  </main>
+  <script>
+    const models = {"modelB": {"title": "Model B Games", "label": "Market-adjusted", "rows": [{"date": "2026-07-30", "away_team": "MIA", "home_team": "NYM", "market_total": "7.0", "over_odds": "-115", "under_odds": "-105", "sportsbook": "fanduel", "commence_time": "2026-07-30T23:11:00Z", "home_wrc_plus": "93.1", "away_wrc_plus": "101.5", "home_sp_xfip": "3.32", "away_sp_xfip": "3.56", "home_bullpen_xfip": "5.29", "away_bullpen_xfip": "4.46", "park_factor": "97", "temp_f": "73.6", "wind_out_mph": "-5.0", "wind_mph": "5.0", "wind_dir_degrees": "13.0", "roof": "no", "home_sp_name": "Nolan McLean", "away_sp_name": "Eury P\u00e9rez", "venue_name": "Citi Field", "game_id": "823595", "model_total": "5.727467051638856", "under_probability": "0.6071275265774231", "over_probability": "0.3928724734225769", "market_over_probability": "0.5348837209302325", "market_under_probability": "0.5121951219512195", "over_ev": "-0.2654992888186606", "under_ev": "0.18534421855592131", "best_side": "under", "best_ev": "0.18534421855592131", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "CHC", "home_team": "STL", "market_total": "8.0", "over_odds": "-113", "under_odds": "-102", "sportsbook": "lowvig", "commence_time": "2026-07-30T18:16:00Z", "home_wrc_plus": "87.3", "away_wrc_plus": "140.9", "home_sp_xfip": "3.77", "away_sp_xfip": "3.86", "home_bullpen_xfip": "4.59", "away_bullpen_xfip": "4.25", "park_factor": "98", "temp_f": "87.7", "wind_out_mph": "0.0", "wind_mph": "3.1", "wind_dir_degrees": "180.0", "roof": "no", "home_sp_name": "Andre Pallante", "away_sp_name": "Javier Assad", "venue_name": "Busch Stadium", "game_id": "823023", "model_total": "6.926328014131792", "under_probability": "0.5907051258610725", "over_probability": "0.4092948741389275", "market_over_probability": "0.5305164319248826", "market_under_probability": "0.504950495049505", "over_ev": "-0.22849727264078268", "under_ev": "0.16982779827388872", "best_side": "under", "best_ev": "0.16982779827388872", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "TEX", "home_team": "TBR", "market_total": "7.5", "over_odds": "-110", "under_odds": "-110", "sportsbook": "betmgm", "commence_time": "2026-07-30T16:11:00Z", "home_wrc_plus": "95.7", "away_wrc_plus": "100.3", "home_sp_xfip": "3.09", "away_sp_xfip": "6.11", "home_bullpen_xfip": "3.49", "away_bullpen_xfip": "5.3", "park_factor": "98", "temp_f": "73.0", "wind_out_mph": "0", "wind_mph": "17.4", "wind_dir_degrees": "49.0", "roof": "yes", "home_sp_name": "Shane McClanahan", "away_sp_name": "Cole Winn", "venue_name": "Tropicana Field", "game_id": "822946", "model_total": "6.353507218528321", "under_probability": "0.596738980101378", "over_probability": "0.40326101989862195", "market_over_probability": "0.5238095238095238", "market_under_probability": "0.5238095238095238", "over_ev": "-0.23013805292081257", "under_ev": "0.13922896201172175", "best_side": "under", "best_ev": "0.13922896201172175", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "WSN", "home_team": "ATL", "market_total": "10.0", "over_odds": "-112", "under_odds": "-109", "sportsbook": "mybookieag", "commence_time": "2026-07-30T23:16:00Z", "home_wrc_plus": "97.7", "away_wrc_plus": "121.1", "home_sp_xfip": "3.79", "away_sp_xfip": "5.23", "home_bullpen_xfip": "4.87", "away_bullpen_xfip": "5.11", "park_factor": "101", "temp_f": "87.0", "wind_out_mph": "7.4", "wind_mph": "8.2", "wind_dir_degrees": "315.0", "roof": "no", "home_sp_name": "Grant Holmes", "away_sp_name": "Jake Irvin", "venue_name": "Truist Park", "game_id": "824894", "model_total": "9.025080477645115", "under_probability": "0.5824884112209048", "over_probability": "0.4175115887790952", "market_over_probability": "0.5283018867924528", "market_under_probability": "0.5215311004784688", "over_ev": "-0.20971020695385545", "under_ev": "0.1168814490382486", "best_side": "under", "best_ev": "0.1168814490382486", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "PIT", "home_team": "CIN", "market_total": "9.5", "over_odds": "-114", "under_odds": "-106", "sportsbook": "fanduel", "commence_time": "2026-07-30T23:11:00Z", "home_wrc_plus": "87.3", "away_wrc_plus": "121.1", "home_sp_xfip": "5.61", "away_sp_xfip": "3.21", "home_bullpen_xfip": "4.3", "away_bullpen_xfip": "4.89", "park_factor": "107", "temp_f": "85.0", "wind_out_mph": "4.5", "wind_mph": "6.1", "wind_dir_degrees": "343.0", "roof": "no", "home_sp_name": "Rhett Lowder", "away_sp_name": "Yohan Ram\u00edrez", "venue_name": "Great American Ball Park", "game_id": "824488", "model_total": "10.572359727889589", "under_probability": "0.40940380842928725", "over_probability": "0.5905961915707127", "market_over_probability": "0.5327102803738317", "market_under_probability": "0.5145631067961165", "over_ev": "0.10866302628186442", "under_ev": "-0.20436618361855496", "best_side": "over", "best_ev": "0.10866302628186442", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "SEA", "home_team": "LAD", "market_total": "8.5", "over_odds": "-124", "under_odds": "102", "sportsbook": "fanduel", "commence_time": "2026-07-31T02:11:00Z", "home_wrc_plus": "103.7", "away_wrc_plus": "77.5", "home_sp_xfip": "4.71", "away_sp_xfip": "4.37", "home_bullpen_xfip": "4.31", "away_bullpen_xfip": "3.89", "park_factor": "100", "temp_f": "73.0", "wind_out_mph": "6.0", "wind_mph": "7.1", "wind_dir_degrees": "252.0", "roof": "no", "home_sp_name": "Roki Sasaki", "away_sp_name": "Bryan Woo", "venue_name": "UNIQLO Field at Dodger Stadium", "game_id": "823921", "model_total": "9.851674960901695", "under_probability": "0.3863876688715676", "over_probability": "0.6136123311284324", "market_over_probability": "0.5535714285714286", "market_under_probability": "0.49504950495049505", "over_ev": "0.10846098526426484", "under_ev": "-0.2194969088794334", "best_side": "over", "best_ev": "0.10846098526426484", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "BOS", "home_team": "ATH", "market_total": "10.0", "over_odds": "-110", "under_odds": "-110", "sportsbook": "fanduel", "commence_time": "2026-07-31T01:41:00Z", "home_wrc_plus": "92.6", "away_wrc_plus": "98.8", "home_sp_xfip": "4.74", "away_sp_xfip": "2.78", "home_bullpen_xfip": "6.3", "away_bullpen_xfip": "3.11", "park_factor": "98", "temp_f": "93.5", "wind_out_mph": "10.0", "wind_mph": "10.0", "wind_dir_degrees": "230.0", "roof": "no", "home_sp_name": "Mason Barnett", "away_sp_name": "Sonny Gray", "venue_name": "Sutter Health Park", "game_id": "824974", "model_total": "10.752909743070704", "under_probability": "0.4361106744068021", "over_probability": "0.5638893255931978", "market_over_probability": "0.5238095238095238", "market_under_probability": "0.5238095238095238", "over_ev": "0.07651598522337766", "under_ev": "-0.1674250761324686", "best_side": "over", "best_ev": "0.07651598522337766", "edge_label": "lean"}, {"date": "2026-07-30", "away_team": "NYY", "home_team": "CHW", "market_total": "7.5", "over_odds": "-102", "under_odds": "-120", "sportsbook": "fanduel", "commence_time": "2026-07-30T18:11:00Z", "home_wrc_plus": "107.5", "away_wrc_plus": "85.0", "home_sp_xfip": "3.19", "away_sp_xfip": "4.25", "home_bullpen_xfip": "4.08", "away_bullpen_xfip": "4.37", "park_factor": "101", "temp_f": "77.3", "wind_out_mph": "-7.0", "wind_mph": "9.0", "wind_dir_degrees": "91.0", "roof": "no", "home_sp_name": "Sean Burke", "away_sp_name": "Ryan Weathers", "venue_name": "Rate Field", "game_id": "824568", "model_total": "6.824291848324695", "under_probability": "0.5573862328595485", "over_probability": "0.44261376714045153", "market_over_probability": "0.504950495049505", "market_under_probability": "0.5454545454545454", "over_ev": "-0.12345116703557635", "under_ev": "0.021874760242505564", "best_side": "under", "best_ev": "0.021874760242505564", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "KCR", "home_team": "MIN", "market_total": "9.5", "over_odds": "-114", "under_odds": "-106", "sportsbook": "fanduel", "commence_time": "2026-07-30T17:41:00Z", "home_wrc_plus": "107.4", "away_wrc_plus": "99.7", "home_sp_xfip": "4.56", "away_sp_xfip": "4.93", "home_bullpen_xfip": "4.56", "away_bullpen_xfip": "5.73", "park_factor": "99", "temp_f": "86.2", "wind_out_mph": "1.9", "wind_mph": "9.3", "wind_dir_degrees": "197.0", "roof": "no", "home_sp_name": "Bailey Ober", "away_sp_name": "Noah Cameron", "venue_name": "Target Field", "game_id": "823674", "model_total": "9.373081523909827", "under_probability": "0.5108149930440924", "over_probability": "0.4891850069559076", "market_over_probability": "0.5327102803738317", "market_under_probability": "0.5145631067961165", "over_ev": "-0.08170533781961198", "under_ev": "-0.007284070121858166", "best_side": "under", "best_ev": "-0.007284070121858166", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "SFG", "home_team": "SDP", "market_total": "8.5", "over_odds": "100", "under_odds": "-122", "sportsbook": "fanduel", "commence_time": "2026-07-31T01:41:00Z", "home_wrc_plus": "104.6", "away_wrc_plus": "99.7", "home_sp_xfip": "3.86", "away_sp_xfip": "", "home_bullpen_xfip": "4.97", "away_bullpen_xfip": "4.16", "park_factor": "96", "temp_f": "75.5", "wind_out_mph": "3.1", "wind_mph": "6.1", "wind_dir_degrees": "260.0", "roof": "no", "home_sp_name": "JP Sears", "away_sp_name": "", "venue_name": "Petco Park", "game_id": "823271", "model_total": "8.167262040326781", "under_probability": "0.5283329223338593", "over_probability": "0.4716670776661407", "market_over_probability": "0.5", "market_under_probability": "0.5495495495495496", "over_ev": "-0.05666584466771862", "under_ev": "-0.03860730526133793", "best_side": "under", "best_ev": "-0.03860730526133793", "edge_label": "pass"}], "tracked": {"record": "0-0-0", "units": "0.00", "roi": "0.0%", "status": "New model"}, "backtest": {"title": "Model B Backtest", "games": "361", "bets": "184", "record": "99-78-7", "profit": "+12.00 units", "roi": "6.52%", "ev": "8.85%"}}, "original": {"title": "Original Model Games", "label": "Original totals", "rows": [{"date": "2026-07-30", "away_team": "TEX", "home_team": "TBR", "market_total": "7.5", "over_odds": "-110", "under_odds": "-110", "sportsbook": "betmgm", "commence_time": "2026-07-30T16:11:00Z", "home_wrc_plus": "95.7", "away_wrc_plus": "100.3", "home_sp_xfip": "3.09", "away_sp_xfip": "6.11", "home_bullpen_xfip": "3.49", "away_bullpen_xfip": "5.3", "park_factor": "98", "temp_f": "73.0", "wind_out_mph": "0", "wind_mph": "17.4", "wind_dir_degrees": "49.0", "roof": "yes", "home_sp_name": "Shane McClanahan", "away_sp_name": "Cole Winn", "venue_name": "Tropicana Field", "game_id": "822946", "model_total": "6.608413187934536", "under_probability": "0.5759464949013684", "over_probability": "0.4240535050986316", "market_over_probability": "0.5238095238095238", "market_under_probability": "0.5238095238095238", "over_ev": "-0.1904433084480669", "under_ev": "0.09953421753897618", "best_side": "under", "best_ev": "0.09953421753897618", "edge_label": "lean"}, {"date": "2026-07-30", "away_team": "KCR", "home_team": "MIN", "market_total": "9.5", "over_odds": "-114", "under_odds": "-106", "sportsbook": "fanduel", "commence_time": "2026-07-30T17:41:00Z", "home_wrc_plus": "107.4", "away_wrc_plus": "99.7", "home_sp_xfip": "4.56", "away_sp_xfip": "4.93", "home_bullpen_xfip": "4.56", "away_bullpen_xfip": "5.73", "park_factor": "99", "temp_f": "86.2", "wind_out_mph": "1.9", "wind_mph": "9.3", "wind_dir_degrees": "197.0", "roof": "no", "home_sp_name": "Bailey Ober", "away_sp_name": "Noah Cameron", "venue_name": "Target Field", "game_id": "823674", "model_total": "9.48716751109187", "under_probability": "0.5010997737178442", "over_probability": "0.4989002262821558", "market_over_probability": "0.5327102803738317", "market_under_probability": "0.5145631067961165", "over_ev": "-0.06346799627735666", "under_ev": "-0.026164590699283896", "best_side": "under", "best_ev": "-0.026164590699283896", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "NYY", "home_team": "CHW", "market_total": "7.5", "over_odds": "-102", "under_odds": "-120", "sportsbook": "fanduel", "commence_time": "2026-07-30T18:11:00Z", "home_wrc_plus": "107.5", "away_wrc_plus": "85.0", "home_sp_xfip": "3.19", "away_sp_xfip": "4.25", "home_bullpen_xfip": "4.08", "away_bullpen_xfip": "4.37", "park_factor": "101", "temp_f": "77.3", "wind_out_mph": "-7.0", "wind_mph": "9.0", "wind_dir_degrees": "91.0", "roof": "no", "home_sp_name": "Sean Burke", "away_sp_name": "Ryan Weathers", "venue_name": "Rate Field", "game_id": "824568", "model_total": "7.710926824403453", "under_probability": "0.4819310449923886", "over_probability": "0.5180689550076114", "market_over_probability": "0.504950495049505", "market_under_probability": "0.5454545454545454", "over_ev": "0.025979695211151954", "under_ev": "-0.11645975084728755", "best_side": "over", "best_ev": "0.025979695211151954", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "CHC", "home_team": "STL", "market_total": "8.0", "over_odds": "-113", "under_odds": "-102", "sportsbook": "lowvig", "commence_time": "2026-07-30T18:16:00Z", "home_wrc_plus": "87.3", "away_wrc_plus": "140.9", "home_sp_xfip": "3.77", "away_sp_xfip": "3.86", "home_bullpen_xfip": "4.59", "away_bullpen_xfip": "4.25", "park_factor": "98", "temp_f": "87.7", "wind_out_mph": "0.0", "wind_mph": "3.1", "wind_dir_degrees": "180.0", "roof": "no", "home_sp_name": "Andre Pallante", "away_sp_name": "Javier Assad", "venue_name": "Busch Stadium", "game_id": "823023", "model_total": "8.282436780611862", "under_probability": "0.47581173642171254", "over_probability": "0.5241882635782875", "market_over_probability": "0.5305164319248826", "market_under_probability": "0.504950495049505", "over_ev": "-0.011928317325882842", "under_ev": "-0.05770616904719672", "best_side": "over", "best_ev": "-0.011928317325882842", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "MIA", "home_team": "NYM", "market_total": "7.0", "over_odds": "-115", "under_odds": "-105", "sportsbook": "fanduel", "commence_time": "2026-07-30T23:11:00Z", "home_wrc_plus": "93.1", "away_wrc_plus": "101.5", "home_sp_xfip": "3.32", "away_sp_xfip": "3.56", "home_bullpen_xfip": "5.29", "away_bullpen_xfip": "4.46", "park_factor": "97", "temp_f": "73.6", "wind_out_mph": "-5.0", "wind_mph": "5.0", "wind_dir_degrees": "13.0", "roof": "no", "home_sp_name": "Nolan McLean", "away_sp_name": "Eury P\u00e9rez", "venue_name": "Citi Field", "game_id": "823595", "model_total": "7.861437373867256", "under_probability": "0.42666792272897464", "over_probability": "0.5733320772710253", "market_over_probability": "0.5348837209302325", "market_under_probability": "0.5121951219512195", "over_ev": "0.07188170968061236", "under_ev": "-0.16698167467200198", "best_side": "over", "best_ev": "0.07188170968061236", "edge_label": "lean"}, {"date": "2026-07-30", "away_team": "PIT", "home_team": "CIN", "market_total": "9.5", "over_odds": "-114", "under_odds": "-106", "sportsbook": "fanduel", "commence_time": "2026-07-30T23:11:00Z", "home_wrc_plus": "87.3", "away_wrc_plus": "121.1", "home_sp_xfip": "5.61", "away_sp_xfip": "3.21", "home_bullpen_xfip": "4.3", "away_bullpen_xfip": "4.89", "park_factor": "107", "temp_f": "85.0", "wind_out_mph": "4.5", "wind_mph": "6.1", "wind_dir_degrees": "343.0", "roof": "no", "home_sp_name": "Rhett Lowder", "away_sp_name": "Yohan Ram\u00edrez", "venue_name": "Great American Ball Park", "game_id": "824488", "model_total": "11.175511457072727", "under_probability": "0.3595867831586695", "over_probability": "0.6404132168413306", "market_over_probability": "0.5327102803738317", "market_under_probability": "0.5145631067961165", "over_ev": "0.20217919652670835", "under_ev": "-0.3011804025406989", "best_side": "over", "best_ev": "0.20217919652670835", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "WSN", "home_team": "ATL", "market_total": "10.0", "over_odds": "-112", "under_odds": "-109", "sportsbook": "mybookieag", "commence_time": "2026-07-30T23:16:00Z", "home_wrc_plus": "97.7", "away_wrc_plus": "121.1", "home_sp_xfip": "3.79", "away_sp_xfip": "5.23", "home_bullpen_xfip": "4.87", "away_bullpen_xfip": "5.11", "park_factor": "101", "temp_f": "87.0", "wind_out_mph": "7.4", "wind_mph": "8.2", "wind_dir_degrees": "315.0", "roof": "no", "home_sp_name": "Grant Holmes", "away_sp_name": "Jake Irvin", "venue_name": "Truist Park", "game_id": "824894", "model_total": "8.82130877629491", "under_probability": "0.5998451320870668", "over_probability": "0.4001548679129332", "market_over_probability": "0.5283018867924528", "market_under_probability": "0.5215311004784688", "over_ev": "-0.2425640000219479", "under_ev": "0.15016176702933004", "best_side": "under", "best_ev": "0.15016176702933004", "edge_label": "watch"}, {"date": "2026-07-30", "away_team": "BOS", "home_team": "ATH", "market_total": "10.0", "over_odds": "-110", "under_odds": "-110", "sportsbook": "fanduel", "commence_time": "2026-07-31T01:41:00Z", "home_wrc_plus": "92.6", "away_wrc_plus": "98.8", "home_sp_xfip": "4.74", "away_sp_xfip": "2.78", "home_bullpen_xfip": "6.3", "away_bullpen_xfip": "3.11", "park_factor": "98", "temp_f": "93.5", "wind_out_mph": "10.0", "wind_mph": "10.0", "wind_dir_degrees": "230.0", "roof": "no", "home_sp_name": "Mason Barnett", "away_sp_name": "Sonny Gray", "venue_name": "Sutter Health Park", "game_id": "824974", "model_total": "9.947081607265732", "under_probability": "0.5045303901125288", "over_probability": "0.49546960988747124", "market_over_probability": "0.5238095238095238", "market_under_probability": "0.5238095238095238", "over_ev": "-0.05410347203300936", "under_ev": "-0.03680561887608147", "best_side": "under", "best_ev": "-0.03680561887608147", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "SFG", "home_team": "SDP", "market_total": "8.5", "over_odds": "100", "under_odds": "-122", "sportsbook": "fanduel", "commence_time": "2026-07-31T01:41:00Z", "home_wrc_plus": "104.6", "away_wrc_plus": "99.7", "home_sp_xfip": "3.86", "away_sp_xfip": "", "home_bullpen_xfip": "4.97", "away_bullpen_xfip": "4.16", "park_factor": "96", "temp_f": "75.5", "wind_out_mph": "3.1", "wind_mph": "6.1", "wind_dir_degrees": "260.0", "roof": "no", "home_sp_name": "JP Sears", "away_sp_name": "", "venue_name": "Petco Park", "game_id": "823271", "model_total": "8.543469465818498", "under_probability": "0.4962785148108111", "over_probability": "0.5037214851891889", "market_over_probability": "0.5", "market_under_probability": "0.5495495495495496", "over_ev": "0.007442970378377822", "under_ev": "-0.09693581731147494", "best_side": "over", "best_ev": "0.007442970378377822", "edge_label": "pass"}, {"date": "2026-07-30", "away_team": "SEA", "home_team": "LAD", "market_total": "8.5", "over_odds": "-124", "under_odds": "102", "sportsbook": "fanduel", "commence_time": "2026-07-31T02:11:00Z", "home_wrc_plus": "103.7", "away_wrc_plus": "77.5", "home_sp_xfip": "4.71", "away_sp_xfip": "4.37", "home_bullpen_xfip": "4.31", "away_bullpen_xfip": "3.89", "park_factor": "100", "temp_f": "73.0", "wind_out_mph": "6.0", "wind_mph": "7.1", "wind_dir_degrees": "252.0", "roof": "no", "home_sp_name": "Roki Sasaki", "away_sp_name": "Bryan Woo", "venue_name": "UNIQLO Field at Dodger Stadium", "game_id": "823921", "model_total": "9.734870290154038", "under_probability": "0.3955038630267245", "over_probability": "0.6044961369732755", "market_over_probability": "0.5535714285714286", "market_under_probability": "0.49504950495049505", "over_ev": "0.09199302162914291", "under_ev": "-0.20108219668601646", "best_side": "over", "best_ev": "0.09199302162914291", "edge_label": "lean"}], "tracked": {"record": "114-101-8", "units": "+3.08", "roi": "1.4%", "status": "Tracked"}, "backtest": {"title": "Original Model Backtest", "games": "400", "bets": "229", "record": "122-97-10", "profit": "+13.91 units", "roi": "6.07%", "ev": "10.98%"}}};
+
+    function formatPercent(value) {
+      const number = Number(value);
+      if (!Number.isFinite(number)) return "";
+      return `${(number * 100).toFixed(1)}%`;
+    }
+
+    function formatNumber(value, digits = 2) {
+      const number = Number(value);
+      if (!Number.isFinite(number)) return value ?? "";
+      return number.toFixed(digits);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatTime(value) {
+      if (!value) return "";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+    }
+
+    function weatherText(row) {
+      const temp = formatNumber(row.temp_f, 1);
+      const wind = formatNumber(row.wind_mph, 1);
+      const out = formatNumber(row.wind_out_mph, 1);
+      const roof = row.roof || "";
+      return `${temp} F, ${wind} mph wind, out ${out}, roof ${roof}`;
+    }
+
+    function miniCard(title, rows) {
+      return `
+        <div class="mini-card">
+          <h3>${escapeHtml(title)}</h3>
+          ${rows.map(([label, value]) => `<div class="line"><span>${escapeHtml(label)}</span><span>${escapeHtml(value)}</span></div>`).join("")}
+        </div>
+      `;
+    }
+
+    function renderRecords() {
+      document.getElementById("modelRecords").innerHTML = miniCard("Model B", [
+        ["Tracked record", models.modelB.tracked.record],
+        ["Units", models.modelB.tracked.units],
+        ["ROI", models.modelB.tracked.roi],
+        ["Status", models.modelB.tracked.status],
+      ]) + miniCard("Original Model", [
+        ["Tracked record", models.original.tracked.record],
+        ["Units", models.original.tracked.units],
+        ["ROI", models.original.tracked.roi],
+        ["Status", models.original.tracked.status],
+      ]);
+    }
+
+    function render(modelKey) {
+      const model = models[modelKey];
+      const rows = [...model.rows].sort((a, b) => {
+        const timeA = Date.parse(a.commence_time || "");
+        const timeB = Date.parse(b.commence_time || "");
+        if (Number.isFinite(timeA) && Number.isFinite(timeB)) return timeA - timeB;
+        if (Number.isFinite(timeA)) return -1;
+        if (Number.isFinite(timeB)) return 1;
+        return ((a.away_team || "") + " " + (a.home_team || "")).localeCompare((b.away_team || "") + " " + (b.home_team || ""));
+      });
+      document.getElementById("gamesStat").textContent = rows.length;
+      document.getElementById("watchStat").textContent = rows.filter((row) => row.edge_label === "watch").length;
+      document.getElementById("leanStat").textContent = rows.filter((row) => row.edge_label === "lean").length;
+      document.getElementById("modelStat").textContent = model.label;
+      document.getElementById("boardTitle").textContent = model.title;
+
+      const bestEv = rows.reduce((best, row) => Math.max(best, Number(row.best_ev)), -Infinity);
+      document.getElementById("evStat").textContent = Number.isFinite(bestEv) ? formatPercent(bestEv) : "--";
+
+      const board = document.getElementById("board");
+      if (rows.length === 0) {
+        board.innerHTML = '<div class="empty">No games are priced in this file yet.</div>';
+        return;
+      }
+
+      board.innerHTML = `
+        <section class="grid">
+          ${rows.map((row) => {
+            const label = String(row.edge_label || "pass").toLowerCase();
+            const side = String(row.best_side || "").toLowerCase();
+            const tracked = label === "pass" ? "NOT TRACKED: PASS" : label;
+            return `
+              <article class="card">
+                <div class="teams">${escapeHtml(row.away_team)} @ ${escapeHtml(row.home_team)}</div>
+                <div class="meta">${escapeHtml(row.date)} · ${formatTime(row.commence_time)} · total ${formatNumber(row.market_total, 1)}</div>
+                <div class="pick ${label}">${escapeHtml(tracked)}: <span class="side-${side}">${escapeHtml(side)}</span></div>
+                <table>
+                  <tr><td>Model total</td><td>${formatNumber(row.model_total, 2)}</td></tr>
+                  <tr><td>Best EV</td><td>${formatPercent(row.best_ev)}</td></tr>
+                  <tr><td>Over probability</td><td>${formatPercent(row.over_probability)}</td></tr>
+                  <tr><td>Under probability</td><td>${formatPercent(row.under_probability)}</td></tr>
+                  <tr><td>Sportsbook</td><td>${escapeHtml(row.sportsbook)}</td></tr>
+                  <tr><td>Weather</td><td>${escapeHtml(weatherText(row))}</td></tr>
+                  <tr><td>Starters</td><td>${escapeHtml(row.away_sp_name || "TBD")} / ${escapeHtml(row.home_sp_name || "TBD")}</td></tr>
+                </table>
+              </article>
+            `;
+          }).join("")}
+        </section>
+      `;
+
+      const backtest = model.backtest;
+      document.getElementById("backtestRecord").innerHTML = miniCard(backtest.title, [
+        ["Games tested", backtest.games],
+        ["Bets placed", backtest.bets],
+        ["Record", backtest.record],
+        ["Profit", backtest.profit],
+        ["ROI", backtest.roi],
+        ["Average EV", backtest.ev],
+      ]);
+    }
+
+    document.querySelectorAll(".tab").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        document.querySelectorAll(".tab").forEach((button) => button.classList.remove("active"));
+        tab.classList.add("active");
+        render(tab.dataset.model);
+      });
+    });
+
+    renderRecords();
+    render("modelB");
+  </script>
+</body>
+</html>
