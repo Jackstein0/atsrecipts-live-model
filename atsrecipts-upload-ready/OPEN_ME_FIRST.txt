@@ -1,0 +1,54 @@
+MLB Run Totals Tool
+===================
+
+You do not need to know how to code to use the basic workflow.
+
+Start here:
+
+1. Double-click: Run Demo.command
+   This proves the tool works using fake sample data.
+
+2. Double-click: Setup.command
+   This creates the files you need to fill in.
+
+3. Optional: Double-click Load Sample Data.command
+   This fills the expected files with sample data so you can see the workflow.
+   The sample data is not suitable for real bets.
+
+4. Open the files in data/source and replace them with FanGraphs-style metrics:
+   - team_metrics.csv
+   - starter_metrics.csv
+   - bullpen_metrics.csv
+   - park_metrics.csv
+   - weather_metrics.csv is optional
+
+5. Open PASTE_API_KEY_HERE.txt, paste your Odds API key after the equals sign, and save.
+
+6. Replace the sample historical training data with real historical rows:
+   data/processed/historical_games.csv
+
+7. Double-click: Run Today.command
+
+Optional FanGraphs upgrade:
+Double-click Setup FanGraphs Exports.command, then replace the files in
+data/fangraphs with FanGraphs CSV exports.
+
+Results are saved here:
+data/processed/today_results.csv
+
+To test the model historically, double-click:
+Run Backtest.command
+
+To try replacing proxy historical lines with real historical sportsbook lines, double-click:
+Run Historical Odds Upgrade.command
+
+If your odds plan does not include historical odds, read:
+HISTORICAL_ODDS_IMPORT_GUIDE.txt
+
+Backtest files are saved here:
+data/processed/backtest_report.txt
+data/processed/backtest_summary.csv
+data/processed/backtest_bets.csv
+
+Important:
+This is a research tool, not betting advice. The sample demo numbers are fake.

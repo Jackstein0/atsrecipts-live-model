@@ -1,0 +1,2 @@
+games_tested,bets,wins,losses,pushes,profit_units,roi,avg_ev,note
+361,184,99,78,7,12.0009,0.0652,0.0885,Model B uses the sportsbook total as a baseline and learns residual adjustments. Historical market totals in the current scaffold may be proxies unless you replace historical_games.csv with real pregame sportsbook lines.

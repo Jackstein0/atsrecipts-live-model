@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "run-totals-model"
+version = "0.1.0"
+description = "MLB run totals betting model scaffold"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "requests>=2.31",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

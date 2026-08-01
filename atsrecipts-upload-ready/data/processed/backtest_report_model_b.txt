@@ -1,0 +1,15 @@
+MLB Run Totals Backtest - Model B
+=================================
+
+Approach: market-adjusted residual model
+Games tested: 361
+Bets placed: 184
+Wins: 99
+Losses: 78
+Pushes: 7
+Profit: 12.00 units
+ROI: 6.52%
+Average model EV: 8.85%
+
+Important:
+Model B uses the sportsbook total as a baseline and learns residual adjustments. Historical market totals in the current scaffold may be proxies unless you replace historical_games.csv with real pregame sportsbook lines.

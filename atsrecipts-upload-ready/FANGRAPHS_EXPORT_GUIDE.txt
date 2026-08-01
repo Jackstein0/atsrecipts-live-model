@@ -1,0 +1,32 @@
+FanGraphs Export Guide
+======================
+
+The tool can now use FanGraphs CSV exports.
+
+Double-click:
+Setup FanGraphs Exports.command
+
+Then replace the template files in data/fangraphs with FanGraphs exports:
+
+1. data/fangraphs/team_batting.csv
+   Required columns:
+   - Team
+   - wRC+
+
+2. data/fangraphs/starters.csv
+   Required columns:
+   - Name
+   - xFIP
+   Helpful column:
+   - MLBAMID
+
+3. data/fangraphs/bullpen.csv
+   Required columns:
+   - Team
+   - xFIP
+
+The importer accepts common variations like lowercase names and wRC_plus.
+
+After those files are present, Run Today.command overlays FanGraphs exports on
+top of the MLB proxy data automatically.
+

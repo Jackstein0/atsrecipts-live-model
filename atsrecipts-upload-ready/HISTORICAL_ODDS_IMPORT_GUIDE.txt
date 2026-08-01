@@ -1,0 +1,53 @@
+Historical Odds Import Guide
+============================
+
+Your current The Odds API plan does not include historical odds, so use another
+source and import a CSV.
+
+What you need:
+
+- MLB game date
+- away team
+- home team
+- closing or pregame total
+- over odds
+- under odds
+
+Preferred file:
+
+data/raw/historical_totals_template.csv
+
+Fill these columns:
+
+- market_total
+- over_odds
+- under_odds
+- source
+
+Then double-click:
+
+Import Historical Odds.command
+
+The importer can also read another CSV if it has common column names like:
+
+- Date / Game Date
+- Away / Away Team / Visitor
+- Home / Home Team
+- Total / Closing Total / O/U
+- Over / Over Odds
+- Under / Under Odds
+
+If you use another CSV file, put it in data/raw and run this from Terminal:
+
+bash scripts/import_historical_odds.sh data/raw/YOUR_FILE.csv
+
+Possible sources:
+
+- The Odds API historical plan
+- SportsOddsHistory-style exports
+- OddsPortal-style exports
+- Any paid/exportable sportsbook odds database
+
+Use closing totals or a consistent pregame snapshot. Do not use lines that were
+captured after the game started.
+

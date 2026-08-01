@@ -1,0 +1,49 @@
+{
+  "coefficients": [
+    0.4793005611565448,
+    0.08558046393027696,
+    0.26764124242730836,
+    0.007832692898783512,
+    0.2593641082635713,
+    -0.13123731417212753,
+    0.41068126363635443,
+    0.0,
+    0.0
+  ],
+  "feature_columns": [
+    "home_wrc_plus",
+    "away_wrc_plus",
+    "home_sp_xfip",
+    "away_sp_xfip",
+    "home_bullpen_xfip",
+    "away_bullpen_xfip",
+    "park_factor",
+    "temp_f",
+    "wind_out_mph"
+  ],
+  "feature_means": {
+    "away_bullpen_xfip": 4.600926916221034,
+    "away_sp_xfip": 4.175953654188952,
+    "away_wrc_plus": 98.99393939393931,
+    "home_bullpen_xfip": 4.509286987522284,
+    "home_sp_xfip": 4.1621212121212166,
+    "home_wrc_plus": 100.43155080213906,
+    "park_factor": 100.22994652406418,
+    "temp_f": 70.0,
+    "wind_out_mph": 0.0
+  },
+  "feature_stds": {
+    "away_bullpen_xfip": 1.1919017578487183,
+    "away_sp_xfip": 0.22527430217636768,
+    "away_wrc_plus": 25.42282296713782,
+    "home_bullpen_xfip": 1.1305950311282016,
+    "home_sp_xfip": 0.2229824408071956,
+    "home_wrc_plus": 26.128482473102753,
+    "park_factor": 4.094981254736245,
+    "temp_f": 1.0,
+    "wind_out_mph": 1.0
+  },
+  "intercept": 9.105169340463464,
+  "residual_std": 4.6583734575599145,
+  "ridge_alpha": 10.0
+}
