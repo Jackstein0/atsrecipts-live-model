@@ -163,22 +163,35 @@ def _scores_for_dates(dates: list[str]) -> dict[tuple[str, str, str], dict[str, 
         for date_block in payload.get("dates", []):
             for game in date_block.get("games", []):
                 status = game.get("status", {}).get("detailedState", "")
-                if status not in {"Final", "Game Over", "Completed Early"}:
-                    continue
                 away = game.get("teams", {}).get("away", {})
                 home = game.get("teams", {}).get("home", {})
-                if "score" not in away or "score" not in home:
-                    continue
                 row = {
                     "date": date_block.get("date", game_date),
                     "away_team": MLB_TEAM_CODES.get(away.get("team", {}).get("name", ""), away.get("team", {}).get("name", "")),
                     "home_team": MLB_TEAM_CODES.get(home.get("team", {}).get("name", ""), home.get("team", {}).get("name", "")),
                 }
+                if status in {"Postponed", "Cancelled", "Suspended"}:
+                    scores[_game_key(row)] = {"result": "void"}
+                    continue
+                if status not in {"Final", "Game Over", "Completed Early"}:
+                    continue
+                if "score" not in away or "score" not in home:
+                    continue
                 scores[_game_key(row)] = {"away_runs": int(away["score"]), "home_runs": int(home["score"])}
     return scores
 
 
-def _grade_row(row: dict[str, str], score: dict[str, int]) -> dict[str, str]:
+def _grade_row(row: dict[str, str], score: dict[str, int | str]) -> dict[str, str]:
+    if score.get("result") == "void":
+        return {
+            **row,
+            "actual_total": "",
+            "away_runs": "",
+            "home_runs": "",
+            "result": "void",
+            "profit_units": "0.0000",
+        }
+
     away_runs = score["away_runs"]
     home_runs = score["home_runs"]
     actual_total = away_runs + home_runs
