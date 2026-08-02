@@ -400,10 +400,9 @@
             "abstractGameCode": "L",
             "abstractGameState": "Live",
             "codedGameState": "I",
-            "detailedState": "Delayed",
-            "reason": "Rain",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "IR"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -475,6 +474,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824808/feed/live",
           "officialDate": "2026-08-01",
           "publicFacing": true,
@@ -486,20 +486,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 53,
-                "pct": ".518",
+                "pct": ".523",
                 "ties": 0,
-                "wins": 57
+                "wins": 58
               },
               "probablePitcher": {
                 "fullName": "Cristopher S\u00e1nchez",
@@ -516,9 +517,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 56,
-                "pct": ".491",
+                "losses": 57,
+                "pct": ".486",
                 "ties": 0,
                 "wins": 54
               },
@@ -563,6 +565,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824162/feed/live",
           "officialDate": "2026-08-01",
           "publicFacing": true,
@@ -574,16 +577,16 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "M",
-            "detailedState": "Manager challenge",
-            "reason": "Hit by pitch",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "MI"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
                 "losses": 55,
                 "pct": ".500",
@@ -605,6 +608,7 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 55,
                 "pct": ".505",
@@ -704,7 +708,7 @@
                 "id": 800048,
                 "link": "/api/v1/people/800048"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 36,
               "splitSquad": false,
               "team": {
@@ -831,6 +835,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/824649/feed/live",
           "officialDate": "2026-08-01",
           "publicFacing": true,
@@ -842,18 +847,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 48,
-                "pct": ".564",
+                "losses": 49,
+                "pct": ".559",
                 "ties": 0,
                 "wins": 62
               },
@@ -872,11 +878,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 48,
-                "pct": ".564",
+                "pct": ".568",
                 "ties": 0,
-                "wins": 62
+                "wins": 63
               },
               "probablePitcher": {
                 "fullName": "David Peterson",
@@ -1345,12 +1352,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 10,
+      "totalGamesInProgress": 7,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 10,
+  "totalGamesInProgress": 7,
   "totalItems": 15
 }
