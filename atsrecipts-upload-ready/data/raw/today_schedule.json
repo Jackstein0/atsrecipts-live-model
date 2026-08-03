@@ -33,12 +33,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -53,6 +53,7 @@
                 "id": 674841,
                 "link": "/api/v1/people/674841"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -73,6 +74,7 @@
                 "id": 605400,
                 "link": "/api/v1/people/605400"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -119,12 +121,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -139,6 +141,7 @@
                 "id": 700241,
                 "link": "/api/v1/people/700241"
               },
+              "score": 0,
               "seriesNumber": 38,
               "splitSquad": false,
               "team": {
@@ -159,6 +162,7 @@
                 "id": 693645,
                 "link": "/api/v1/people/693645"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -207,10 +211,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -225,6 +229,7 @@
                 "id": 696149,
                 "link": "/api/v1/people/696149"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -245,6 +250,7 @@
                 "id": 687075,
                 "link": "/api/v1/people/687075"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -293,10 +299,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -305,6 +311,11 @@
                 "pct": ".616",
                 "ties": 0,
                 "wins": 69
+              },
+              "probablePitcher": {
+                "fullName": "Justin Wrobleski",
+                "id": 680736,
+                "link": "/api/v1/people/680736"
               },
               "seriesNumber": 37,
               "splitSquad": false,
@@ -374,10 +385,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -392,6 +403,7 @@
                 "id": 657277,
                 "link": "/api/v1/people/657277"
               },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -407,6 +419,12 @@
                 "ties": 0,
                 "wins": 55
               },
+              "probablePitcher": {
+                "fullName": "Cal Quantrill",
+                "id": 615698,
+                "link": "/api/v1/people/615698"
+              },
+              "score": 0,
               "seriesNumber": 37,
               "splitSquad": false,
               "team": {
@@ -455,10 +473,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -541,10 +559,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -627,10 +645,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -686,12 +704,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 8,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 8
     }
   ],
   "totalEvents": 0,
   "totalGames": 8,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 8
 }
