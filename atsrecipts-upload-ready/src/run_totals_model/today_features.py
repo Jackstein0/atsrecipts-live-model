@@ -49,6 +49,7 @@ def build_today_features(
     bullpens = _index_rows(load_csv(bullpen_metrics), "team")
     parks = _index_rows(load_csv(park_metrics), "team")
     weather = _index_rows(load_csv(weather_metrics), "game_id") if weather_metrics else {}
+    fetched_starters: dict[str, str] = {}
 
     rows = []
     for game in games:
@@ -62,8 +63,8 @@ def build_today_features(
             **game,
             "home_wrc_plus": _value(teams.get(home_team, {}), "wrc_plus"),
             "away_wrc_plus": _value(teams.get(away_team, {}), "wrc_plus"),
-            "home_sp_xfip": _value(home_starter, "sp_xfip", "xfip"),
-            "away_sp_xfip": _value(away_starter, "sp_xfip", "xfip"),
+            "home_sp_xfip": _starter_metric(home_starter, game.get("home_sp_id"), fetched_starters),
+            "away_sp_xfip": _starter_metric(away_starter, game.get("away_sp_id"), fetched_starters),
             "home_bullpen_xfip": _value(bullpens.get(home_team, {}), "bullpen_xfip", "xfip"),
             "away_bullpen_xfip": _value(bullpens.get(away_team, {}), "bullpen_xfip", "xfip"),
             "park_factor": _value(park, "park_factor"),
@@ -89,6 +90,33 @@ def _starter_row(
     pitcher_name: Any,
 ) -> dict[str, str]:
     return by_id.get(str(pitcher_id), {}) or by_name.get(str(pitcher_name), {})
+
+
+def _starter_metric(row: dict[str, str], pitcher_id: Any, fetched: dict[str, str]) -> str:
+    value = _value(row, "sp_xfip", "xfip")
+    if value:
+        return value
+    pitcher_id_text = str(pitcher_id or "")
+    if not pitcher_id_text:
+        return "4.20"
+    if pitcher_id_text not in fetched:
+        fetched[pitcher_id_text] = _fetch_pitcher_era(pitcher_id_text)
+    return fetched[pitcher_id_text]
+
+
+def _fetch_pitcher_era(pitcher_id: str) -> str:
+    import requests
+
+    try:
+        url = f"https://statsapi.mlb.com/api/v1/people/{pitcher_id}/stats?stats=season&group=pitching"
+        response = requests.get(url, timeout=15)
+        response.raise_for_status()
+        splits = response.json().get("stats", [{}])[0].get("splits", [])
+        if not splits:
+            return "4.20"
+        return f"{float(splits[0].get('stat', {}).get('era', 4.20)):.2f}"
+    except Exception:
+        return "4.20"
 
 
 def _value(row: dict[str, str], *keys: str, default: str = "") -> str:
