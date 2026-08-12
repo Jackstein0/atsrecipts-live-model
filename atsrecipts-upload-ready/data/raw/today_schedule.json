@@ -113,6 +113,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823017/feed/live",
           "officialDate": "2026-08-12",
           "publicFacing": true,
@@ -124,18 +125,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 57,
-                "pct": ".529",
+                "losses": 58,
+                "pct": ".525",
                 "ties": 0,
                 "wins": 64
               },
@@ -154,11 +156,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 60,
-                "pct": ".500",
+                "pct": ".504",
                 "ties": 0,
-                "wins": 60
+                "wins": 61
               },
               "probablePitcher": {
                 "fullName": "Kyle Leahy",
@@ -232,7 +235,7 @@
                 "id": 656876,
                 "link": "/api/v1/people/656876"
               },
-              "score": 7,
+              "score": 8,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -253,7 +256,7 @@
                 "id": 678022,
                 "link": "/api/v1/people/678022"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -320,7 +323,7 @@
                 "id": 663372,
                 "link": "/api/v1/people/663372"
               },
-              "score": 4,
+              "score": 6,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -341,7 +344,7 @@
                 "id": 518876,
                 "link": "/api/v1/people/518876"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -496,7 +499,7 @@
                 "id": 669160,
                 "link": "/api/v1/people/669160"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -517,7 +520,7 @@
                 "id": 592662,
                 "link": "/api/v1/people/592662"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -584,6 +587,7 @@
                 "id": 656492,
                 "link": "/api/v1/people/656492"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -604,6 +608,7 @@
                 "id": 664285,
                 "link": "/api/v1/people/664285"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -758,6 +763,7 @@
                 "id": 656849,
                 "link": "/api/v1/people/656849"
               },
+              "score": 0,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -778,6 +784,7 @@
                 "id": 800600,
                 "link": "/api/v1/people/800600"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -1323,12 +1330,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 5,
+      "totalGamesInProgress": 4,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 5,
+  "totalGamesInProgress": 4,
   "totalItems": 15
 }
