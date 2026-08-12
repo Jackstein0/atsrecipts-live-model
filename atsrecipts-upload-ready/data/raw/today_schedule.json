@@ -35,10 +35,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -53,7 +53,7 @@
                 "id": 669358,
                 "link": "/api/v1/people/669358"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -74,7 +74,7 @@
                 "id": 805673,
                 "link": "/api/v1/people/805673"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -121,12 +121,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -493,6 +493,7 @@
                 "id": 669160,
                 "link": "/api/v1/people/669160"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -513,6 +514,7 @@
                 "id": 592662,
                 "link": "/api/v1/people/592662"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -1308,12 +1310,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 15
 }
