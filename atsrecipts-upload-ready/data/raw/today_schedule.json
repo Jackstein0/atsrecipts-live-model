@@ -35,10 +35,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -121,10 +121,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -411,6 +411,11 @@
                 "pct": ".417",
                 "ties": 0,
                 "wins": 50
+              },
+              "probablePitcher": {
+                "fullName": "Adrian Houser",
+                "id": 605288,
+                "link": "/api/v1/people/605288"
               },
               "seriesNumber": 39,
               "splitSquad": false,
