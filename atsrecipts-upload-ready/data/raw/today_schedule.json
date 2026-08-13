@@ -477,6 +477,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823263/feed/live",
           "officialDate": "2026-08-12",
           "publicFacing": true,
@@ -488,18 +489,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 46,
-                "pct": ".617",
+                "losses": 47,
+                "pct": ".612",
                 "ties": 0,
                 "wins": 74
               },
@@ -508,7 +510,7 @@
                 "id": 669160,
                 "link": "/api/v1/people/669160"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -518,18 +520,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 57,
-                "pct": ".529",
+                "pct": ".533",
                 "ties": 0,
-                "wins": 64
+                "wins": 65
               },
               "probablePitcher": {
                 "fullName": "Robbie Ray",
                 "id": 592662,
                 "link": "/api/v1/people/592662"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -596,7 +599,7 @@
                 "id": 656492,
                 "link": "/api/v1/people/656492"
               },
-              "score": 2,
+              "score": 6,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -684,7 +687,7 @@
                 "id": 669387,
                 "link": "/api/v1/people/669387"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -705,7 +708,7 @@
                 "id": 676083,
                 "link": "/api/v1/people/676083"
               },
-              "score": 1,
+              "score": 8,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -772,7 +775,7 @@
                 "id": 656849,
                 "link": "/api/v1/people/656849"
               },
-              "score": 0,
+              "score": 9,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -793,7 +796,7 @@
                 "id": 800600,
                 "link": "/api/v1/people/800600"
               },
-              "score": 1,
+              "score": 5,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -860,7 +863,7 @@
                 "id": 682243,
                 "link": "/api/v1/people/682243"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -881,7 +884,7 @@
                 "id": 701542,
                 "link": "/api/v1/people/701542"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -948,7 +951,7 @@
                 "id": 624133,
                 "link": "/api/v1/people/624133"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -969,7 +972,7 @@
                 "id": 667755,
                 "link": "/api/v1/people/667755"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1036,7 +1039,7 @@
                 "id": 804267,
                 "link": "/api/v1/people/804267"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -1057,7 +1060,7 @@
                 "id": 641816,
                 "link": "/api/v1/people/641816"
               },
-              "score": 0,
+              "score": 6,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -1106,10 +1109,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1145,7 +1148,7 @@
                 "id": 622491,
                 "link": "/api/v1/people/622491"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
