@@ -309,10 +309,10 @@
           "status": {
             "abstractGameCode": "F",
             "abstractGameState": "Final",
-            "codedGameState": "O",
-            "detailedState": "Game Over",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "O"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
@@ -386,6 +386,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822776/feed/live",
           "officialDate": "2026-08-13",
           "publicFacing": true,
@@ -397,27 +398,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 56,
-                "pct": ".533",
+                "pct": ".537",
                 "ties": 0,
-                "wins": 64
+                "wins": 65
               },
               "probablePitcher": {
                 "fullName": "Payton Tolle",
                 "id": 801139,
                 "link": "/api/v1/people/801139"
               },
-              "score": 1,
+              "score": 7,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -427,9 +429,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 63,
-                "pct": ".484",
+                "losses": 64,
+                "pct": ".480",
                 "ties": 0,
                 "wins": 59
               },
@@ -526,7 +529,7 @@
                 "id": 676917,
                 "link": "/api/v1/people/676917"
               },
-              "score": 0,
+              "score": 6,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -809,12 +812,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 2,
+      "totalGamesInProgress": 1,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 2,
+  "totalGamesInProgress": 1,
   "totalItems": 9
 }
