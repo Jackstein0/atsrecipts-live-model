@@ -491,10 +491,10 @@
           "status": {
             "abstractGameCode": "F",
             "abstractGameState": "Final",
-            "codedGameState": "O",
-            "detailedState": "Game Over",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "O"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
@@ -580,12 +580,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -670,10 +670,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -688,6 +688,7 @@
                 "id": 594798,
                 "link": "/api/v1/people/594798"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -708,6 +709,7 @@
                 "id": 700712,
                 "link": "/api/v1/people/700712"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -774,6 +776,7 @@
                 "id": 675660,
                 "link": "/api/v1/people/675660"
               },
+              "score": 0,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -794,6 +797,7 @@
                 "id": 808963,
                 "link": "/api/v1/people/808963"
               },
+              "score": 0,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -815,12 +819,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 9
 }
