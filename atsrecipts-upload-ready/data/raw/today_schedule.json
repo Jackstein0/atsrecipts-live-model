@@ -94,6 +94,94 @@
           }
         },
         {
+          "calendarEventID": "14-824561-2026-08-13",
+          "content": {
+            "link": "/api/v1/game/824561/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-13T17:10:00Z",
+          "gameGuid": "0bc0414a-4362-49d5-8cfb-43f3ee540ef3",
+          "gameNumber": 1,
+          "gamePk": 824561,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "link": "/api/v1.1/game/824561/feed/live",
+          "officialDate": "2026-08-13",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 3,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
+            "startTimeTBD": false,
+            "statusCode": "P"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 62,
+                "pct": ".479",
+                "ties": 0,
+                "wins": 57
+              },
+              "probablePitcher": {
+                "fullName": "Andrew Abbott",
+                "id": 671096,
+                "link": "/api/v1/people/671096"
+              },
+              "score": 0,
+              "seriesNumber": 39,
+              "splitSquad": false,
+              "team": {
+                "id": 113,
+                "link": "/api/v1/teams/113",
+                "name": "Cincinnati Reds"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 57,
+                "pct": ".521",
+                "ties": 0,
+                "wins": 62
+              },
+              "probablePitcher": {
+                "fullName": "Davis Martin",
+                "id": 663436,
+                "link": "/api/v1/people/663436"
+              },
+              "score": 0,
+              "seriesNumber": 39,
+              "splitSquad": false,
+              "team": {
+                "id": 145,
+                "link": "/api/v1/teams/145",
+                "name": "Chicago White Sox"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 4,
+            "link": "/api/v1/venues/4",
+            "name": "Rate Field",
+            "season": "2026"
+          }
+        },
+        {
           "calendarEventID": "14-823829-2026-08-13",
           "content": {
             "link": "/api/v1/game/823829/content"
@@ -141,6 +229,7 @@
                 "id": 677952,
                 "link": "/api/v1/people/677952"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -161,6 +250,7 @@
                 "id": 663969,
                 "link": "/api/v1/people/663969"
               },
+              "score": 0,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -209,10 +299,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -262,92 +352,6 @@
             "id": 3313,
             "link": "/api/v1/venues/3313",
             "name": "Yankee Stadium",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-824561-2026-08-13",
-          "content": {
-            "link": "/api/v1/game/824561/content"
-          },
-          "dayNight": "day",
-          "doubleHeader": "N",
-          "gameDate": "2026-08-13T18:10:00Z",
-          "gameGuid": "0bc0414a-4362-49d5-8cfb-43f3ee540ef3",
-          "gameNumber": 1,
-          "gamePk": 824561,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "link": "/api/v1.1/game/824561/feed/live",
-          "officialDate": "2026-08-13",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
-            "startTimeTBD": false,
-            "statusCode": "P"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 62,
-                "pct": ".479",
-                "ties": 0,
-                "wins": 57
-              },
-              "probablePitcher": {
-                "fullName": "Andrew Abbott",
-                "id": 671096,
-                "link": "/api/v1/people/671096"
-              },
-              "seriesNumber": 39,
-              "splitSquad": false,
-              "team": {
-                "id": 113,
-                "link": "/api/v1/teams/113",
-                "name": "Cincinnati Reds"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 57,
-                "pct": ".521",
-                "ties": 0,
-                "wins": 62
-              },
-              "probablePitcher": {
-                "fullName": "Davis Martin",
-                "id": 663436,
-                "link": "/api/v1/people/663436"
-              },
-              "seriesNumber": 39,
-              "splitSquad": false,
-              "team": {
-                "id": 145,
-                "link": "/api/v1/teams/145",
-                "name": "Chicago White Sox"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 4,
-            "link": "/api/v1/venues/4",
-            "name": "Rate Field",
             "season": "2026"
           }
         },
