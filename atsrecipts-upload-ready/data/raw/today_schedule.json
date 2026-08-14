@@ -569,6 +569,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/823669/feed/live",
           "officialDate": "2026-08-13",
           "publicFacing": true,
@@ -580,27 +581,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 58,
-                "pct": ".525",
+                "pct": ".528",
                 "ties": 0,
-                "wins": 64
+                "wins": 65
               },
               "probablePitcher": {
                 "fullName": "Aaron Nola",
                 "id": 605400,
                 "link": "/api/v1/people/605400"
               },
-              "score": 5,
+              "score": 7,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -610,9 +612,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 62,
-                "pct": ".492",
+                "losses": 63,
+                "pct": ".488",
                 "ties": 0,
                 "wins": 60
               },
@@ -668,12 +671,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -709,7 +712,7 @@
                 "id": 700712,
                 "link": "/api/v1/people/700712"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 39,
               "splitSquad": false,
               "team": {
@@ -756,12 +759,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -776,7 +779,7 @@
                 "id": 675660,
                 "link": "/api/v1/people/675660"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -797,7 +800,7 @@
                 "id": 808963,
                 "link": "/api/v1/people/808963"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -819,12 +822,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 2,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 2,
   "totalItems": 9
 }
