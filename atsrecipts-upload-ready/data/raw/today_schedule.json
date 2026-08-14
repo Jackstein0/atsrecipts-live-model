@@ -22,6 +22,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/824643/feed/live",
           "officialDate": "2026-08-14",
           "publicFacing": true,
@@ -33,18 +34,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 60,
-                "pct": ".504",
+                "losses": 61,
+                "pct": ".500",
                 "ties": 0,
                 "wins": 61
               },
@@ -63,11 +65,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 51,
-                "pct": ".582",
+                "pct": ".585",
                 "ties": 0,
-                "wins": 71
+                "wins": 72
               },
               "probablePitcher": {
                 "fullName": "Clay Holmes",
@@ -1227,12 +1230,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 14,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 14
     }
   ],
   "totalEvents": 0,
   "totalGames": 14,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 14
 }
