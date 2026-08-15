@@ -53,7 +53,7 @@
                 "id": 641743,
                 "link": "/api/v1/people/641743"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -162,7 +162,7 @@
                 "id": 571510,
                 "link": "/api/v1/people/571510"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -211,10 +211,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -649,10 +649,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -661,6 +661,11 @@
                 "pct": ".537",
                 "ties": 0,
                 "wins": 66
+              },
+              "probablePitcher": {
+                "fullName": "Wandy Peralta",
+                "id": 593974,
+                "link": "/api/v1/people/593974"
               },
               "seriesNumber": 40,
               "splitSquad": false,
@@ -730,10 +735,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1074,10 +1079,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1305,12 +1310,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 2,
+      "totalGamesInProgress": 3,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 2,
+  "totalGamesInProgress": 3,
   "totalItems": 15
 }
