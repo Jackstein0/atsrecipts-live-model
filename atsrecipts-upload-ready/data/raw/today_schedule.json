@@ -568,6 +568,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822942/feed/live",
           "officialDate": "2026-08-14",
           "publicFacing": true,
@@ -579,20 +580,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 63,
-                "pct": ".479",
+                "pct": ".484",
                 "ties": 0,
-                "wins": 58
+                "wins": 59
               },
               "probablePitcher": {
                 "fullName": "Chris Bassitt",
@@ -609,9 +611,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 46,
-                "pct": ".617",
+                "losses": 47,
+                "pct": ".612",
                 "ties": 0,
                 "wins": 74
               },
@@ -620,7 +623,7 @@
                 "id": 571927,
                 "link": "/api/v1/people/571927"
               },
-              "score": 2,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -869,7 +872,7 @@
                 "id": 669923,
                 "link": "/api/v1/people/669923"
               },
-              "score": 2,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -957,7 +960,7 @@
                 "id": 607625,
                 "link": "/api/v1/people/607625"
               },
-              "score": 1,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -978,7 +981,7 @@
                 "id": 680570,
                 "link": "/api/v1/people/680570"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1115,10 +1118,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1154,7 +1157,7 @@
                 "id": 808967,
                 "link": "/api/v1/people/808967"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1203,10 +1206,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1221,7 +1224,7 @@
                 "id": 607536,
                 "link": "/api/v1/people/607536"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1264,12 +1267,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 14,
-      "totalGamesInProgress": 4,
+      "totalGamesInProgress": 5,
       "totalItems": 14
     }
   ],
   "totalEvents": 0,
   "totalGames": 14,
-  "totalGamesInProgress": 4,
+  "totalGamesInProgress": 5,
   "totalItems": 14
 }
