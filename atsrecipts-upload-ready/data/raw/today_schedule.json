@@ -841,6 +841,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824159/feed/live",
           "officialDate": "2026-08-14",
           "publicFacing": true,
@@ -852,18 +853,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 65,
-                "pct": ".467",
+                "losses": 66,
+                "pct": ".463",
                 "ties": 0,
                 "wins": 57
               },
@@ -872,7 +874,7 @@
                 "id": 669923,
                 "link": "/api/v1/people/669923"
               },
-              "score": 5,
+              "score": 7,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -882,18 +884,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 60,
-                "pct": ".508",
+                "pct": ".512",
                 "ties": 0,
-                "wins": 62
+                "wins": 63
               },
               "probablePitcher": {
                 "fullName": "Peter Lambert",
                 "id": 663567,
                 "link": "/api/v1/people/663567"
               },
-              "score": 5,
+              "score": 10,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -960,7 +963,7 @@
                 "id": 607625,
                 "link": "/api/v1/people/607625"
               },
-              "score": 5,
+              "score": 7,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -981,7 +984,7 @@
                 "id": 680570,
                 "link": "/api/v1/people/680570"
               },
-              "score": 4,
+              "score": 6,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1048,7 +1051,7 @@
                 "id": 677958,
                 "link": "/api/v1/people/677958"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1069,7 +1072,7 @@
                 "id": 695611,
                 "link": "/api/v1/people/695611"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1136,7 +1139,7 @@
                 "id": 688107,
                 "link": "/api/v1/people/688107"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1157,7 +1160,7 @@
                 "id": 808967,
                 "link": "/api/v1/people/808967"
               },
-              "score": 1,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1224,7 +1227,7 @@
                 "id": 607536,
                 "link": "/api/v1/people/607536"
               },
-              "score": 1,
+              "score": 4,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1245,7 +1248,7 @@
                 "id": 694738,
                 "link": "/api/v1/people/694738"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1267,12 +1270,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 14,
-      "totalGamesInProgress": 5,
+      "totalGamesInProgress": 4,
       "totalItems": 14
     }
   ],
   "totalEvents": 0,
   "totalGames": 14,
-  "totalGamesInProgress": 5,
+  "totalGamesInProgress": 4,
   "totalItems": 14
 }
