@@ -113,6 +113,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824479/feed/live",
           "officialDate": "2026-08-14",
           "publicFacing": true,
@@ -124,18 +125,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 60,
-                "pct": ".508",
+                "losses": 61,
+                "pct": ".504",
                 "ties": 0,
                 "wins": 62
               },
@@ -154,11 +156,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 62,
-                "pct": ".483",
+                "pct": ".488",
                 "ties": 0,
-                "wins": 58
+                "wins": 59
               },
               "probablePitcher": {
                 "fullName": "Chase Burns",
@@ -232,7 +235,7 @@
                 "id": 687562,
                 "link": "/api/v1/people/687562"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -253,7 +256,7 @@
                 "id": 696149,
                 "link": "/api/v1/people/696149"
               },
-              "score": 4,
+              "score": 7,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -320,7 +323,7 @@
                 "id": 656794,
                 "link": "/api/v1/people/656794"
               },
-              "score": 4,
+              "score": 8,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -341,7 +344,7 @@
                 "id": 695549,
                 "link": "/api/v1/people/695549"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -496,7 +499,7 @@
                 "id": 650633,
                 "link": "/api/v1/people/650633"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -517,7 +520,7 @@
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
-              "score": 1,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -584,7 +587,7 @@
                 "id": 605135,
                 "link": "/api/v1/people/605135"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -605,7 +608,7 @@
                 "id": 571927,
                 "link": "/api/v1/people/571927"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -760,7 +763,7 @@
                 "id": 543037,
                 "link": "/api/v1/people/543037"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -828,12 +831,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -848,7 +851,7 @@
                 "id": 669923,
                 "link": "/api/v1/people/669923"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -869,7 +872,7 @@
                 "id": 663567,
                 "link": "/api/v1/people/663567"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
