@@ -745,6 +745,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823670/feed/live",
           "officialDate": "2026-08-16",
           "publicFacing": true,
@@ -756,20 +757,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 58,
-                "pct": ".532",
+                "pct": ".536",
                 "ties": 0,
-                "wins": 66
+                "wins": 67
               },
               "probablePitcher": {
                 "fullName": "Andrew Painter",
@@ -786,9 +788,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 64,
-                "pct": ".484",
+                "losses": 65,
+                "pct": ".480",
                 "ties": 0,
                 "wins": 60
               },
@@ -952,7 +955,7 @@
                 "id": 687312,
                 "link": "/api/v1/people/687312"
               },
-              "score": 4,
+              "score": 6,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1128,7 +1131,7 @@
                 "id": 702070,
                 "link": "/api/v1/people/702070"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1216,7 +1219,7 @@
                 "id": 701656,
                 "link": "/api/v1/people/701656"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1237,7 +1240,7 @@
                 "id": 669373,
                 "link": "/api/v1/people/669373"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1304,6 +1307,7 @@
                 "id": 693433,
                 "link": "/api/v1/people/693433"
               },
+              "score": 0,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1324,6 +1328,7 @@
                 "id": 686613,
                 "link": "/api/v1/people/686613"
               },
+              "score": 0,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1345,12 +1350,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 8,
+      "totalGamesInProgress": 7,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 8,
+  "totalGamesInProgress": 7,
   "totalItems": 15
 }
