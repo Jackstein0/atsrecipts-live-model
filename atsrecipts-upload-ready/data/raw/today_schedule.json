@@ -165,7 +165,7 @@
                 "id": 669199,
                 "link": "/api/v1/people/669199"
               },
-              "score": 7,
+              "score": 8,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -835,6 +835,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/824642/feed/live",
           "officialDate": "2026-08-16",
           "publicFacing": true,
@@ -846,21 +847,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "M",
-            "detailedState": "Manager challenge",
-            "reason": "Close play at 1st",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "MF"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 61,
-                "pct": ".504",
+                "pct": ".508",
                 "ties": 0,
-                "wins": 62
+                "wins": 63
               },
               "probablePitcher": {
                 "fullName": "Hunter Dobbins",
@@ -877,9 +878,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 52,
-                "pct": ".581",
+                "losses": 53,
+                "pct": ".576",
                 "ties": 0,
                 "wins": 72
               },
@@ -888,7 +890,7 @@
                 "id": 665795,
                 "link": "/api/v1/people/665795"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -955,7 +957,7 @@
                 "id": 687312,
                 "link": "/api/v1/people/687312"
               },
-              "score": 10,
+              "score": 13,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1064,7 +1066,7 @@
                 "id": 682052,
                 "link": "/api/v1/people/682052"
               },
-              "score": 4,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -1100,6 +1102,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823991/feed/live",
           "officialDate": "2026-08-16",
           "publicFacing": true,
@@ -1111,20 +1114,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 74,
-                "pct": ".403",
+                "pct": ".408",
                 "ties": 0,
-                "wins": 50
+                "wins": 51
               },
               "probablePitcher": {
                 "fullName": "Noah Cameron",
@@ -1141,9 +1145,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 75,
-                "pct": ".395",
+                "losses": 76,
+                "pct": ".392",
                 "ties": 0,
                 "wins": 49
               },
@@ -1350,12 +1355,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 7,
+      "totalGamesInProgress": 5,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 7,
+  "totalGamesInProgress": 5,
   "totalItems": 15
 }
