@@ -22,6 +22,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822940/feed/live",
           "officialDate": "2026-08-16",
           "publicFacing": true,
@@ -33,20 +34,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 63,
-                "pct": ".488",
+                "pct": ".492",
                 "ties": 0,
-                "wins": 60
+                "wins": 61
               },
               "probablePitcher": {
                 "fullName": "Trevor Rogers",
@@ -63,9 +65,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 48,
-                "pct": ".607",
+                "losses": 49,
+                "pct": ".602",
                 "ties": 0,
                 "wins": 74
               },
@@ -141,7 +144,7 @@
                 "id": 663776,
                 "link": "/api/v1/people/663776"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -229,7 +232,7 @@
                 "id": 647336,
                 "link": "/api/v1/people/647336"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -426,7 +429,7 @@
                 "id": 681035,
                 "link": "/api/v1/people/681035"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -779,7 +782,7 @@
                 "id": 665152,
                 "link": "/api/v1/people/665152"
               },
-              "score": 4,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -828,10 +831,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
