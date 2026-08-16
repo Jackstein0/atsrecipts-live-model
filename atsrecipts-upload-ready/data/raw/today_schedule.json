@@ -36,10 +36,10 @@
           "status": {
             "abstractGameCode": "F",
             "abstractGameState": "Final",
-            "codedGameState": "O",
-            "detailedState": "Game Over",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "O"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
@@ -127,9 +127,10 @@
             "abstractGameCode": "L",
             "abstractGameState": "Live",
             "codedGameState": "I",
-            "detailedState": "In Progress",
+            "detailedState": "Delayed",
+            "reason": "Rain",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "IR"
           },
           "teams": {
             "away": {
@@ -253,7 +254,7 @@
                 "id": 693821,
                 "link": "/api/v1/people/693821"
               },
-              "score": 2,
+              "score": 5,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -320,7 +321,7 @@
                 "id": 677960,
                 "link": "/api/v1/people/677960"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -408,7 +409,7 @@
                 "id": 663623,
                 "link": "/api/v1/people/663623"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -585,7 +586,7 @@
                 "id": 680732,
                 "link": "/api/v1/people/680732"
               },
-              "score": 3,
+              "score": 6,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -849,7 +850,7 @@
                 "id": 690928,
                 "link": "/api/v1/people/690928"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
