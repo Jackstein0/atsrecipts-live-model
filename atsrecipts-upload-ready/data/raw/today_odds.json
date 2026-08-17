@@ -4,11 +4,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -24,6 +24,75 @@
           }
         ],
         "title": "FanDuel"
+      },
+      {
+        "key": "draftkings",
+        "last_update": "2026-08-17T11:46:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:46:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 9.5,
+                "price": 100
+              },
+              {
+                "name": "Under",
+                "point": 9.5,
+                "price": -120
+              }
+            ]
+          }
+        ],
+        "title": "DraftKings"
+      },
+      {
+        "key": "betrivers",
+        "last_update": "2026-08-17T11:47:23Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:23Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 9.5,
+                "price": -104
+              },
+              {
+                "name": "Under",
+                "point": 9.5,
+                "price": -121
+              }
+            ]
+          }
+        ],
+        "title": "BetRivers"
+      },
+      {
+        "key": "betmgm",
+        "last_update": "2026-08-17T11:47:41Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 9.5,
+                "price": 100
+              },
+              {
+                "name": "Under",
+                "point": 9.5,
+                "price": -120
+              }
+            ]
+          }
+        ],
+        "title": "BetMGM"
       }
     ],
     "commence_time": "2026-08-17T17:41:00Z",
@@ -37,11 +106,11 @@
     "bookmakers": [
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -60,21 +129,21 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
-                "point": 8.0,
-                "price": 100
+                "point": 7.5,
+                "price": -115
               },
               {
                 "name": "Under",
-                "point": 8.0,
-                "price": -120
+                "point": 7.5,
+                "price": -105
               }
             ]
           }
@@ -83,16 +152,62 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 7.5,
+                "price": -113
+              },
+              {
+                "name": "Under",
+                "point": 7.5,
+                "price": -102
+              }
+            ]
+          }
+        ],
+        "title": "LowVig.ag"
+      },
+      {
+        "key": "betus",
+        "last_update": "2026-08-17T11:47:22Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:22Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 7.5,
+                "price": -115
+              },
+              {
+                "name": "Under",
+                "point": 7.5,
+                "price": -105
+              }
+            ]
+          }
+        ],
+        "title": "BetUS"
+      },
+      {
+        "key": "mybookieag",
+        "last_update": "2026-08-17T11:46:46Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": 103
+                "price": -104
               },
               {
                 "name": "Under",
@@ -102,71 +217,25 @@
             ]
           }
         ],
-        "title": "LowVig.ag"
-      },
-      {
-        "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 8.0,
-                "price": 100
-              },
-              {
-                "name": "Under",
-                "point": 8.0,
-                "price": -120
-              }
-            ]
-          }
-        ],
-        "title": "BetUS"
-      },
-      {
-        "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 8.0,
-                "price": -105
-              },
-              {
-                "name": "Under",
-                "point": 8.0,
-                "price": -117
-              }
-            ]
-          }
-        ],
         "title": "MyBookie.ag"
       },
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 7.5,
-                "price": -122
+                "price": -118
               },
               {
                 "name": "Under",
                 "point": 7.5,
-                "price": 100
+                "price": -104
               }
             ]
           }
@@ -175,11 +244,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -198,21 +267,21 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 7.5,
-                "price": -120
+                "price": -118
               },
               {
                 "name": "Under",
                 "point": 7.5,
-                "price": 100
+                "price": -102
               }
             ]
           }
@@ -221,11 +290,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -254,11 +323,11 @@
     "bookmakers": [
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -277,11 +346,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -300,11 +369,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -323,11 +392,34 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 8.0,
+                "price": -110
+              },
+              {
+                "name": "Under",
+                "point": 8.0,
+                "price": -112
+              }
+            ]
+          }
+        ],
+        "title": "MyBookie.ag"
+      },
+      {
+        "key": "fanduel",
+        "last_update": "2026-08-17T11:47:23Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -337,30 +429,7 @@
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -107
-              }
-            ]
-          }
-        ],
-        "title": "MyBookie.ag"
-      },
-      {
-        "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 8.5,
-                "price": -102
-              },
-              {
-                "name": "Under",
-                "point": 8.5,
-                "price": -120
+                "price": -105
               }
             ]
           }
@@ -369,11 +438,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -392,11 +461,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -415,11 +484,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -438,11 +507,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -471,11 +540,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -494,21 +563,21 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.5,
-                "price": -118
+                "price": -123
               },
               {
                 "name": "Under",
                 "point": 8.5,
-                "price": 103
+                "price": 107
               }
             ]
           }
@@ -517,21 +586,21 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.5,
-                "price": -120
+                "price": -125
               },
               {
                 "name": "Under",
                 "point": 8.5,
-                "price": 100
+                "price": 105
               }
             ]
           }
@@ -539,27 +608,50 @@
         "title": "BetOnline.ag"
       },
       {
-        "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "key": "draftkings",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -115
+                "price": -118
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -106
+                "price": -102
               }
             ]
           }
         ],
-        "title": "MyBookie.ag"
+        "title": "DraftKings"
+      },
+      {
+        "key": "betmgm",
+        "last_update": "2026-08-17T11:47:41Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 9.0,
+                "price": -102
+              },
+              {
+                "name": "Under",
+                "point": 9.0,
+                "price": -118
+              }
+            ]
+          }
+        ],
+        "title": "BetMGM"
       }
     ],
     "commence_time": "2026-08-17T22:41:00Z",
@@ -573,11 +665,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -596,11 +688,11 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -619,11 +711,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -642,11 +734,11 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -665,11 +757,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -688,11 +780,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -711,11 +803,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -734,11 +826,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -757,11 +849,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -790,11 +882,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -813,11 +905,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -836,11 +928,11 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -850,7 +942,7 @@
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -117
+                "price": -118
               }
             ]
           }
@@ -859,11 +951,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -882,11 +974,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -905,11 +997,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -928,11 +1020,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -951,11 +1043,11 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -974,11 +1066,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1007,21 +1099,21 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": -112
+                "price": -114
               },
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -108
+                "price": -106
               }
             ]
           }
@@ -1030,11 +1122,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1053,11 +1145,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1076,11 +1168,11 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1099,11 +1191,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1122,11 +1214,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1145,11 +1237,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1168,21 +1260,21 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:27Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": -117
+                "price": -115
               },
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -104
+                "price": -106
               }
             ]
           }
@@ -1191,21 +1283,21 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": -112
+                "price": -113
               },
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -108
+                "price": -106
               }
             ]
           }
@@ -1224,21 +1316,21 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
-                "point": 9.5,
-                "price": 102
+                "point": 9.0,
+                "price": -110
               },
               {
                 "name": "Under",
-                "point": 9.5,
-                "price": -124
+                "point": 9.0,
+                "price": -110
               }
             ]
           }
@@ -1247,21 +1339,21 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -109
+                "price": 100
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -111
+                "price": -120
               }
             ]
           }
@@ -1270,21 +1362,21 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -106
+                "price": 103
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -108
+                "price": -118
               }
             ]
           }
@@ -1293,11 +1385,11 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1316,21 +1408,21 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -106
+                "price": -103
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -114
+                "price": -117
               }
             ]
           }
@@ -1339,11 +1431,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1362,21 +1454,21 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -110
+                "price": 100
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -110
+                "price": -120
               }
             ]
           }
@@ -1385,21 +1477,21 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -105
+                "price": 100
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -115
+                "price": -120
               }
             ]
           }
@@ -1408,21 +1500,21 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -118
+                "price": -109
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -103
+                "price": -109
               }
             ]
           }
@@ -1441,11 +1533,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1464,21 +1556,21 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -112
+                "price": -118
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -103
+                "price": 103
               }
             ]
           }
@@ -1487,21 +1579,21 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -114
+                "price": -120
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -106
+                "price": 100
               }
             ]
           }
@@ -1510,21 +1602,21 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -117
+                "price": -120
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -103
+                "price": 100
               }
             ]
           }
@@ -1533,11 +1625,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1556,21 +1648,21 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -115
+                "price": -120
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -105
+                "price": 100
               }
             ]
           }
@@ -1579,11 +1671,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1602,21 +1694,21 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:27Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 9.0,
-                "price": -120
+                "price": -122
               },
               {
                 "name": "Under",
                 "point": 9.0,
-                "price": -102
+                "price": 100
               }
             ]
           }
@@ -1625,11 +1717,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1658,11 +1750,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1681,57 +1773,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 8.0,
-                "price": -120
-              },
-              {
-                "name": "Under",
-                "point": 8.0,
-                "price": 105
-              }
-            ]
-          }
-        ],
-        "title": "LowVig.ag"
-      },
-      {
-        "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 8.0,
-                "price": -122
-              },
-              {
-                "name": "Under",
-                "point": 8.0,
-                "price": 102
-              }
-            ]
-          }
-        ],
-        "title": "BetOnline.ag"
-      },
-      {
-        "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1741,7 +1787,53 @@
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -104
+                "price": 103
+              }
+            ]
+          }
+        ],
+        "title": "LowVig.ag"
+      },
+      {
+        "key": "betonlineag",
+        "last_update": "2026-08-17T11:47:41Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:47:41Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 8.0,
+                "price": -120
+              },
+              {
+                "name": "Under",
+                "point": 8.0,
+                "price": 100
+              }
+            ]
+          }
+        ],
+        "title": "BetOnline.ag"
+      },
+      {
+        "key": "mybookieag",
+        "last_update": "2026-08-17T11:46:46Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-08-17T11:46:46Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 8.0,
+                "price": -116
+              },
+              {
+                "name": "Under",
+                "point": 8.0,
+                "price": -105
               }
             ]
           }
@@ -1750,21 +1842,21 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": -119
+                "price": -116
               },
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -102
+                "price": -104
               }
             ]
           }
@@ -1773,21 +1865,21 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 8.0,
-                "price": -110
+                "price": -115
               },
               {
                 "name": "Under",
                 "point": 8.0,
-                "price": -110
+                "price": -105
               }
             ]
           }
@@ -1796,11 +1888,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1819,11 +1911,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1842,11 +1934,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1875,11 +1967,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1898,11 +1990,11 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-08-17T11:15:28Z",
+        "last_update": "2026-08-17T11:46:46Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:15:28Z",
+            "last_update": "2026-08-17T11:46:46Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1921,11 +2013,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-08-17T11:16:48Z",
+        "last_update": "2026-08-17T11:45:52Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:48Z",
+            "last_update": "2026-08-17T11:45:52Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1944,11 +2036,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-08-17T11:17:03Z",
+        "last_update": "2026-08-17T11:47:42Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:03Z",
+            "last_update": "2026-08-17T11:47:42Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1967,11 +2059,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -1990,21 +2082,21 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-08-17T11:16:43Z",
+        "last_update": "2026-08-17T11:47:22Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:43Z",
+            "last_update": "2026-08-17T11:47:22Z",
             "outcomes": [
               {
                 "name": "Over",
-                "point": 11.0,
-                "price": -105
+                "point": 10.5,
+                "price": -120
               },
               {
                 "name": "Under",
-                "point": 11.0,
-                "price": -115
+                "point": 10.5,
+                "price": 100
               }
             ]
           }
@@ -2013,11 +2105,11 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-08-17T11:17:23Z",
+        "last_update": "2026-08-17T11:46:45Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:23Z",
+            "last_update": "2026-08-17T11:46:45Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2036,11 +2128,11 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-08-17T11:17:04Z",
+        "last_update": "2026-08-17T11:47:41Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:17:04Z",
+            "last_update": "2026-08-17T11:47:41Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -2059,11 +2151,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-08-17T11:16:44Z",
+        "last_update": "2026-08-17T11:47:23Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-08-17T11:16:44Z",
+            "last_update": "2026-08-17T11:47:23Z",
             "outcomes": [
               {
                 "name": "Over",
