@@ -36,12 +36,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -56,7 +56,7 @@
                 "id": 687273,
                 "link": "/api/v1/people/687273"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -959,12 +959,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 11,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 11
     }
   ],
   "totalEvents": 0,
   "totalGames": 11,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 11
 }
