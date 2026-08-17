@@ -38,10 +38,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -70,6 +70,11 @@
                 "pct": ".480",
                 "ties": 0,
                 "wins": 59
+              },
+              "probablePitcher": {
+                "fullName": "Kent Emanuel",
+                "id": 592288,
+                "link": "/api/v1/people/592288"
               },
               "seriesNumber": 41,
               "splitSquad": false,
