@@ -147,7 +147,7 @@
                 "id": 669467,
                 "link": "/api/v1/people/669467"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -168,7 +168,7 @@
                 "id": 695076,
                 "link": "/api/v1/people/695076"
               },
-              "score": 1,
+              "score": 4,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -256,7 +256,7 @@
                 "id": 663556,
                 "link": "/api/v1/people/663556"
               },
-              "score": 4,
+              "score": 7,
               "seriesNumber": 40,
               "splitSquad": false,
               "team": {
@@ -323,7 +323,7 @@
                 "id": 676083,
                 "link": "/api/v1/people/676083"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -344,7 +344,7 @@
                 "id": 650911,
                 "link": "/api/v1/people/650911"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -411,7 +411,7 @@
                 "id": 664285,
                 "link": "/api/v1/people/664285"
               },
-              "score": 4,
+              "score": 5,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -520,7 +520,7 @@
                 "id": 687941,
                 "link": "/api/v1/people/687941"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -587,7 +587,7 @@
                 "id": 621111,
                 "link": "/api/v1/people/621111"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -696,7 +696,7 @@
                 "id": 608379,
                 "link": "/api/v1/people/608379"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -743,13 +743,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Delayed Start",
-            "reason": "Inclement Weather",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PI"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -834,10 +833,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -873,7 +872,7 @@
                 "id": 684007,
                 "link": "/api/v1/people/684007"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -920,12 +919,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -983,12 +982,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 11,
-      "totalGamesInProgress": 7,
+      "totalGamesInProgress": 10,
       "totalItems": 11
     }
   ],
   "totalEvents": 0,
   "totalGames": 11,
-  "totalGamesInProgress": 7,
+  "totalGamesInProgress": 10,
   "totalItems": 11
 }
