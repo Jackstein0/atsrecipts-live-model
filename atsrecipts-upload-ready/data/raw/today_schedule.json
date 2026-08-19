@@ -204,6 +204,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823664/feed/live",
           "officialDate": "2026-08-19",
           "publicFacing": true,
@@ -215,18 +216,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 52,
-                "pct": ".587",
+                "losses": 53,
+                "pct": ".583",
                 "ties": 0,
                 "wins": 74
               },
@@ -245,11 +247,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 65,
-                "pct": ".488",
+                "pct": ".492",
                 "ties": 0,
-                "wins": 62
+                "wins": 63
               },
               "probablePitcher": {
                 "fullName": "Taj Bradley",
@@ -292,6 +295,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824640/feed/live",
           "officialDate": "2026-08-19",
           "publicFacing": true,
@@ -303,27 +307,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 60,
-                "pct": ".520",
+                "pct": ".524",
                 "ties": 0,
-                "wins": 65
+                "wins": 66
               },
               "probablePitcher": {
                 "fullName": "Sean Newcomb",
                 "id": 656794,
                 "link": "/api/v1/people/656794"
               },
-              "score": 1,
+              "score": 3,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -333,9 +338,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 53,
-                "pct": ".583",
+                "losses": 54,
+                "pct": ".578",
                 "ties": 0,
                 "wins": 74
               },
@@ -432,7 +438,7 @@
                 "id": 801139,
                 "link": "/api/v1/people/801139"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -587,6 +593,7 @@
                 "id": 701542,
                 "link": "/api/v1/people/701542"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -607,6 +614,7 @@
                 "id": 605135,
                 "link": "/api/v1/people/605135"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -937,6 +945,7 @@
                 "id": 605488,
                 "link": "/api/v1/people/605488"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -957,6 +966,7 @@
                 "id": 607625,
                 "link": "/api/v1/people/607625"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -1023,6 +1033,7 @@
                 "id": 669302,
                 "link": "/api/v1/people/669302"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -1043,6 +1054,7 @@
                 "id": 669160,
                 "link": "/api/v1/people/669160"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -1109,6 +1121,7 @@
                 "id": 676917,
                 "link": "/api/v1/people/676917"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -1129,6 +1142,7 @@
                 "id": 677958,
                 "link": "/api/v1/people/677958"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -1324,12 +1338,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 3,
+      "totalGamesInProgress": 1,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 3,
+  "totalGamesInProgress": 1,
   "totalItems": 15
 }
