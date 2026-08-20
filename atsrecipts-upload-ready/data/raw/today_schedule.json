@@ -22,6 +22,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824474/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -33,27 +34,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 5,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 63,
-                "pct": ".508",
+                "pct": ".512",
                 "ties": 0,
-                "wins": 65
+                "wins": 66
               },
               "probablePitcher": {
                 "fullName": "Michael McGreevy",
                 "id": 700241,
                 "link": "/api/v1/people/700241"
               },
-              "score": 4,
+              "score": 10,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -63,9 +65,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 66,
-                "pct": ".480",
+                "losses": 67,
+                "pct": ".477",
                 "ties": 0,
                 "wins": 61
               },
@@ -74,7 +77,7 @@
                 "id": 663903,
                 "link": "/api/v1/people/663903"
               },
-              "score": 5,
+              "score": 9,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -110,6 +113,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824395/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -121,18 +125,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 74,
-                "pct": ".413",
+                "losses": 75,
+                "pct": ".409",
                 "ties": 0,
                 "wins": 52
               },
@@ -151,18 +156,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 66,
-                "pct": ".480",
+                "pct": ".484",
                 "ties": 0,
-                "wins": 61
+                "wins": 62
               },
               "probablePitcher": {
                 "fullName": "Gavin Williams",
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
-              "score": 4,
+              "score": 5,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -198,6 +204,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822934/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -209,20 +216,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 66,
-                "pct": ".484",
+                "pct": ".488",
                 "ties": 0,
-                "wins": 62
+                "wins": 63
               },
               "probablePitcher": {
                 "fullName": "Shane Bieber",
@@ -239,9 +247,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 50,
-                "pct": ".603",
+                "losses": 51,
+                "pct": ".598",
                 "ties": 0,
                 "wins": 76
               },
@@ -338,7 +347,7 @@
                 "id": 677976,
                 "link": "/api/v1/people/677976"
               },
-              "score": 1,
+              "score": 5,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -408,7 +417,7 @@
                 "id": 656550,
                 "link": "/api/v1/people/656550"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -496,7 +505,7 @@
                 "id": 669923,
                 "link": "/api/v1/people/669923"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -566,10 +575,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -797,12 +806,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 6,
+      "totalGamesInProgress": 3,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 6,
+  "totalGamesInProgress": 3,
   "totalItems": 9
 }
