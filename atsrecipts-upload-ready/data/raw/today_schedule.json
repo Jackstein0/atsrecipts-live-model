@@ -295,6 +295,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824074/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -306,18 +307,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 78,
-                "pct": ".386",
+                "losses": 79,
+                "pct": ".383",
                 "ties": 0,
                 "wins": 49
               },
@@ -336,11 +338,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 74,
-                "pct": ".422",
+                "pct": ".426",
                 "ties": 0,
-                "wins": 54
+                "wins": 55
               },
               "probablePitcher": {
                 "fullName": "Randy Dobnak",
@@ -477,6 +480,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823747/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -488,18 +492,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 67,
-                "pct": ".472",
+                "losses": 68,
+                "pct": ".469",
                 "ties": 0,
                 "wins": 60
               },
@@ -518,18 +523,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 49,
-                "pct": ".614",
+                "pct": ".617",
                 "ties": 0,
-                "wins": 78
+                "wins": 79
               },
               "probablePitcher": {
                 "fullName": "Robert Gasser",
                 "id": 688107,
                 "link": "/api/v1/people/688107"
               },
-              "score": 6,
+              "score": 7,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -772,6 +778,7 @@
                 "id": 680570,
                 "link": "/api/v1/people/680570"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -792,6 +799,7 @@
                 "id": 663567,
                 "link": "/api/v1/people/663567"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -813,12 +821,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 2,
+      "totalGamesInProgress": 0,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 2,
+  "totalGamesInProgress": 0,
   "totalItems": 9
 }
