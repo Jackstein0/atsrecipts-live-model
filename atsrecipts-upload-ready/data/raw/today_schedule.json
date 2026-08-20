@@ -384,6 +384,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824589/feed/live",
           "officialDate": "2026-08-20",
           "publicFacing": true,
@@ -397,20 +398,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 53,
-                "pct": ".583",
+                "pct": ".586",
                 "ties": 0,
-                "wins": 74
+                "wins": 75
               },
               "probablePitcher": {
                 "fullName": "Grant Holmes",
@@ -427,9 +429,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 60,
-                "pct": ".524",
+                "losses": 61,
+                "pct": ".520",
                 "ties": 0,
                 "wins": 66
               },
@@ -681,6 +684,7 @@
                 "id": 674841,
                 "link": "/api/v1/people/674841"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -701,6 +705,7 @@
                 "id": 594798,
                 "link": "/api/v1/people/594798"
               },
+              "score": 0,
               "seriesNumber": 41,
               "splitSquad": false,
               "team": {
@@ -749,10 +754,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -808,12 +813,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 3,
+      "totalGamesInProgress": 2,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 3,
+  "totalGamesInProgress": 2,
   "totalItems": 9
 }
