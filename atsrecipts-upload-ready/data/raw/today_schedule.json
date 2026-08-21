@@ -22,6 +22,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823746/feed/live",
           "officialDate": "2026-08-21",
           "publicFacing": true,
@@ -33,18 +34,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 53,
-                "pct": ".586",
+                "losses": 54,
+                "pct": ".581",
                 "ties": 0,
                 "wins": 75
               },
@@ -63,11 +65,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 49,
-                "pct": ".617",
+                "pct": ".620",
                 "ties": 0,
-                "wins": 79
+                "wins": 80
               },
               "probablePitcher": {
                 "fullName": "Jacob Misiorowski",
@@ -121,12 +124,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -141,7 +144,7 @@
                 "id": 690928,
                 "link": "/api/v1/people/690928"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -297,12 +300,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -385,12 +388,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
