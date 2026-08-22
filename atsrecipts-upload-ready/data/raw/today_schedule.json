@@ -1023,6 +1023,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/825045/feed/live",
           "officialDate": "2026-08-21",
           "publicFacing": true,
@@ -1034,18 +1035,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 67,
-                "pct": ".477",
+                "losses": 68,
+                "pct": ".473",
                 "ties": 0,
                 "wins": 61
               },
@@ -1064,18 +1066,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 61,
-                "pct": ".523",
+                "pct": ".527",
                 "ties": 0,
-                "wins": 67
+                "wins": 68
               },
               "probablePitcher": {
                 "fullName": "Eduardo Rodriguez",
                 "id": 593958,
                 "link": "/api/v1/people/593958"
               },
-              "score": 7,
+              "score": 9,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1233,7 +1236,7 @@
                 "id": 696149,
                 "link": "/api/v1/people/696149"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -1321,7 +1324,7 @@
                 "id": 571510,
                 "link": "/api/v1/people/571510"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1364,12 +1367,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 3,
+      "totalGamesInProgress": 2,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 3,
+  "totalGamesInProgress": 2,
   "totalItems": 15
 }
