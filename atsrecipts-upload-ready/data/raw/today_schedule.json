@@ -33,12 +33,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -229,6 +229,7 @@
                 "id": 663623,
                 "link": "/api/v1/people/663623"
               },
+              "score": 0,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -249,6 +250,7 @@
                 "id": 691587,
                 "link": "/api/v1/people/691587"
               },
+              "score": 0,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
