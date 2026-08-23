@@ -53,7 +53,7 @@
                 "id": 607259,
                 "link": "/api/v1/people/607259"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -514,7 +514,7 @@
                 "id": 664299,
                 "link": "/api/v1/people/664299"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -690,7 +690,7 @@
                 "id": 615698,
                 "link": "/api/v1/people/615698"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 42,
               "splitSquad": false,
               "team": {
@@ -739,10 +739,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -825,12 +825,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1327,12 +1327,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 8,
+      "totalGamesInProgress": 10,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 8,
+  "totalGamesInProgress": 10,
   "totalItems": 15
 }
