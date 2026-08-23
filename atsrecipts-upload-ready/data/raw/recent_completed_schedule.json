@@ -2,1381 +2,6 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-07-08",
-      "events": [],
-      "games": [
-        {
-          "calendarEventID": "14-823202-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823202/content"
-          },
-          "dayNight": "day",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T19:45:00Z",
-          "gameGuid": "dcdd84d5-fd19-42d1-afde-e6f6a2b4841b",
-          "gameNumber": 1,
-          "gamePk": 823202,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823202/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 49,
-                "pct": ".473",
-                "ties": 0,
-                "wins": 44
-              },
-              "probablePitcher": {
-                "fullName": "Dylan Cease",
-                "id": 656302,
-                "link": "/api/v1/people/656302"
-              },
-              "score": 10,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 141,
-                "link": "/api/v1/teams/141",
-                "name": "Toronto Blue Jays"
-              }
-            },
-            "home": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 54,
-                "pct": ".413",
-                "ties": 0,
-                "wins": 38
-              },
-              "probablePitcher": {
-                "fullName": "Logan Webb",
-                "id": 657277,
-                "link": "/api/v1/people/657277"
-              },
-              "score": 0,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 137,
-                "link": "/api/v1/teams/137",
-                "name": "San Francisco Giants"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2395,
-            "link": "/api/v1/venues/2395",
-            "name": "Oracle Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-824815-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/824815/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:35:00Z",
-          "gameGuid": "cea28fb8-623c-4ebd-8a6a-69fe5ccb7d03",
-          "gameNumber": 1,
-          "gamePk": 824815,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/824815/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 40,
-                "pct": ".565",
-                "ties": 0,
-                "wins": 52
-              },
-              "probablePitcher": {
-                "fullName": "Colin Rea",
-                "id": 607067,
-                "link": "/api/v1/people/607067"
-              },
-              "score": 9,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 112,
-                "link": "/api/v1/teams/112",
-                "name": "Chicago Cubs"
-              }
-            },
-            "home": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 51,
-                "pct": ".452",
-                "ties": 0,
-                "wins": 42
-              },
-              "probablePitcher": {
-                "fullName": "Dean Kremer",
-                "id": 665152,
-                "link": "/api/v1/people/665152"
-              },
-              "score": 7,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 110,
-                "link": "/api/v1/teams/110",
-                "name": "Baltimore Orioles"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2,
-            "link": "/api/v1/venues/2",
-            "name": "Oriole Park at Camden Yards",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-824253-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/824253/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:40:00Z",
-          "gameGuid": "075bc10f-92d0-4a82-bb6d-2db6880b71d4",
-          "gameNumber": 1,
-          "gamePk": 824253,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/824253/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 51,
-                "pct": ".446",
-                "ties": 0,
-                "wins": 41
-              },
-              "probablePitcher": {
-                "fullName": "Jeffrey Springs",
-                "id": 605488,
-                "link": "/api/v1/people/605488"
-              },
-              "score": 1,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 133,
-                "link": "/api/v1/teams/133",
-                "name": "Athletics"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 50,
-                "pct": ".457",
-                "ties": 0,
-                "wins": 42
-              },
-              "probablePitcher": {
-                "fullName": "Troy Melton",
-                "id": 675512,
-                "link": "/api/v1/people/675512"
-              },
-              "score": 6,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 116,
-                "link": "/api/v1/teams/116",
-                "name": "Detroit Tigers"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2394,
-            "link": "/api/v1/venues/2394",
-            "name": "Comerica Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823360-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823360/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:40:00Z",
-          "gameGuid": "19f16a9d-64dd-457a-a1e4-a869532414cb",
-          "gameNumber": 1,
-          "gamePk": 823360,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823360/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 38,
-                "pct": ".582",
-                "ties": 0,
-                "wins": 53
-              },
-              "probablePitcher": {
-                "fullName": "Grant Holmes",
-                "id": 656550,
-                "link": "/api/v1/people/656550"
-              },
-              "score": 3,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 144,
-                "link": "/api/v1/teams/144",
-                "name": "Atlanta Braves"
-              }
-            },
-            "home": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".505",
-                "ties": 0,
-                "wins": 47
-              },
-              "probablePitcher": {
-                "fullName": "Jared Jones",
-                "id": 683003,
-                "link": "/api/v1/people/683003"
-              },
-              "score": 0,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 134,
-                "link": "/api/v1/teams/134",
-                "name": "Pittsburgh Pirates"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 31,
-            "link": "/api/v1/venues/31",
-            "name": "PNC Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823848-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823848/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:40:00Z",
-          "gameGuid": "09db3cd9-6da0-4d7b-adda-e3ee0bbb395b",
-          "gameNumber": 1,
-          "gamePk": 823848,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823848/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".505",
-                "ties": 0,
-                "wins": 47
-              },
-              "probablePitcher": {
-                "fullName": "George Kirby",
-                "id": 669923,
-                "link": "/api/v1/people/669923"
-              },
-              "score": 0,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 136,
-                "link": "/api/v1/teams/136",
-                "name": "Seattle Mariners"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 42,
-                "pct": ".548",
-                "ties": 0,
-                "wins": 51
-              },
-              "probablePitcher": {
-                "fullName": "Tyler Phillips",
-                "id": 663969,
-                "link": "/api/v1/people/663969"
-              },
-              "score": 2,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 146,
-                "link": "/api/v1/teams/146",
-                "name": "Miami Marlins"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 4169,
-            "link": "/api/v1/venues/4169",
-            "name": "loanDepot park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-822957-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/822957/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:40:00Z",
-          "gameGuid": "493052ea-2198-4248-b351-ede37c6b3cfd",
-          "gameNumber": 1,
-          "gamePk": 822957,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 4,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/822957/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 42,
-                "pct": ".543",
-                "ties": 0,
-                "wins": 50
-              },
-              "probablePitcher": {
-                "fullName": "Gerrit Cole",
-                "id": 543037,
-                "link": "/api/v1/people/543037"
-              },
-              "score": 0,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 147,
-                "link": "/api/v1/teams/147",
-                "name": "New York Yankees"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 36,
-                "pct": ".600",
-                "ties": 0,
-                "wins": 54
-              },
-              "probablePitcher": {
-                "fullName": "Shane McClanahan",
-                "id": 663556,
-                "link": "/api/v1/people/663556"
-              },
-              "score": 3,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 139,
-                "link": "/api/v1/teams/139",
-                "name": "Tampa Bay Rays"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 12,
-            "link": "/api/v1/venues/12",
-            "name": "Tropicana Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-822710-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/822710/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T22:45:00Z",
-          "gameGuid": "3a679779-8b91-4150-a361-e68da7646448",
-          "gameNumber": 1,
-          "gamePk": 822710,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/822710/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 49,
-                "pct": ".484",
-                "ties": 0,
-                "wins": 46
-              },
-              "probablePitcher": {
-                "fullName": "Spencer Arrighetti",
-                "id": 681293,
-                "link": "/api/v1/people/681293"
-              },
-              "score": 2,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 117,
-                "link": "/api/v1/teams/117",
-                "name": "Houston Astros"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".511",
-                "ties": 0,
-                "wins": 48
-              },
-              "probablePitcher": {
-                "fullName": "Foster Griffin",
-                "id": 656492,
-                "link": "/api/v1/people/656492"
-              },
-              "score": 8,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 120,
-                "link": "/api/v1/teams/120",
-                "name": "Washington Nationals"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 3309,
-            "link": "/api/v1/venues/3309",
-            "name": "Nationals Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823605-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823605/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T23:10:00Z",
-          "gameGuid": "5dbad19b-1f6a-4d34-80ac-5c830fe227ac",
-          "gameNumber": 1,
-          "gamePk": 823605,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823605/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 55,
-                "pct": ".409",
-                "ties": 0,
-                "wins": 38
-              },
-              "probablePitcher": {
-                "fullName": "Steven Cruz",
-                "id": 674444,
-                "link": "/api/v1/people/674444"
-              },
-              "score": 2,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 118,
-                "link": "/api/v1/teams/118",
-                "name": "Kansas City Royals"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 54,
-                "pct": ".419",
-                "ties": 0,
-                "wins": 39
-              },
-              "probablePitcher": {
-                "fullName": "Christian Scott",
-                "id": 681035,
-                "link": "/api/v1/people/681035"
-              },
-              "score": 6,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 121,
-                "link": "/api/v1/teams/121",
-                "name": "New York Mets"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 3289,
-            "link": "/api/v1/venues/3289",
-            "name": "Citi Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-824496-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/824496/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T23:10:00Z",
-          "gameGuid": "ced08dad-21e0-4153-b4ab-3398d0414a0c",
-          "gameNumber": 1,
-          "gamePk": 824496,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "isTie": false,
-          "link": "/api/v1.1/game/824496/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 42,
-                "pct": ".548",
-                "ties": 0,
-                "wins": 51
-              },
-              "probablePitcher": {
-                "fullName": "Alan Rangel",
-                "id": 660604,
-                "link": "/api/v1/people/660604"
-              },
-              "score": 5,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 143,
-                "link": "/api/v1/teams/143",
-                "name": "Philadelphia Phillies"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 49,
-                "pct": ".462",
-                "ties": 0,
-                "wins": 42
-              },
-              "probablePitcher": {
-                "fullName": "Chase Burns",
-                "id": 695505,
-                "link": "/api/v1/people/695505"
-              },
-              "score": 11,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 113,
-                "link": "/api/v1/teams/113",
-                "name": "Cincinnati Reds"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2602,
-            "link": "/api/v1/venues/2602",
-            "name": "Great American Ball Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823684-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823684/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T23:40:00Z",
-          "gameGuid": "b87f1353-fccb-48f9-8c35-647416eeb492",
-          "gameNumber": 1,
-          "gamePk": 823684,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823684/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".505",
-                "ties": 0,
-                "wins": 47
-              },
-              "probablePitcher": {
-                "fullName": "Slade Cecconi",
-                "id": 677944,
-                "link": "/api/v1/people/677944"
-              },
-              "score": 5,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 114,
-                "link": "/api/v1/teams/114",
-                "name": "Cleveland Guardians"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 47,
-                "pct": ".495",
-                "ties": 0,
-                "wins": 46
-              },
-              "probablePitcher": {
-                "fullName": "Connor Prielipp",
-                "id": 687570,
-                "link": "/api/v1/people/687570"
-              },
-              "score": 6,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 142,
-                "link": "/api/v1/teams/142",
-                "name": "Minnesota Twins"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 3312,
-            "link": "/api/v1/venues/3312",
-            "name": "Target Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-824578-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/824578/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T23:40:00Z",
-          "gameGuid": "2865e7fd-e93d-4e82-b76c-7c4b7a3d34ae",
-          "gameNumber": 1,
-          "gamePk": 824578,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/824578/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 48,
-                "pct": ".467",
-                "ties": 0,
-                "wins": 42
-              },
-              "probablePitcher": {
-                "fullName": "Jake Bennett",
-                "id": 687562,
-                "link": "/api/v1/people/687562"
-              },
-              "score": 5,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 111,
-                "link": "/api/v1/teams/111",
-                "name": "Boston Red Sox"
-              }
-            },
-            "home": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 44,
-                "pct": ".516",
-                "ties": 0,
-                "wins": 47
-              },
-              "probablePitcher": {
-                "fullName": "Davis Martin",
-                "id": 663436,
-                "link": "/api/v1/people/663436"
-              },
-              "score": 0,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 145,
-                "link": "/api/v1/teams/145",
-                "name": "Chicago White Sox"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 4,
-            "link": "/api/v1/venues/4",
-            "name": "Rate Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823032-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823032/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-08T23:45:00Z",
-          "gameGuid": "fd5241ee-5185-41b6-ac07-046989b80eda",
-          "gameNumber": 1,
-          "gamePk": 823032,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 5,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823032/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 4,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 34,
-                "pct": ".630",
-                "ties": 0,
-                "wins": 58
-              },
-              "probablePitcher": {
-                "fullName": "Kyle Harrison",
-                "id": 690986,
-                "link": "/api/v1/people/690986"
-              },
-              "score": 1,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 158,
-                "link": "/api/v1/teams/158",
-                "name": "Milwaukee Brewers"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 43,
-                "pct": ".527",
-                "ties": 0,
-                "wins": 48
-              },
-              "probablePitcher": {
-                "fullName": "Michael McGreevy",
-                "id": 700241,
-                "link": "/api/v1/people/700241"
-              },
-              "score": 5,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 138,
-                "link": "/api/v1/teams/138",
-                "name": "St. Louis Cardinals"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2889,
-            "link": "/api/v1/venues/2889",
-            "name": "Busch Stadium",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-822880-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/822880/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-09T00:05:00Z",
-          "gameGuid": "6cbef378-f392-44de-a77e-c68c445afbe2",
-          "gameNumber": 1,
-          "gamePk": 822880,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/822880/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 56,
-                "pct": ".398",
-                "ties": 0,
-                "wins": 37
-              },
-              "probablePitcher": {
-                "fullName": "Walbert Ure\u00f1a",
-                "id": 700712,
-                "link": "/api/v1/people/700712"
-              },
-              "score": 13,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 108,
-                "link": "/api/v1/teams/108",
-                "name": "Los Angeles Angels"
-              }
-            },
-            "home": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".500",
-                "ties": 0,
-                "wins": 46
-              },
-              "probablePitcher": {
-                "fullName": "MacKenzie Gore",
-                "id": 669022,
-                "link": "/api/v1/people/669022"
-              },
-              "score": 1,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 140,
-                "link": "/api/v1/teams/140",
-                "name": "Texas Rangers"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 5325,
-            "link": "/api/v1/venues/5325",
-            "name": "Globe Life Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823928-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823928/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-09T02:10:00Z",
-          "gameGuid": "37d35960-b298-47d5-8bbd-9d30611af838",
-          "gameNumber": 1,
-          "gamePk": 823928,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "isTie": false,
-          "link": "/api/v1.1/game/823928/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 56,
-                "pct": ".404",
-                "ties": 0,
-                "wins": 38
-              },
-              "probablePitcher": {
-                "fullName": "Gabriel Hughes",
-                "id": 687312,
-                "link": "/api/v1/people/687312"
-              },
-              "score": 3,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 115,
-                "link": "/api/v1/teams/115",
-                "name": "Colorado Rockies"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 33,
-                "pct": ".649",
-                "ties": 0,
-                "wins": 61
-              },
-              "probablePitcher": {
-                "fullName": "Roki Sasaki",
-                "id": 808963,
-                "link": "/api/v1/people/808963"
-              },
-              "score": 4,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 119,
-                "link": "/api/v1/teams/119",
-                "name": "Los Angeles Dodgers"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 22,
-            "link": "/api/v1/venues/22",
-            "name": "UNIQLO Field at Dodger Stadium",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823279-2026-07-08",
-          "content": {
-            "link": "/api/v1/game/823279/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "N",
-          "gameDate": "2026-07-09T02:10:00Z",
-          "gameGuid": "9bb11197-b1b7-4b03-bf80-8c7417cd21e6",
-          "gameNumber": 1,
-          "gamePk": 823279,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 4,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "isTie": false,
-          "link": "/api/v1.1/game/823279/feed/live",
-          "officialDate": "2026-07-08",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 47,
-                "pct": ".489",
-                "ties": 0,
-                "wins": 45
-              },
-              "probablePitcher": {
-                "fullName": "Jose Cabrera",
-                "id": 703615,
-                "link": "/api/v1/people/703615"
-              },
-              "score": 4,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 109,
-                "link": "/api/v1/teams/109",
-                "name": "Arizona Diamondbacks"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 46,
-                "pct": ".500",
-                "ties": 0,
-                "wins": 46
-              },
-              "probablePitcher": {
-                "fullName": "Michael King",
-                "id": 650633,
-                "link": "/api/v1/people/650633"
-              },
-              "score": 10,
-              "seriesNumber": 30,
-              "splitSquad": false,
-              "team": {
-                "id": 135,
-                "link": "/api/v1/teams/135",
-                "name": "San Diego Padres"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2680,
-            "link": "/api/v1/venues/2680",
-            "name": "Petco Park",
-            "season": "2026"
-          }
-        }
-      ],
-      "totalEvents": 0,
-      "totalGames": 15,
-      "totalGamesInProgress": 0,
-      "totalItems": 15
-    },
-    {
       "date": "2026-07-09",
       "events": [],
       "games": [
@@ -52406,6 +51031,1381 @@
             "id": 680,
             "link": "/api/v1/venues/680",
             "name": "T-Mobile Park",
+            "season": "2026"
+          }
+        }
+      ],
+      "totalEvents": 0,
+      "totalGames": 15,
+      "totalGamesInProgress": 0,
+      "totalItems": 15
+    },
+    {
+      "date": "2026-08-22",
+      "events": [],
+      "games": [
+        {
+          "calendarEventID": "14-823509-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823509/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T17:35:00Z",
+          "gameGuid": "e00395ea-23b0-432d-8a01-f74e1b53dcdb",
+          "gameNumber": 1,
+          "gamePk": 823509,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/823509/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 67,
+                "pct": ".489",
+                "ties": 0,
+                "wins": 64
+              },
+              "probablePitcher": {
+                "fullName": "Dylan Cease",
+                "id": 656302,
+                "link": "/api/v1/people/656302"
+              },
+              "score": 4,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 141,
+                "link": "/api/v1/teams/141",
+                "name": "Toronto Blue Jays"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 56,
+                "pct": ".566",
+                "ties": 0,
+                "wins": 73
+              },
+              "probablePitcher": {
+                "fullName": "Ryan Weathers",
+                "id": 677960,
+                "link": "/api/v1/people/677960"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 147,
+                "link": "/api/v1/teams/147",
+                "name": "New York Yankees"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 3313,
+            "link": "/api/v1/venues/3313",
+            "name": "Yankee Stadium",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823743-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823743/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T18:10:00Z",
+          "gameGuid": "81b99395-9229-42da-b745-48a1745d702a",
+          "gameNumber": 1,
+          "gamePk": 823743,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/823743/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 55,
+                "pct": ".577",
+                "ties": 0,
+                "wins": 75
+              },
+              "probablePitcher": {
+                "fullName": "Mart\u00edn P\u00e9rez",
+                "id": 527048,
+                "link": "/api/v1/people/527048"
+              },
+              "score": 1,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 144,
+                "link": "/api/v1/teams/144",
+                "name": "Atlanta Braves"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 49,
+                "pct": ".623",
+                "ties": 0,
+                "wins": 81
+              },
+              "probablePitcher": {
+                "fullName": "Logan Henderson",
+                "id": 701656,
+                "link": "/api/v1/people/701656"
+              },
+              "score": 4,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 158,
+                "link": "/api/v1/teams/158",
+                "name": "Milwaukee Brewers"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 32,
+            "link": "/api/v1/venues/32",
+            "name": "American Family Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823831-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823831/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T20:10:00Z",
+          "gameGuid": "3f2523ef-eef6-4780-b3a8-53d1b28cf023",
+          "gameNumber": 1,
+          "gamePk": 823831,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/823831/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 70,
+                "pct": ".466",
+                "ties": 0,
+                "wins": 61
+              },
+              "probablePitcher": {
+                "fullName": "Jake Irvin",
+                "id": 663623,
+                "link": "/api/v1/people/663623"
+              },
+              "score": 2,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 120,
+                "link": "/api/v1/teams/120",
+                "name": "Washington Nationals"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 64,
+                "pct": ".508",
+                "ties": 0,
+                "wins": 66
+              },
+              "probablePitcher": {
+                "fullName": "Eury P\u00e9rez",
+                "id": 691587,
+                "link": "/api/v1/people/691587"
+              },
+              "score": 4,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 146,
+                "link": "/api/v1/teams/146",
+                "name": "Miami Marlins"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 4169,
+            "link": "/api/v1/venues/4169",
+            "name": "loanDepot park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823422-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823422/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T22:05:00Z",
+          "gameGuid": "5f16b71f-1fd5-4468-bb3d-dd5eb5f5dadf",
+          "gameNumber": 1,
+          "gamePk": 823422,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/823422/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 65,
+                "pct": ".504",
+                "ties": 0,
+                "wins": 66
+              },
+              "probablePitcher": {
+                "fullName": "Quinn Mathews",
+                "id": 687273,
+                "link": "/api/v1/people/687273"
+              },
+              "score": 3,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 138,
+                "link": "/api/v1/teams/138",
+                "name": "St. Louis Cardinals"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 58,
+                "pct": ".554",
+                "ties": 0,
+                "wins": 72
+              },
+              "probablePitcher": {
+                "fullName": "Andrew Painter",
+                "id": 691725,
+                "link": "/api/v1/people/691725"
+              },
+              "score": 12,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 143,
+                "link": "/api/v1/teams/143",
+                "name": "Philadelphia Phillies"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2681,
+            "link": "/api/v1/venues/2681",
+            "name": "Citizens Bank Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824798-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824798/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "gameGuid": "c244da9f-4868-44c6-aa8f-eacbf7ce271c",
+          "gameNumber": 1,
+          "gamePk": 824798,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/824798/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 53,
+                "pct": ".589",
+                "ties": 0,
+                "wins": 76
+              },
+              "probablePitcher": {
+                "fullName": "Shane McClanahan",
+                "id": 663556,
+                "link": "/api/v1/people/663556"
+              },
+              "score": 2,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 139,
+                "link": "/api/v1/teams/139",
+                "name": "Tampa Bay Rays"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 67,
+                "pct": ".485",
+                "ties": 0,
+                "wins": 63
+              },
+              "probablePitcher": {
+                "fullName": "Brandon Young",
+                "id": 687064,
+                "link": "/api/v1/people/687064"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 110,
+                "link": "/api/v1/teams/110",
+                "name": "Baltimore Orioles"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2,
+            "link": "/api/v1/venues/2",
+            "name": "Oriole Park at Camden Yards",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-822858-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/822858/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:05:00Z",
+          "gameGuid": "9fd3d8fe-51e0-407f-95d5-43ea600d6f01",
+          "gameNumber": 1,
+          "gamePk": 822858,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/822858/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 78,
+                "pct": ".400",
+                "ties": 0,
+                "wins": 52
+              },
+              "probablePitcher": {
+                "fullName": "Ryan Johnson",
+                "id": 696270,
+                "link": "/api/v1/people/696270"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 108,
+                "link": "/api/v1/teams/108",
+                "name": "Los Angeles Angels"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 66,
+                "pct": ".492",
+                "ties": 0,
+                "wins": 64
+              },
+              "probablePitcher": {
+                "fullName": "Cody Bradford",
+                "id": 674003,
+                "link": "/api/v1/people/674003"
+              },
+              "score": 0,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 140,
+                "link": "/api/v1/teams/140",
+                "name": "Texas Rangers"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 5325,
+            "link": "/api/v1/venues/5325",
+            "name": "Globe Life Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824151-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824151/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:10:00Z",
+          "gameGuid": "09c73fb6-5abf-4c6c-8d6d-f0b8e2340532",
+          "gameNumber": 1,
+          "gamePk": 824151,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/824151/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 80,
+                "pct": ".385",
+                "ties": 0,
+                "wins": 50
+              },
+              "probablePitcher": {
+                "fullName": "Jacob Lopez",
+                "id": 682052,
+                "link": "/api/v1/people/682052"
+              },
+              "score": 4,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 133,
+                "link": "/api/v1/teams/133",
+                "name": "Athletics"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 65,
+                "pct": ".500",
+                "ties": 0,
+                "wins": 65
+              },
+              "probablePitcher": {
+                "fullName": "Hunter Brown",
+                "id": 686613,
+                "link": "/api/v1/people/686613"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 117,
+                "link": "/api/v1/teams/117",
+                "name": "Houston Astros"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2392,
+            "link": "/api/v1/venues/2392",
+            "name": "Daikin Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824560-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824560/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:10:00Z",
+          "gameGuid": "485f9503-ab51-462e-9274-954c1015516d",
+          "gameNumber": 1,
+          "gamePk": 824560,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/824560/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 71,
+                "pct": ".454",
+                "ties": 0,
+                "wins": 59
+              },
+              "probablePitcher": {
+                "fullName": "Christian Scott",
+                "id": 681035,
+                "link": "/api/v1/people/681035"
+              },
+              "score": 10,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 121,
+                "link": "/api/v1/teams/121",
+                "name": "New York Mets"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 62,
+                "pct": ".519",
+                "ties": 0,
+                "wins": 67
+              },
+              "probablePitcher": {
+                "fullName": "Luis Castillo",
+                "id": 622491,
+                "link": "/api/v1/people/622491"
+              },
+              "score": 5,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 145,
+                "link": "/api/v1/teams/145",
+                "name": "Chicago White Sox"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 4,
+            "link": "/api/v1/venues/4",
+            "name": "Rate Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824073-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824073/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:15:00Z",
+          "gameGuid": "3ed78ff1-1e2f-400e-90df-eff326034d44",
+          "gameNumber": 1,
+          "gamePk": 824073,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/824073/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 68,
+                "pct": ".473",
+                "ties": 0,
+                "wins": 61
+              },
+              "probablePitcher": {
+                "fullName": "Drew Anderson",
+                "id": 623454,
+                "link": "/api/v1/people/623454"
+              },
+              "score": 1,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 116,
+                "link": "/api/v1/teams/116",
+                "name": "Detroit Tigers"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 74,
+                "pct": ".435",
+                "ties": 0,
+                "wins": 57
+              },
+              "probablePitcher": {
+                "fullName": "Michael Wacha",
+                "id": 608379,
+                "link": "/api/v1/people/608379"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 118,
+                "link": "/api/v1/teams/118",
+                "name": "Kansas City Royals"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 7,
+            "link": "/api/v1/venues/7",
+            "name": "Kauffman Stadium",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823910-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823910/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:15:00Z",
+          "gameGuid": "aec96e3b-eb20-452b-bcaa-c1daa442c826",
+          "gameNumber": 1,
+          "gamePk": 823910,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "isTie": false,
+          "link": "/api/v1.1/game/823910/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 68,
+                "pct": ".481",
+                "ties": 0,
+                "wins": 63
+              },
+              "probablePitcher": {
+                "fullName": "Jared Jones",
+                "id": 683003,
+                "link": "/api/v1/people/683003"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 134,
+                "link": "/api/v1/teams/134",
+                "name": "Pittsburgh Pirates"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 51,
+                "pct": ".608",
+                "ties": 0,
+                "wins": 79
+              },
+              "probablePitcher": {
+                "fullName": "Tarik Skubal",
+                "id": 669373,
+                "link": "/api/v1/people/669373"
+              },
+              "score": 4,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 119,
+                "link": "/api/v1/teams/119",
+                "name": "Los Angeles Dodgers"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 22,
+            "link": "/api/v1/venues/22",
+            "name": "UNIQLO Field at Dodger Stadium",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823100-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823100/content"
+          },
+          "dayNight": "day",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:15:00Z",
+          "gameGuid": "bcc15ccd-6e01-48b5-aa0e-88f2e8dfc9f8",
+          "gameNumber": 1,
+          "gamePk": 823100,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "isTie": false,
+          "link": "/api/v1.1/game/823100/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 56,
+                "pct": ".569",
+                "ties": 0,
+                "wins": 74
+              },
+              "probablePitcher": {
+                "fullName": "David Peterson",
+                "id": 656849,
+                "link": "/api/v1/people/656849"
+              },
+              "score": 4,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 112,
+                "link": "/api/v1/teams/112",
+                "name": "Chicago Cubs"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 68,
+                "pct": ".477",
+                "ties": 0,
+                "wins": 62
+              },
+              "probablePitcher": {
+                "fullName": "Kade Anderson",
+                "id": 807739,
+                "link": "/api/v1/people/807739"
+              },
+              "score": 5,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 136,
+                "link": "/api/v1/teams/136",
+                "name": "Seattle Mariners"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 680,
+            "link": "/api/v1/venues/680",
+            "name": "T-Mobile Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824718-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824718/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-22T23:15:00Z",
+          "gameGuid": "2b767c9d-a00e-4e0d-b20a-8fc12ce67e46",
+          "gameNumber": 1,
+          "gamePk": 824718,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "isTie": false,
+          "link": "/api/v1.1/game/824718/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 77,
+                "pct": ".403",
+                "ties": 0,
+                "wins": 52
+              },
+              "probablePitcher": {
+                "fullName": "Blade Tidwell",
+                "id": 694918,
+                "link": "/api/v1/people/694918"
+              },
+              "score": 2,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 137,
+                "link": "/api/v1/teams/137",
+                "name": "San Francisco Giants"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 59,
+                "pct": ".543",
+                "ties": 0,
+                "wins": 70
+              },
+              "probablePitcher": {
+                "fullName": "Patrick Sandoval",
+                "id": 663776,
+                "link": "/api/v1/people/663776"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 111,
+                "link": "/api/v1/teams/111",
+                "name": "Boston Red Sox"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 3,
+            "link": "/api/v1/venues/3",
+            "name": "Fenway Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-825044-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/825044/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-23T00:10:00Z",
+          "gameGuid": "e17c2605-54a0-4a57-9481-9368dbbe6648",
+          "gameNumber": 1,
+          "gamePk": 825044,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/825044/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 68,
+                "pct": ".477",
+                "ties": 0,
+                "wins": 62
+              },
+              "probablePitcher": {
+                "fullName": "Rhett Lowder",
+                "id": 695076,
+                "link": "/api/v1/people/695076"
+              },
+              "score": 11,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 113,
+                "link": "/api/v1/teams/113",
+                "name": "Cincinnati Reds"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 62,
+                "pct": ".523",
+                "ties": 0,
+                "wins": 68
+              },
+              "probablePitcher": {
+                "fullName": "Michael Soroka",
+                "id": 647336,
+                "link": "/api/v1/people/647336"
+              },
+              "score": 5,
+              "seriesNumber": 43,
+              "splitSquad": false,
+              "team": {
+                "id": 109,
+                "link": "/api/v1/teams/109",
+                "name": "Arizona Diamondbacks"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 15,
+            "link": "/api/v1/venues/15",
+            "name": "Chase Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-824316-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/824316/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-23T00:10:00Z",
+          "gameGuid": "212bdbb6-6481-4d39-81a7-04d6f392e84d",
+          "gameNumber": 1,
+          "gamePk": 824316,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/824316/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 66,
+                "pct": ".492",
+                "ties": 0,
+                "wins": 64
+              },
+              "probablePitcher": {
+                "fullName": "Tanner Bibee",
+                "id": 676440,
+                "link": "/api/v1/people/676440"
+              },
+              "score": 4,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 114,
+                "link": "/api/v1/teams/114",
+                "name": "Cleveland Guardians"
+              }
+            },
+            "home": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 79,
+                "pct": ".388",
+                "ties": 0,
+                "wins": 50
+              },
+              "probablePitcher": {
+                "fullName": "Gabriel Hughes",
+                "id": 687312,
+                "link": "/api/v1/people/687312"
+              },
+              "score": 3,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 115,
+                "link": "/api/v1/teams/115",
+                "name": "Colorado Rockies"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 19,
+            "link": "/api/v1/venues/19",
+            "name": "Coors Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-823261-2026-08-22",
+          "content": {
+            "link": "/api/v1/game/823261/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "N",
+          "gameDate": "2026-08-23T00:40:00Z",
+          "gameGuid": "2ee8f8f0-a617-400d-82b4-ca9e6c9aefba",
+          "gameNumber": 1,
+          "gamePk": 823261,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "isTie": false,
+          "link": "/api/v1.1/game/823261/feed/live",
+          "officialDate": "2026-08-22",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 2,
+          "status": {
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "startTimeTBD": false,
+            "statusCode": "F"
+          },
+          "teams": {
+            "away": {
+              "isWinner": false,
+              "leagueRecord": {
+                "losses": 67,
+                "pct": ".485",
+                "ties": 0,
+                "wins": 63
+              },
+              "probablePitcher": {
+                "fullName": "Dean Kremer",
+                "id": 665152,
+                "link": "/api/v1/people/665152"
+              },
+              "score": 5,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 142,
+                "link": "/api/v1/teams/142",
+                "name": "Minnesota Twins"
+              }
+            },
+            "home": {
+              "isWinner": true,
+              "leagueRecord": {
+                "losses": 60,
+                "pct": ".538",
+                "ties": 0,
+                "wins": 70
+              },
+              "probablePitcher": {
+                "fullName": "Casey Mize",
+                "id": 663554,
+                "link": "/api/v1/people/663554"
+              },
+              "score": 7,
+              "seriesNumber": 42,
+              "splitSquad": false,
+              "team": {
+                "id": 135,
+                "link": "/api/v1/teams/135",
+                "name": "San Diego Padres"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2680,
+            "link": "/api/v1/venues/2680",
+            "name": "Petco Park",
             "season": "2026"
           }
         }
