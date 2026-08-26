@@ -309,10 +309,10 @@
           "status": {
             "abstractGameCode": "F",
             "abstractGameState": "Final",
-            "codedGameState": "O",
-            "detailedState": "Game Over",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "O"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
@@ -659,6 +659,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824556/feed/live",
           "officialDate": "2026-08-25",
           "publicFacing": true,
@@ -670,18 +671,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 66,
-                "pct": ".500",
+                "losses": 67,
+                "pct": ".496",
                 "ties": 0,
                 "wins": 66
               },
@@ -700,11 +702,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 63,
-                "pct": ".519",
+                "pct": ".523",
                 "ties": 0,
-                "wins": 68
+                "wins": 69
               },
               "probablePitcher": {
                 "fullName": "Anthony Kay",
@@ -747,6 +750,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823016/feed/live",
           "officialDate": "2026-08-25",
           "publicFacing": true,
@@ -758,20 +762,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".481",
+                "pct": ".485",
                 "ties": 0,
-                "wins": 63
+                "wins": 64
               },
               "probablePitcher": {
                 "fullName": "Chris Bassitt",
@@ -788,9 +793,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 66,
-                "pct": ".500",
+                "losses": 67,
+                "pct": ".496",
                 "ties": 0,
                 "wins": 66
               },
@@ -866,7 +872,7 @@
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -887,7 +893,7 @@
                 "id": 700712,
                 "link": "/api/v1/people/700712"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -954,7 +960,7 @@
                 "id": 605280,
                 "link": "/api/v1/people/605280"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 44,
               "splitSquad": false,
               "team": {
@@ -1130,7 +1136,7 @@
                 "id": 671737,
                 "link": "/api/v1/people/671737"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1151,7 +1157,7 @@
                 "id": 695611,
                 "link": "/api/v1/people/695611"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1239,7 +1245,7 @@
                 "id": 669923,
                 "link": "/api/v1/people/669923"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1327,7 +1333,7 @@
                 "id": 605288,
                 "link": "/api/v1/people/605288"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 43,
               "splitSquad": false,
               "team": {
@@ -1349,12 +1355,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 8,
+      "totalGamesInProgress": 6,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 8,
+  "totalGamesInProgress": 6,
   "totalItems": 15
 }
