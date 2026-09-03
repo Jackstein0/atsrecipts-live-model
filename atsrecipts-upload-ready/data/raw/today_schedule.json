@@ -113,6 +113,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824388/feed/live",
           "officialDate": "2026-09-03",
           "publicFacing": true,
@@ -124,27 +125,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 71,
-                "pct": ".493",
+                "pct": ".496",
                 "ties": 0,
-                "wins": 69
+                "wins": 70
               },
               "probablePitcher": {
                 "fullName": "Jos\u00e9 Soriano",
                 "id": 667755,
                 "link": "/api/v1/people/667755"
               },
-              "score": 5,
+              "score": 6,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -154,9 +156,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 69,
-                "pct": ".504",
+                "losses": 70,
+                "pct": ".500",
                 "ties": 0,
                 "wins": 70
               },
@@ -201,6 +204,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824144/feed/live",
           "officialDate": "2026-09-03",
           "publicFacing": true,
@@ -212,18 +216,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 66,
-                "pct": ".525",
+                "losses": 67,
+                "pct": ".521",
                 "ties": 0,
                 "wins": 73
               },
@@ -242,11 +247,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 69,
-                "pct": ".507",
+                "pct": ".511",
                 "ties": 0,
-                "wins": 71
+                "wins": 72
               },
               "probablePitcher": {
                 "fullName": "Hunter Brown",
@@ -320,6 +326,7 @@
                 "id": 687562,
                 "link": "/api/v1/people/687562"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -340,6 +347,7 @@
                 "id": 687064,
                 "link": "/api/v1/people/687064"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -388,10 +396,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -406,6 +414,7 @@
                 "id": 701656,
                 "link": "/api/v1/people/701656"
               },
+              "score": 0,
               "seriesNumber": 45,
               "splitSquad": false,
               "team": {
@@ -426,6 +435,7 @@
                 "id": 592332,
                 "link": "/api/v1/people/592332"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -492,6 +502,7 @@
                 "id": 645261,
                 "link": "/api/v1/people/645261"
               },
+              "score": 0,
               "seriesNumber": 45,
               "splitSquad": false,
               "team": {
@@ -512,6 +523,7 @@
                 "id": 608379,
                 "link": "/api/v1/people/608379"
               },
+              "score": 0,
               "seriesNumber": 45,
               "splitSquad": false,
               "team": {
@@ -560,10 +572,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -578,6 +590,7 @@
                 "id": 663556,
                 "link": "/api/v1/people/663556"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -598,6 +611,7 @@
                 "id": 615698,
                 "link": "/api/v1/people/615698"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -646,10 +660,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -664,6 +678,7 @@
                 "id": 678022,
                 "link": "/api/v1/people/678022"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -684,6 +699,7 @@
                 "id": 807739,
                 "link": "/api/v1/people/807739"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -732,10 +748,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -750,6 +766,7 @@
                 "id": 687273,
                 "link": "/api/v1/people/687273"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -770,6 +787,7 @@
                 "id": 669373,
                 "link": "/api/v1/people/669373"
               },
+              "score": 0,
               "seriesNumber": 45,
               "splitSquad": false,
               "team": {
@@ -791,12 +809,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 2,
+      "totalGamesInProgress": 0,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 2,
+  "totalGamesInProgress": 0,
   "totalItems": 9
 }
