@@ -38,10 +38,11 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Delayed Start",
+            "reason": "Rain",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "PR"
           },
           "teams": {
             "away": {
@@ -56,6 +57,7 @@
                 "id": 672456,
                 "link": "/api/v1/people/672456"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -76,6 +78,7 @@
                 "id": 671106,
                 "link": "/api/v1/people/671106"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
