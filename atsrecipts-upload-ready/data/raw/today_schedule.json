@@ -1023,6 +1023,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823091/feed/live",
           "officialDate": "2026-09-06",
           "publicFacing": true,
@@ -1034,18 +1035,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 86,
-                "pct": ".399",
+                "losses": 87,
+                "pct": ".396",
                 "ties": 0,
                 "wins": 57
               },
@@ -1064,11 +1066,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 77,
-                "pct": ".462",
+                "pct": ".465",
                 "ties": 0,
-                "wins": 66
+                "wins": 67
               },
               "probablePitcher": {
                 "fullName": "Bryan Woo",
@@ -1111,6 +1114,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823253/feed/live",
           "officialDate": "2026-09-06",
           "publicFacing": true,
@@ -1122,18 +1126,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 61,
-                "pct": ".570",
+                "losses": 62,
+                "pct": ".566",
                 "ties": 0,
                 "wins": 81
               },
@@ -1152,11 +1157,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".521",
+                "pct": ".524",
                 "ties": 0,
-                "wins": 74
+                "wins": 75
               },
               "probablePitcher": {
                 "fullName": "Michael King",
@@ -1230,7 +1236,7 @@
                 "id": 641927,
                 "link": "/api/v1/people/641927"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -1251,7 +1257,7 @@
                 "id": 663542,
                 "link": "/api/v1/people/663542"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 47,
               "splitSquad": false,
               "team": {
@@ -1318,6 +1324,7 @@
                 "id": 674841,
                 "link": "/api/v1/people/674841"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -1338,6 +1345,7 @@
                 "id": 680736,
                 "link": "/api/v1/people/680736"
               },
+              "score": 0,
               "seriesNumber": 46,
               "splitSquad": false,
               "team": {
@@ -1359,12 +1367,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 3,
+      "totalGamesInProgress": 1,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 3,
+  "totalGamesInProgress": 1,
   "totalItems": 15
 }
