@@ -659,6 +659,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823254/feed/live",
           "officialDate": "2026-09-07",
           "publicFacing": true,
@@ -670,18 +671,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 78,
-                "pct": ".462",
+                "losses": 79,
+                "pct": ".459",
                 "ties": 0,
                 "wins": 67
               },
@@ -700,11 +702,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".524",
+                "pct": ".528",
                 "ties": 0,
-                "wins": 75
+                "wins": 76
               },
               "probablePitcher": {
                 "fullName": "Nick Pivetta",
@@ -758,12 +761,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -799,7 +802,7 @@
                 "id": 657277,
                 "link": "/api/v1/people/657277"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -954,6 +957,7 @@
                 "id": 656302,
                 "link": "/api/v1/people/656302"
               },
+              "score": 0,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -974,6 +978,7 @@
                 "id": 682052,
                 "link": "/api/v1/people/682052"
               },
+              "score": 0,
               "seriesNumber": 47,
               "splitSquad": false,
               "team": {
