@@ -295,6 +295,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822768/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -306,18 +307,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 76,
-                "pct": ".486",
+                "losses": 77,
+                "pct": ".483",
                 "ties": 0,
                 "wins": 72
               },
@@ -336,11 +338,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 75,
-                "pct": ".493",
+                "pct": ".497",
                 "ties": 0,
-                "wins": 73
+                "wins": 74
               },
               "probablePitcher": {
                 "fullName": "Spencer Miles",
@@ -383,6 +386,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/822685/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -394,18 +398,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 91,
-                "pct": ".381",
+                "losses": 92,
+                "pct": ".378",
                 "ties": 0,
                 "wins": 56
               },
@@ -414,7 +419,7 @@
                 "id": 700712,
                 "link": "/api/v1/people/700712"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -424,18 +429,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 81,
-                "pct": ".456",
+                "pct": ".460",
                 "ties": 0,
-                "wins": 68
+                "wins": 69
               },
               "probablePitcher": {
                 "fullName": "Andrew Alvarez",
                 "id": 674841,
                 "link": "/api/v1/people/674841"
               },
-              "score": 4,
+              "score": 6,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -471,6 +477,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823170/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -482,27 +489,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".537",
+                "pct": ".541",
                 "ties": 0,
-                "wins": 79
+                "wins": 80
               },
               "probablePitcher": {
                 "fullName": "Michael King",
                 "id": 650633,
                 "link": "/api/v1/people/650633"
               },
-              "score": 6,
+              "score": 7,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -512,9 +520,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 86,
-                "pct": ".419",
+                "losses": 87,
+                "pct": ".416",
                 "ties": 0,
                 "wins": 62
               },
@@ -523,7 +532,7 @@
                 "id": 702885,
                 "link": "/api/v1/people/702885"
               },
-              "score": 3,
+              "score": 6,
               "seriesNumber": 49,
               "splitSquad": false,
               "team": {
@@ -559,6 +568,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824712/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -570,18 +580,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 82,
-                "pct": ".446",
+                "losses": 83,
+                "pct": ".443",
                 "ties": 0,
                 "wins": 66
               },
@@ -600,18 +611,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".541",
+                "pct": ".544",
                 "ties": 0,
-                "wins": 80
+                "wins": 81
               },
               "probablePitcher": {
                 "fullName": "Ranger Suarez",
                 "id": 624133,
                 "link": "/api/v1/people/624133"
               },
-              "score": 3,
+              "score": 5,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -647,6 +659,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823657/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -658,18 +671,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 73,
-                "pct": ".507",
+                "losses": 74,
+                "pct": ".503",
                 "ties": 0,
                 "wins": 75
               },
@@ -688,11 +702,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 78,
-                "pct": ".469",
+                "pct": ".473",
                 "ties": 0,
-                "wins": 69
+                "wins": 70
               },
               "probablePitcher": {
                 "fullName": "Connor Prielipp",
@@ -735,6 +750,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823819/feed/live",
           "officialDate": "2026-09-12",
           "publicFacing": true,
@@ -746,18 +762,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 57,
-                "pct": ".612",
+                "losses": 58,
+                "pct": ".608",
                 "ties": 0,
                 "wins": 90
               },
@@ -766,7 +783,7 @@
                 "id": 607192,
                 "link": "/api/v1/people/607192"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -776,18 +793,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 76,
-                "pct": ".486",
+                "pct": ".490",
                 "ties": 0,
-                "wins": 72
+                "wins": 73
               },
               "probablePitcher": {
                 "fullName": "Tyler Phillips",
                 "id": 663969,
                 "link": "/api/v1/people/663969"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -834,12 +852,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -854,7 +872,7 @@
                 "id": 663567,
                 "link": "/api/v1/people/663567"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -875,7 +893,7 @@
                 "id": 693855,
                 "link": "/api/v1/people/693855"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -922,12 +940,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -942,7 +960,7 @@
                 "id": 663903,
                 "link": "/api/v1/people/663903"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -963,7 +981,7 @@
                 "id": 675660,
                 "link": "/api/v1/people/675660"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -1010,12 +1028,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1030,7 +1048,7 @@
                 "id": 641835,
                 "link": "/api/v1/people/641835"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -1098,12 +1116,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -1294,6 +1312,7 @@
                 "id": 693433,
                 "link": "/api/v1/people/693433"
               },
+              "score": 0,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -1314,6 +1333,7 @@
                 "id": 695611,
                 "link": "/api/v1/people/695611"
               },
+              "score": 0,
               "seriesNumber": 48,
               "splitSquad": false,
               "team": {
@@ -1335,12 +1355,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 6,
+      "totalGamesInProgress": 3,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 6,
+  "totalGamesInProgress": 3,
   "totalItems": 15
 }
