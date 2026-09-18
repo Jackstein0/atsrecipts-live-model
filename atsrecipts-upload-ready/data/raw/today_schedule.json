@@ -35,10 +35,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -121,10 +121,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -240,6 +240,11 @@
                 "ties": 0,
                 "wins": 75
               },
+              "probablePitcher": {
+                "fullName": "Cade Povich",
+                "id": 700249,
+                "link": "/api/v1/people/700249"
+              },
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -288,10 +293,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -374,10 +379,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -392,6 +397,7 @@
                 "id": 624133,
                 "link": "/api/v1/people/624133"
               },
+              "score": 0,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -412,6 +418,7 @@
                 "id": 693855,
                 "link": "/api/v1/people/693855"
               },
+              "score": 0,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -472,11 +479,6 @@
                 "pct": ".556",
                 "ties": 0,
                 "wins": 85
-              },
-              "probablePitcher": {
-                "fullName": "Andrew Painter",
-                "id": 691725,
-                "link": "/api/v1/people/691725"
               },
               "seriesNumber": 50,
               "splitSquad": false,
@@ -750,6 +752,11 @@
                 "pct": ".366",
                 "ties": 0,
                 "wins": 56
+              },
+              "probablePitcher": {
+                "fullName": "Gabriel Hughes",
+                "id": 687312,
+                "link": "/api/v1/people/687312"
               },
               "seriesNumber": 50,
               "splitSquad": false,
