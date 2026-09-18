@@ -386,6 +386,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/824141/feed/live",
           "officialDate": "2026-09-17",
           "publicFacing": true,
@@ -397,18 +398,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 85,
-                "pct": ".441",
+                "losses": 86,
+                "pct": ".438",
                 "ties": 0,
                 "wins": 67
               },
@@ -417,7 +419,7 @@
                 "id": 607625,
                 "link": "/api/v1/people/607625"
               },
-              "score": 1,
+              "score": 2,
               "seriesNumber": 49,
               "splitSquad": false,
               "team": {
@@ -427,18 +429,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 76,
-                "pct": ".500",
+                "pct": ".503",
                 "ties": 0,
-                "wins": 76
+                "wins": 77
               },
               "probablePitcher": {
                 "fullName": "Miguel Ullola",
                 "id": 699044,
                 "link": "/api/v1/people/699044"
               },
-              "score": 2,
+              "score": 6,
               "seriesNumber": 49,
               "splitSquad": false,
               "team": {
@@ -474,6 +477,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/823573/feed/live",
           "officialDate": "2026-09-17",
           "publicFacing": true,
@@ -485,27 +489,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 68,
-                "pct": ".553",
+                "pct": ".556",
                 "ties": 0,
-                "wins": 84
+                "wins": 85
               },
               "probablePitcher": {
                 "fullName": "Aaron Nola",
                 "id": 605400,
                 "link": "/api/v1/people/605400"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -515,9 +520,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 83,
-                "pct": ".454",
+                "losses": 84,
+                "pct": ".451",
                 "ties": 0,
                 "wins": 69
               },
@@ -562,6 +568,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/824548/feed/live",
           "officialDate": "2026-09-17",
           "publicFacing": true,
@@ -573,18 +580,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 80,
-                "pct": ".474",
+                "losses": 81,
+                "pct": ".471",
                 "ties": 0,
                 "wins": 72
               },
@@ -593,7 +601,7 @@
                 "id": 664285,
                 "link": "/api/v1/people/664285"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -603,18 +611,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 75,
-                "pct": ".507",
+                "pct": ".510",
                 "ties": 0,
-                "wins": 77
+                "wins": 78
               },
               "probablePitcher": {
                 "fullName": "Erick Fedde",
                 "id": 607200,
                 "link": "/api/v1/people/607200"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -663,10 +672,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -681,7 +690,7 @@
                 "id": 543243,
                 "link": "/api/v1/people/543243"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 49,
               "splitSquad": false,
               "team": {
@@ -702,7 +711,7 @@
                 "id": 641302,
                 "link": "/api/v1/people/641302"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 49,
               "splitSquad": false,
               "team": {
@@ -749,12 +758,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -790,7 +799,7 @@
                 "id": 700712,
                 "link": "/api/v1/people/700712"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -812,12 +821,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 9,
-      "totalGamesInProgress": 3,
+      "totalGamesInProgress": 2,
       "totalItems": 9
     }
   ],
   "totalEvents": 0,
   "totalGames": 9,
-  "totalGamesInProgress": 3,
+  "totalGamesInProgress": 2,
   "totalItems": 9
 }
