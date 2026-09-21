@@ -599,7 +599,7 @@
                 "id": 675512,
                 "link": "/api/v1/people/675512"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -620,7 +620,7 @@
                 "id": 663436,
                 "link": "/api/v1/people/663436"
               },
-              "score": 1,
+              "score": 8,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -929,6 +929,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823975/feed/live",
           "officialDate": "2026-09-20",
           "publicFacing": true,
@@ -940,20 +941,21 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 83,
-                "pct": ".465",
+                "pct": ".468",
                 "ties": 0,
-                "wins": 72
+                "wins": 73
               },
               "probablePitcher": {
                 "fullName": "Dean Kremer",
@@ -970,9 +972,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 95,
-                "pct": ".387",
+                "losses": 96,
+                "pct": ".385",
                 "ties": 0,
                 "wins": 60
               },
@@ -1017,6 +1020,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823896/feed/live",
           "officialDate": "2026-09-20",
           "publicFacing": true,
@@ -1028,18 +1032,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 91,
-                "pct": ".413",
+                "losses": 92,
+                "pct": ".410",
                 "ties": 0,
                 "wins": 64
               },
@@ -1058,11 +1063,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 60,
-                "pct": ".613",
+                "pct": ".615",
                 "ties": 0,
-                "wins": 95
+                "wins": 96
               },
               "probablePitcher": {
                 "fullName": "Jack Dreyer",
@@ -1119,10 +1125,10 @@
           "status": {
             "abstractGameCode": "F",
             "abstractGameState": "Final",
-            "codedGameState": "O",
-            "detailedState": "Game Over",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "O"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
@@ -1196,6 +1202,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/825028/feed/live",
           "officialDate": "2026-09-20",
           "publicFacing": true,
@@ -1207,18 +1214,19 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 65,
-                "pct": ".578",
+                "losses": 66,
+                "pct": ".574",
                 "ties": 0,
                 "wins": 89
               },
@@ -1237,11 +1245,12 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 74,
-                "pct": ".523",
+                "pct": ".526",
                 "ties": 0,
-                "wins": 81
+                "wins": 82
               },
               "probablePitcher": {
                 "fullName": "Corbin Burnes",
@@ -1295,12 +1304,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1315,7 +1324,7 @@
                 "id": 694819,
                 "link": "/api/v1/people/694819"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 50,
               "splitSquad": false,
               "team": {
@@ -1358,12 +1367,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 15,
-      "totalGamesInProgress": 4,
+      "totalGamesInProgress": 2,
       "totalItems": 15
     }
   ],
   "totalEvents": 0,
   "totalGames": 15,
-  "totalGamesInProgress": 4,
+  "totalGamesInProgress": 2,
   "totalItems": 15
 }
