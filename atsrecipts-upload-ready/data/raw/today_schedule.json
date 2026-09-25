@@ -179,6 +179,87 @@
           }
         },
         {
+          "calendarEventID": "14-823491-2026-09-25",
+          "content": {
+            "link": "/api/v1/game/823491/content"
+          },
+          "dayNight": "night",
+          "doubleHeader": "Y",
+          "gameDate": "2026-09-25T20:05:00Z",
+          "gameGuid": "dbeebdfb-85cd-4c42-9091-659f44387cc0",
+          "gameNumber": 1,
+          "gamePk": 823491,
+          "gameType": "R",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 120,
+          "link": "/api/v1.1/game/823491/feed/live",
+          "officialDate": "2026-09-25",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "Regular Season",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 81,
+                "pct": ".491",
+                "ties": 0,
+                "wins": 78
+              },
+              "probablePitcher": {
+                "fullName": "Brandon Young",
+                "id": 687064,
+                "link": "/api/v1/people/687064"
+              },
+              "seriesNumber": 52,
+              "splitSquad": false,
+              "team": {
+                "id": 110,
+                "link": "/api/v1/teams/110",
+                "name": "Baltimore Orioles"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 67,
+                "pct": ".579",
+                "ties": 0,
+                "wins": 92
+              },
+              "seriesNumber": 52,
+              "splitSquad": false,
+              "team": {
+                "id": 147,
+                "link": "/api/v1/teams/147",
+                "name": "New York Yankees"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 3313,
+            "link": "/api/v1/venues/3313",
+            "name": "Yankee Stadium",
+            "season": "2026"
+          }
+        },
+        {
           "calendarEventID": "14-823489-2026-09-25",
           "content": {
             "link": "/api/v1/game/823489/content"
@@ -186,9 +267,9 @@
           "dayNight": "night",
           "description": "Makeup of 9/26 PPD",
           "doubleHeader": "Y",
-          "gameDate": "2026-09-25T20:05:00Z",
+          "gameDate": "2026-09-25T20:10:00Z",
           "gameGuid": "be90ca26-45d5-422b-a4d0-02a67a627cd7",
-          "gameNumber": 1,
+          "gameNumber": 2,
           "gamePk": 823489,
           "gameType": "R",
           "gamedayType": "P",
@@ -211,7 +292,7 @@
             "abstractGameState": "Preview",
             "codedGameState": "S",
             "detailedState": "Scheduled",
-            "startTimeTBD": false,
+            "startTimeTBD": true,
             "statusCode": "S"
           },
           "teams": {
@@ -246,87 +327,6 @@
                 "fullName": "Brendan Beck",
                 "id": 694341,
                 "link": "/api/v1/people/694341"
-              },
-              "seriesNumber": 52,
-              "splitSquad": false,
-              "team": {
-                "id": 147,
-                "link": "/api/v1/teams/147",
-                "name": "New York Yankees"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 3313,
-            "link": "/api/v1/venues/3313",
-            "name": "Yankee Stadium",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-823491-2026-09-25",
-          "content": {
-            "link": "/api/v1/game/823491/content"
-          },
-          "dayNight": "night",
-          "doubleHeader": "Y",
-          "gameDate": "2026-09-25T20:10:00Z",
-          "gameGuid": "dbeebdfb-85cd-4c42-9091-659f44387cc0",
-          "gameNumber": 2,
-          "gamePk": 823491,
-          "gameType": "R",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 120,
-          "link": "/api/v1.1/game/823491/feed/live",
-          "officialDate": "2026-09-25",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "Regular Season",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
-            "startTimeTBD": true,
-            "statusCode": "S"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 81,
-                "pct": ".491",
-                "ties": 0,
-                "wins": 78
-              },
-              "probablePitcher": {
-                "fullName": "Brandon Young",
-                "id": 687064,
-                "link": "/api/v1/people/687064"
-              },
-              "seriesNumber": 52,
-              "splitSquad": false,
-              "team": {
-                "id": 110,
-                "link": "/api/v1/teams/110",
-                "name": "Baltimore Orioles"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 67,
-                "pct": ".579",
-                "ties": 0,
-                "wins": 92
               },
               "seriesNumber": 52,
               "splitSquad": false,
