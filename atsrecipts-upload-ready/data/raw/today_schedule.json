@@ -477,6 +477,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823411/feed/live",
           "officialDate": "2026-09-24",
           "publicFacing": true,
@@ -488,27 +489,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "O",
+            "detailedState": "Game Over",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "O"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 59,
-                "pct": ".627",
+                "pct": ".629",
                 "ties": 0,
-                "wins": 99
+                "wins": 100
               },
               "probablePitcher": {
                 "fullName": "Shane Drohan",
                 "id": 675660,
                 "link": "/api/v1/people/675660"
               },
-              "score": 1,
+              "score": 5,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -518,9 +520,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 71,
-                "pct": ".551",
+                "losses": 72,
+                "pct": ".547",
                 "ties": 0,
                 "wins": 87
               },
@@ -529,7 +532,7 @@
                 "id": 691725,
                 "link": "/api/v1/people/691725"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -596,7 +599,7 @@
                 "id": 682982,
                 "link": "/api/v1/people/682982"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -666,10 +669,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -684,7 +687,7 @@
                 "id": 693855,
                 "link": "/api/v1/people/693855"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -705,7 +708,7 @@
                 "id": 693645,
                 "link": "/api/v1/people/693645"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -754,10 +757,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -772,7 +775,7 @@
                 "id": 663903,
                 "link": "/api/v1/people/663903"
               },
-              "score": 0,
+              "score": 7,
               "seriesNumber": 51,
               "splitSquad": false,
               "team": {
@@ -793,7 +796,7 @@
                 "id": 641816,
                 "link": "/api/v1/people/641816"
               },
-              "score": 0,
+              "score": 6,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -860,6 +863,7 @@
                 "id": 663567,
                 "link": "/api/v1/people/663567"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -880,6 +884,7 @@
                 "id": 686930,
                 "link": "/api/v1/people/686930"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1077,12 +1082,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 12,
-      "totalGamesInProgress": 2,
+      "totalGamesInProgress": 3,
       "totalItems": 12
     }
   ],
   "totalEvents": 0,
   "totalGames": 12,
-  "totalGamesInProgress": 2,
+  "totalGamesInProgress": 3,
   "totalItems": 12
 }
