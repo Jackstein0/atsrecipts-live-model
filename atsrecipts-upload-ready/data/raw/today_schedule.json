@@ -34,12 +34,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,6 +54,7 @@
                 "id": 605280,
                 "link": "/api/v1/people/605280"
               },
+              "score": 1,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -74,6 +75,7 @@
                 "id": 687941,
                 "link": "/api/v1/people/687941"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -99,7 +101,7 @@
           },
           "dayNight": "night",
           "doubleHeader": "S",
-          "gameDate": "2026-09-25T22:05:00Z",
+          "gameDate": "2026-09-25T21:35:00Z",
           "gameGuid": "a5ea304c-bccc-4fa2-a85a-e3a3c72c4b4b",
           "gameNumber": 2,
           "gamePk": 824706,
@@ -208,10 +210,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -222,10 +224,11 @@
                 "wins": 78
               },
               "probablePitcher": {
-                "fullName": "Brandon Young",
-                "id": 687064,
-                "link": "/api/v1/people/687064"
+                "fullName": "Trevor Rogers",
+                "id": 669432,
+                "link": "/api/v1/people/669432"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -241,6 +244,12 @@
                 "ties": 0,
                 "wins": 92
               },
+              "probablePitcher": {
+                "fullName": "Brendan Beck",
+                "id": 694341,
+                "link": "/api/v1/people/694341"
+              },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -286,7 +295,7 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "Regular Season",
-          "seriesGameNumber": 1,
+          "seriesGameNumber": 2,
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
@@ -304,9 +313,9 @@
                 "wins": 78
               },
               "probablePitcher": {
-                "fullName": "Trevor Rogers",
-                "id": 669432,
-                "link": "/api/v1/people/669432"
+                "fullName": "Brandon Young",
+                "id": 687064,
+                "link": "/api/v1/people/687064"
               },
               "seriesNumber": 52,
               "splitSquad": false,
@@ -322,11 +331,6 @@
                 "pct": ".579",
                 "ties": 0,
                 "wins": 92
-              },
-              "probablePitcher": {
-                "fullName": "Brendan Beck",
-                "id": 694341,
-                "link": "/api/v1/people/694341"
               },
               "seriesNumber": 52,
               "splitSquad": false,
@@ -1447,12 +1451,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 17,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 17
     }
   ],
   "totalEvents": 0,
   "totalGames": 17,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 17
 }
