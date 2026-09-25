@@ -125,12 +125,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -202,6 +202,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 120,
+          "isTie": false,
           "link": "/api/v1.1/game/823491/feed/live",
           "officialDate": "2026-09-25",
           "publicFacing": true,
@@ -213,27 +214,28 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 81,
-                "pct": ".491",
+                "pct": ".494",
                 "ties": 0,
-                "wins": 78
+                "wins": 79
               },
               "probablePitcher": {
                 "fullName": "Trevor Rogers",
                 "id": 669432,
                 "link": "/api/v1/people/669432"
               },
-              "score": 0,
+              "score": 10,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -243,9 +245,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 67,
-                "pct": ".579",
+                "losses": 68,
+                "pct": ".575",
                 "ties": 0,
                 "wins": 92
               },
@@ -254,7 +257,7 @@
                 "id": 694341,
                 "link": "/api/v1/people/694341"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -302,26 +305,27 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": true,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
               "leagueRecord": {
                 "losses": 81,
-                "pct": ".491",
+                "pct": ".494",
                 "ties": 0,
-                "wins": 78
+                "wins": 79
               },
               "probablePitcher": {
                 "fullName": "Brandon Young",
                 "id": 687064,
                 "link": "/api/v1/people/687064"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -332,11 +336,17 @@
             },
             "home": {
               "leagueRecord": {
-                "losses": 67,
-                "pct": ".579",
+                "losses": 68,
+                "pct": ".575",
                 "ties": 0,
                 "wins": 92
               },
+              "probablePitcher": {
+                "fullName": "Ryan Yarbrough",
+                "id": 642232,
+                "link": "/api/v1/people/642232"
+              },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -383,12 +393,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -403,7 +413,7 @@
                 "id": 696149,
                 "link": "/api/v1/people/696149"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -471,12 +481,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -491,7 +501,7 @@
                 "id": 642547,
                 "link": "/api/v1/people/642547"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -559,12 +569,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -574,7 +584,12 @@
                 "ties": 0,
                 "wins": 73
               },
-              "score": 0,
+              "probablePitcher": {
+                "fullName": "Jefry Yan",
+                "id": 642376,
+                "link": "/api/v1/people/642376"
+              },
+              "score": 3,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -595,7 +610,7 @@
                 "id": 674841,
                 "link": "/api/v1/people/674841"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -642,12 +657,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -662,7 +677,7 @@
                 "id": 666157,
                 "link": "/api/v1/people/666157"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -683,7 +698,7 @@
                 "id": 667755,
                 "link": "/api/v1/people/667755"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -730,12 +745,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -821,9 +836,10 @@
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Delayed Start",
+            "reason": "Rain",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PR"
           },
           "teams": {
             "away": {
@@ -838,6 +854,7 @@
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -858,6 +875,7 @@
                 "id": 702070,
                 "link": "/api/v1/people/702070"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -904,12 +922,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -924,6 +942,7 @@
                 "id": 608372,
                 "link": "/api/v1/people/608372"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -944,6 +963,7 @@
                 "id": 680732,
                 "link": "/api/v1/people/680732"
               },
+              "score": 0,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -990,12 +1010,12 @@
           "seriesDescription": "Regular Season",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -1010,6 +1030,7 @@
                 "id": 700241,
                 "link": "/api/v1/people/700241"
               },
+              "score": 0,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -1030,6 +1051,7 @@
                 "id": 688107,
                 "link": "/api/v1/people/688107"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1166,10 +1188,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1184,6 +1206,7 @@
                 "id": 686613,
                 "link": "/api/v1/people/686613"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1204,6 +1227,7 @@
                 "id": 682052,
                 "link": "/api/v1/people/682052"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1252,10 +1276,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1270,6 +1294,7 @@
                 "id": 694297,
                 "link": "/api/v1/people/694297"
               },
+              "score": 0,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -1285,6 +1310,12 @@
                 "ties": 0,
                 "wins": 89
               },
+              "probablePitcher": {
+                "fullName": "Casey Mize",
+                "id": 663554,
+                "link": "/api/v1/people/663554"
+              },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1333,10 +1364,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1351,6 +1382,7 @@
                 "id": 672282,
                 "link": "/api/v1/people/672282"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1371,6 +1403,7 @@
                 "id": 682243,
                 "link": "/api/v1/people/682243"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1419,10 +1452,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -1437,6 +1470,7 @@
                 "id": 669373,
                 "link": "/api/v1/people/669373"
               },
+              "score": 0,
               "seriesNumber": 52,
               "splitSquad": false,
               "team": {
@@ -1457,6 +1491,7 @@
                 "id": 805074,
                 "link": "/api/v1/people/805074"
               },
+              "score": 0,
               "seriesNumber": 53,
               "splitSquad": false,
               "team": {
@@ -1478,12 +1513,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 17,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 9,
       "totalItems": 17
     }
   ],
   "totalEvents": 0,
   "totalGames": 17,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 9,
   "totalItems": 17
 }
