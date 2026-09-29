@@ -1,8 +1,367 @@
 {
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-  "dates": [],
+  "dates": [
+    {
+      "date": "2026-09-29",
+      "events": [],
+      "games": [
+        {
+          "calendarEventID": "14-849845-2026-09-29",
+          "content": {
+            "link": "/api/v1/game/849845/content"
+          },
+          "dayNight": "day",
+          "description": "NL Wild Card 'A' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-09-29T18:00:00Z",
+          "gameGuid": "46fc41ce-8627-4b21-b7ff-00b74393bbac",
+          "gameNumber": 1,
+          "gamePk": 849845,
+          "gameType": "F",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "link": "/api/v1.1/game/849845/feed/live",
+          "officialDate": "2026-09-29",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "NL Wild Card Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Jes\u00fas Luzardo",
+                "id": 666200,
+                "link": "/api/v1/people/666200"
+              },
+              "seriesNumber": 3,
+              "splitSquad": false,
+              "team": {
+                "id": 143,
+                "link": "/api/v1/teams/143",
+                "name": "Philadelphia Phillies"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Chris Sale",
+                "id": 519242,
+                "link": "/api/v1/people/519242"
+              },
+              "seriesNumber": 3,
+              "splitSquad": false,
+              "team": {
+                "id": 144,
+                "link": "/api/v1/teams/144",
+                "name": "Atlanta Braves"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 4705,
+            "link": "/api/v1/venues/4705",
+            "name": "Truist Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849849-2026-09-29",
+          "content": {
+            "link": "/api/v1/game/849849/content"
+          },
+          "dayNight": "day",
+          "description": "AL Wild Card 'A' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-09-29T21:00:00Z",
+          "gameGuid": "01a2fd47-8012-4afb-be27-999e7ddd9352",
+          "gameNumber": 1,
+          "gamePk": 849849,
+          "gameType": "F",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "link": "/api/v1.1/game/849849/feed/live",
+          "officialDate": "2026-09-29",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Wild Card Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Hagen Smith",
+                "id": 696146,
+                "link": "/api/v1/people/696146"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 145,
+                "link": "/api/v1/teams/145",
+                "name": "Chicago White Sox"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "AJ Blubaugh",
+                "id": 805123,
+                "link": "/api/v1/people/805123"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 117,
+                "link": "/api/v1/teams/117",
+                "name": "Houston Astros"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2392,
+            "link": "/api/v1/venues/2392",
+            "name": "Daikin Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849851-2026-09-29",
+          "content": {
+            "link": "/api/v1/game/849851/content"
+          },
+          "dayNight": "night",
+          "description": "AL Wild Card 'B' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-09-30T00:00:00Z",
+          "gameGuid": "b0b65ee7-3843-498e-8d4a-d3b8b5be4166",
+          "gameNumber": 1,
+          "gamePk": 849851,
+          "gameType": "F",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "link": "/api/v1.1/game/849851/feed/live",
+          "officialDate": "2026-09-29",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Wild Card Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Payton Tolle",
+                "id": 801139,
+                "link": "/api/v1/people/801139"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 111,
+                "link": "/api/v1/teams/111",
+                "name": "Boston Red Sox"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Cam Schlittler",
+                "id": 693645,
+                "link": "/api/v1/people/693645"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 147,
+                "link": "/api/v1/teams/147",
+                "name": "New York Yankees"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 3313,
+            "link": "/api/v1/venues/3313",
+            "name": "Yankee Stadium",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849843-2026-09-29",
+          "content": {
+            "link": "/api/v1/game/849843/content"
+          },
+          "dayNight": "night",
+          "description": "NL Wild Card 'B' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-09-30T02:00:00Z",
+          "gameGuid": "0404a6a9-4428-4c0c-bbda-b8f339fddc01",
+          "gameNumber": 1,
+          "gamePk": 849843,
+          "gameType": "F",
+          "gamedayType": "P",
+          "gamesInSeries": 3,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 145,
+          "link": "/api/v1.1/game/849843/feed/live",
+          "officialDate": "2026-09-29",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "NL Wild Card Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Matthew Boyd",
+                "id": 571510,
+                "link": "/api/v1/people/571510"
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 112,
+                "link": "/api/v1/teams/112",
+                "name": "Chicago Cubs"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Michael King",
+                "id": 650633,
+                "link": "/api/v1/people/650633"
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 135,
+                "link": "/api/v1/teams/135",
+                "name": "San Diego Padres"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 2680,
+            "link": "/api/v1/venues/2680",
+            "name": "Petco Park",
+            "season": "2026"
+          }
+        }
+      ],
+      "totalEvents": 0,
+      "totalGames": 4,
+      "totalGamesInProgress": 0,
+      "totalItems": 4
+    }
+  ],
   "totalEvents": 0,
-  "totalGames": 0,
+  "totalGames": 4,
   "totalGamesInProgress": 0,
-  "totalItems": 0
+  "totalItems": 4
 }
