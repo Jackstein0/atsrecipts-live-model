@@ -34,12 +34,12 @@
           "seriesDescription": "NL Wild Card Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,7 +54,7 @@
                 "id": 650911,
                 "link": "/api/v1/people/650911"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -75,7 +75,7 @@
                 "id": 641816,
                 "link": "/api/v1/people/641816"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -123,12 +123,12 @@
           "seriesDescription": "AL Wild Card Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "P",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -143,6 +143,7 @@
                 "id": 680732,
                 "link": "/api/v1/people/680732"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -163,6 +164,7 @@
                 "id": 686613,
                 "link": "/api/v1/people/686613"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -212,10 +214,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -230,6 +232,7 @@
                 "id": 543243,
                 "link": "/api/v1/people/543243"
               },
+              "score": 0,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -250,6 +253,7 @@
                 "id": 608331,
                 "link": "/api/v1/people/608331"
               },
+              "score": 0,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -358,12 +362,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 4,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 4
     }
   ],
   "totalEvents": 0,
   "totalGames": 4,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 4
 }
