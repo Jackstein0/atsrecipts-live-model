@@ -115,6 +115,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/849849/feed/live",
           "officialDate": "2026-09-29",
           "publicFacing": true,
@@ -126,20 +127,21 @@
           "seriesDescription": "AL Wild Card Series",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 0,
-                "pct": ".000",
+                "pct": "1.000",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
                 "fullName": "Hagen Smith",
@@ -156,8 +158,9 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 0,
+                "losses": 1,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
@@ -167,7 +170,7 @@
                 "id": 805123,
                 "link": "/api/v1/people/805123"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -217,10 +220,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -256,7 +259,7 @@
                 "id": 693645,
                 "link": "/api/v1/people/693645"
               },
-              "score": 0,
+              "score": 9,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -304,12 +307,12 @@
           "seriesDescription": "NL Wild Card Series",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -345,7 +348,7 @@
                 "id": 650633,
                 "link": "/api/v1/people/650633"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -367,12 +370,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 4,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 2,
       "totalItems": 4
     }
   ],
   "totalEvents": 0,
   "totalGames": 4,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 2,
   "totalItems": 4
 }
