@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
+          "isTie": false,
           "link": "/api/v1.1/game/849841/feed/live",
           "officialDate": "2026-09-30",
           "publicFacing": true,
@@ -34,27 +35,28 @@
           "seriesDescription": "NL Wild Card Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
-                "pct": ".000",
+                "pct": ".500",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
                 "fullName": "Cristopher S\u00e1nchez",
                 "id": 650911,
                 "link": "/api/v1/people/650911"
               },
-              "score": 3,
+              "score": 4,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -64,9 +66,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
+                "losses": 1,
+                "pct": ".500",
                 "ties": 0,
                 "wins": 1
               },
@@ -125,10 +128,10 @@
           "status": {
             "abstractGameCode": "L",
             "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -143,7 +146,7 @@
                 "id": 680732,
                 "link": "/api/v1/people/680732"
               },
-              "score": 0,
+              "score": 7,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -164,7 +167,7 @@
                 "id": 686613,
                 "link": "/api/v1/people/686613"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -212,12 +215,12 @@
           "seriesDescription": "AL Wild Card Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -303,10 +306,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -321,6 +324,7 @@
                 "id": 592332,
                 "link": "/api/v1/people/592332"
               },
+              "score": 0,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -341,6 +345,7 @@
                 "id": 601713,
                 "link": "/api/v1/people/601713"
               },
+              "score": 0,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -362,12 +367,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 4,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 2,
       "totalItems": 4
     }
   ],
   "totalEvents": 0,
   "totalGames": 4,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 2,
   "totalItems": 4
 }
