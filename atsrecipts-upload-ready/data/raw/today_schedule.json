@@ -2,30 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849841-2026-09-30",
+          "calendarEventID": "14-849844-2026-10-01",
           "content": {
-            "link": "/api/v1/game/849841/content"
+            "link": "/api/v1/game/849844/content"
           },
-          "dayNight": "day",
-          "description": "NL Wild Card 'A' Game 2",
+          "dayNight": "night",
+          "description": "NL Wild Card 'A' Game 3",
           "doubleHeader": "N",
-          "gameDate": "2026-09-30T18:00:00Z",
-          "gameGuid": "955de52a-92a3-4570-ada3-85f2a6deb463",
+          "gameDate": "2026-10-02T00:00:00Z",
+          "gameGuid": "daa19a6c-d458-411e-b92d-90ccf952f982",
           "gameNumber": 1,
-          "gamePk": 849841,
+          "gamePk": 849844,
           "gameType": "F",
           "gamedayType": "P",
           "gamesInSeries": 3,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 145,
-          "isTie": false,
-          "link": "/api/v1.1/game/849841/feed/live",
-          "officialDate": "2026-09-30",
+          "link": "/api/v1.1/game/849844/feed/live",
+          "officialDate": "2026-10-01",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -33,30 +32,23 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "NL Wild Card Series",
-          "seriesGameNumber": 2,
+          "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "F"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
-              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
                 "pct": ".500",
                 "ties": 0,
                 "wins": 1
               },
-              "probablePitcher": {
-                "fullName": "Cristopher S\u00e1nchez",
-                "id": 650911,
-                "link": "/api/v1/people/650911"
-              },
-              "score": 4,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -66,19 +58,12 @@
               }
             },
             "home": {
-              "isWinner": false,
               "leagueRecord": {
                 "losses": 1,
                 "pct": ".500",
                 "ties": 0,
                 "wins": 1
               },
-              "probablePitcher": {
-                "fullName": "Tyler Mahle",
-                "id": 641816,
-                "link": "/api/v1/people/641816"
-              },
-              "score": 3,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -96,283 +81,16 @@
             "name": "Truist Park",
             "season": "2026"
           }
-        },
-        {
-          "calendarEventID": "14-849846-2026-09-30",
-          "content": {
-            "link": "/api/v1/game/849846/content"
-          },
-          "dayNight": "day",
-          "description": "AL Wild Card 'A' Game 2",
-          "doubleHeader": "N",
-          "gameDate": "2026-09-30T21:00:00Z",
-          "gameGuid": "c842164b-11fc-4692-b845-77283cf17edf",
-          "gameNumber": 1,
-          "gamePk": 849846,
-          "gameType": "F",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "link": "/api/v1.1/game/849846/feed/live",
-          "officialDate": "2026-09-30",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "AL Wild Card Series",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
-            "startTimeTBD": false,
-            "statusCode": "I"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Sean Burke",
-                "id": 680732,
-                "link": "/api/v1/people/680732"
-              },
-              "score": 7,
-              "seriesNumber": 1,
-              "splitSquad": false,
-              "team": {
-                "id": 145,
-                "link": "/api/v1/teams/145",
-                "name": "Chicago White Sox"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Hunter Brown",
-                "id": 686613,
-                "link": "/api/v1/people/686613"
-              },
-              "score": 3,
-              "seriesNumber": 1,
-              "splitSquad": false,
-              "team": {
-                "id": 117,
-                "link": "/api/v1/teams/117",
-                "name": "Houston Astros"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2392,
-            "link": "/api/v1/venues/2392",
-            "name": "Daikin Park",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-849848-2026-09-30",
-          "content": {
-            "link": "/api/v1/game/849848/content"
-          },
-          "dayNight": "night",
-          "description": "AL Wild Card 'B' Game 2",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-01T00:00:00Z",
-          "gameGuid": "bfa14416-b6c7-466c-a010-befdb5d8096b",
-          "gameNumber": 1,
-          "gamePk": 849848,
-          "gameType": "F",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "link": "/api/v1.1/game/849848/feed/live",
-          "officialDate": "2026-09-30",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "AL Wild Card Series",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
-            "startTimeTBD": false,
-            "statusCode": "I"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Sonny Gray",
-                "id": 543243,
-                "link": "/api/v1/people/543243"
-              },
-              "score": 0,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 111,
-                "link": "/api/v1/teams/111",
-                "name": "Boston Red Sox"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Max Fried",
-                "id": 608331,
-                "link": "/api/v1/people/608331"
-              },
-              "score": 0,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 147,
-                "link": "/api/v1/teams/147",
-                "name": "New York Yankees"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 3313,
-            "link": "/api/v1/venues/3313",
-            "name": "Yankee Stadium",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-849842-2026-09-30",
-          "content": {
-            "link": "/api/v1/game/849842/content"
-          },
-          "dayNight": "night",
-          "description": "NL Wild Card 'B' Game 2",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-01T02:00:00Z",
-          "gameGuid": "573681f8-4404-46d3-8288-1262aa68f4f9",
-          "gameNumber": 1,
-          "gamePk": 849842,
-          "gameType": "F",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "link": "/api/v1.1/game/849842/feed/live",
-          "officialDate": "2026-09-30",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "NL Wild Card Series",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
-            "startTimeTBD": false,
-            "statusCode": "P"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Kevin Gausman",
-                "id": 592332,
-                "link": "/api/v1/people/592332"
-              },
-              "score": 0,
-              "seriesNumber": 4,
-              "splitSquad": false,
-              "team": {
-                "id": 112,
-                "link": "/api/v1/teams/112",
-                "name": "Chicago Cubs"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Nick Pivetta",
-                "id": 601713,
-                "link": "/api/v1/people/601713"
-              },
-              "score": 0,
-              "seriesNumber": 4,
-              "splitSquad": false,
-              "team": {
-                "id": 135,
-                "link": "/api/v1/teams/135",
-                "name": "San Diego Padres"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 2680,
-            "link": "/api/v1/venues/2680",
-            "name": "Petco Park",
-            "season": "2026"
-          }
         }
       ],
       "totalEvents": 0,
-      "totalGames": 4,
-      "totalGamesInProgress": 2,
-      "totalItems": 4
+      "totalGames": 1,
+      "totalGamesInProgress": 0,
+      "totalItems": 1
     }
   ],
   "totalEvents": 0,
-  "totalGames": 4,
-  "totalGamesInProgress": 2,
-  "totalItems": 4
+  "totalGames": 1,
+  "totalGamesInProgress": 0,
+  "totalItems": 1
 }
