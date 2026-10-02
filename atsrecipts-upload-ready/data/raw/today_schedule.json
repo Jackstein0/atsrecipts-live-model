@@ -34,12 +34,12 @@
           "seriesDescription": "NL Wild Card Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,7 +54,7 @@
                 "id": 605400,
                 "link": "/api/v1/people/605400"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -75,7 +75,7 @@
                 "id": 678061,
                 "link": "/api/v1/people/678061"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -97,12 +97,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 1
 }
