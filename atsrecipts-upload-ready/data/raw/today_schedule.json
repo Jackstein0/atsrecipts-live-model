@@ -1,8 +1,362 @@
 {
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-  "dates": [],
+  "dates": [
+    {
+      "date": "2026-10-03",
+      "events": [],
+      "games": [
+        {
+          "calendarEventID": "14-849829-2026-10-03",
+          "content": {
+            "link": "/api/v1/game/849829/content"
+          },
+          "dayNight": "day",
+          "description": "ALDS 'B' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-03T17:00:00Z",
+          "gameGuid": "c912c124-b09b-4ece-91b9-56e70e3f3ab0",
+          "gameNumber": 1,
+          "gamePk": 849829,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849829/feed/live",
+          "officialDate": "2026-10-03",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Division Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Hagen Smith",
+                "id": 696146,
+                "link": "/api/v1/people/696146"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 145,
+                "link": "/api/v1/teams/145",
+                "name": "Chicago White Sox"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Parker Messick",
+                "id": 800048,
+                "link": "/api/v1/people/800048"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 114,
+                "link": "/api/v1/teams/114",
+                "name": "Cleveland Guardians"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 5,
+            "link": "/api/v1/venues/5",
+            "name": "Progressive Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849828-2026-10-03",
+          "content": {
+            "link": "/api/v1/game/849828/content"
+          },
+          "dayNight": "day",
+          "description": "NLDS 'B' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-03T20:00:00Z",
+          "gameGuid": "621a974a-b250-4410-992f-37cb6c829743",
+          "gameNumber": 1,
+          "gamePk": 849828,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849828/feed/live",
+          "officialDate": "2026-10-03",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "NL Division Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 144,
+                "link": "/api/v1/teams/144",
+                "name": "Atlanta Braves"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Tarik Skubal",
+                "id": 669373,
+                "link": "/api/v1/people/669373"
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 119,
+                "link": "/api/v1/teams/119",
+                "name": "Los Angeles Dodgers"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 22,
+            "link": "/api/v1/venues/22",
+            "name": "UNIQLO Field at Dodger Stadium",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849835-2026-10-03",
+          "content": {
+            "link": "/api/v1/game/849835/content"
+          },
+          "dayNight": "night",
+          "description": "ALDS 'A' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-03T22:30:00Z",
+          "gameGuid": "97c5071c-1528-4b17-9f8e-f512ca3ddd9e",
+          "gameNumber": 1,
+          "gamePk": 849835,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849835/feed/live",
+          "officialDate": "2026-10-03",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Division Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Gerrit Cole",
+                "id": 543037,
+                "link": "/api/v1/people/543037"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 147,
+                "link": "/api/v1/teams/147",
+                "name": "New York Yankees"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Drew Rasmussen",
+                "id": 656876,
+                "link": "/api/v1/people/656876"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 139,
+                "link": "/api/v1/teams/139",
+                "name": "Tampa Bay Rays"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 12,
+            "link": "/api/v1/venues/12",
+            "name": "Tropicana Field",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849830-2026-10-03",
+          "content": {
+            "link": "/api/v1/game/849830/content"
+          },
+          "dayNight": "night",
+          "description": "NLDS 'A' Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-04T00:30:00Z",
+          "gameGuid": "81e34e7a-5fd9-417d-9977-59a62b2a2005",
+          "gameNumber": 1,
+          "gamePk": 849830,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849830/feed/live",
+          "officialDate": "2026-10-03",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "NL Division Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Robbie Ray",
+                "id": 592662,
+                "link": "/api/v1/people/592662"
+              },
+              "seriesNumber": 3,
+              "splitSquad": false,
+              "team": {
+                "id": 135,
+                "link": "/api/v1/teams/135",
+                "name": "San Diego Padres"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Jacob Misiorowski",
+                "id": 694819,
+                "link": "/api/v1/people/694819"
+              },
+              "seriesNumber": 3,
+              "splitSquad": false,
+              "team": {
+                "id": 158,
+                "link": "/api/v1/teams/158",
+                "name": "Milwaukee Brewers"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 32,
+            "link": "/api/v1/venues/32",
+            "name": "American Family Field",
+            "season": "2026"
+          }
+        }
+      ],
+      "totalEvents": 0,
+      "totalGames": 4,
+      "totalGamesInProgress": 0,
+      "totalItems": 4
+    }
+  ],
   "totalEvents": 0,
-  "totalGames": 0,
+  "totalGames": 4,
   "totalGamesInProgress": 0,
-  "totalItems": 0
+  "totalItems": 4
 }
