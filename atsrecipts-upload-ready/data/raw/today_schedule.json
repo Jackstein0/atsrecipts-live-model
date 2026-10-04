@@ -34,12 +34,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -125,10 +125,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -137,6 +137,11 @@
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Ray Kerr",
+                "id": 678061,
+                "link": "/api/v1/people/678061"
               },
               "seriesNumber": 4,
               "splitSquad": false,
@@ -179,12 +184,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 2
 }
