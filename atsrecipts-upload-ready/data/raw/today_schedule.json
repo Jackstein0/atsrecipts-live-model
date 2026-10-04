@@ -115,6 +115,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849828/feed/live",
           "officialDate": "2026-10-03",
           "publicFacing": true,
@@ -126,17 +127,18 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 0,
+                "losses": 1,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
@@ -146,7 +148,7 @@
                 "id": 689266,
                 "link": "/api/v1/people/689266"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -156,18 +158,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 0,
-                "pct": ".000",
+                "pct": "1.000",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
                 "fullName": "Tarik Skubal",
                 "id": 669373,
                 "link": "/api/v1/people/669373"
               },
-              "score": 2,
+              "score": 5,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -215,12 +218,12 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -256,7 +259,7 @@
                 "id": 656876,
                 "link": "/api/v1/people/656876"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -304,12 +307,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 1,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
             "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
