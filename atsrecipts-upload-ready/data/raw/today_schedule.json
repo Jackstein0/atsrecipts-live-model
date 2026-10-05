@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849825/feed/live",
           "officialDate": "2026-10-04",
           "publicFacing": true,
@@ -34,17 +35,18 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 1,
+                "losses": 2,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
@@ -64,18 +66,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 0,
                 "pct": "1.000",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
                 "fullName": "Logan Henderson",
                 "id": 701656,
                 "link": "/api/v1/people/701656"
               },
-              "score": 2,
+              "score": 4,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -123,12 +126,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -143,7 +146,7 @@
                 "id": 678061,
                 "link": "/api/v1/people/678061"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -164,7 +167,7 @@
                 "id": 605483,
                 "link": "/api/v1/people/605483"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
