@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849834/feed/live",
           "officialDate": "2026-10-05",
           "publicFacing": true,
@@ -34,27 +35,28 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 0,
                 "pct": "1.000",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
                 "fullName": "Anthony Kay",
                 "id": 641743,
                 "link": "/api/v1/people/641743"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -64,8 +66,9 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 1,
+                "losses": 2,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
@@ -75,7 +78,7 @@
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -123,12 +126,12 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -143,6 +146,7 @@
                 "id": 693645,
                 "link": "/api/v1/people/693645"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -163,6 +167,7 @@
                 "id": 642547,
                 "link": "/api/v1/people/642547"
               },
+              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -184,12 +189,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 2
 }
