@@ -2,49 +2,134 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849834-2026-10-05",
+          "calendarEventID": "14-849819-2026-10-06",
           "content": {
-            "link": "/api/v1/game/849834/content"
+            "link": "/api/v1/game/849819/content"
           },
-          "dayNight": "day",
-          "description": "ALDS 'B' Game 2",
+          "dayNight": "night",
+          "description": "NLDS 'B' Game 3",
           "doubleHeader": "N",
-          "gameDate": "2026-10-05T21:00:00Z",
-          "gameGuid": "6e9f13da-f0e0-4d4b-8e36-0ce07dd7ee5a",
+          "gameDate": "2026-10-06T22:00:00Z",
+          "gameGuid": "9f205230-c929-4cd8-a790-8b2c4ded3571",
           "gameNumber": 1,
-          "gamePk": 849834,
+          "gamePk": 849819,
           "gameType": "D",
           "gamedayType": "P",
           "gamesInSeries": 5,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "isTie": false,
-          "link": "/api/v1.1/game/849834/feed/live",
-          "officialDate": "2026-10-05",
+          "link": "/api/v1.1/game/849819/feed/live",
+          "officialDate": "2026-10-06",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
           "scheduledInnings": 9,
           "season": "2026",
           "seasonDisplay": "2026",
-          "seriesDescription": "AL Division Series",
-          "seriesGameNumber": 2,
+          "seriesDescription": "NL Division Series",
+          "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "F"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
-              "isWinner": true,
+              "leagueRecord": {
+                "losses": 1,
+                "pct": ".500",
+                "ties": 0,
+                "wins": 1
+              },
+              "probablePitcher": {
+                "fullName": "Yoshinobu Yamamoto",
+                "id": 808967,
+                "link": "/api/v1/people/808967"
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 119,
+                "link": "/api/v1/teams/119",
+                "name": "Los Angeles Dodgers"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 1,
+                "pct": ".500",
+                "ties": 0,
+                "wins": 1
+              },
+              "probablePitcher": {
+                "fullName": "Chris Sale",
+                "id": 519242,
+                "link": "/api/v1/people/519242"
+              },
+              "seriesNumber": 4,
+              "splitSquad": false,
+              "team": {
+                "id": 144,
+                "link": "/api/v1/teams/144",
+                "name": "Atlanta Braves"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 4705,
+            "link": "/api/v1/venues/4705",
+            "name": "Truist Park",
+            "season": "2026"
+          }
+        },
+        {
+          "calendarEventID": "14-849826-2026-10-06",
+          "content": {
+            "link": "/api/v1/game/849826/content"
+          },
+          "dayNight": "night",
+          "description": "NLDS 'A' Game 3",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-07T01:30:00Z",
+          "gameGuid": "177995f8-52d8-4c50-aee9-59a5c746d001",
+          "gameNumber": 1,
+          "gamePk": 849826,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849826/feed/live",
+          "officialDate": "2026-10-06",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "NL Division Series",
+          "seriesGameNumber": 3,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
               "leagueRecord": {
                 "losses": 0,
                 "pct": "1.000",
@@ -52,21 +137,19 @@
                 "wins": 2
               },
               "probablePitcher": {
-                "fullName": "Anthony Kay",
-                "id": 641743,
-                "link": "/api/v1/people/641743"
+                "fullName": "Dustin May",
+                "id": 669160,
+                "link": "/api/v1/people/669160"
               },
-              "score": 4,
-              "seriesNumber": 2,
+              "seriesNumber": 3,
               "splitSquad": false,
               "team": {
-                "id": 145,
-                "link": "/api/v1/teams/145",
-                "name": "Chicago White Sox"
+                "id": 158,
+                "link": "/api/v1/teams/158",
+                "name": "Milwaukee Brewers"
               }
             },
             "home": {
-              "isWinner": false,
               "leagueRecord": {
                 "losses": 2,
                 "pct": ".000",
@@ -74,127 +157,37 @@
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Gavin Williams",
-                "id": 668909,
-                "link": "/api/v1/people/668909"
+                "fullName": "Nick Pivetta",
+                "id": 601713,
+                "link": "/api/v1/people/601713"
               },
-              "score": 3,
-              "seriesNumber": 2,
+              "seriesNumber": 3,
               "splitSquad": false,
               "team": {
-                "id": 114,
-                "link": "/api/v1/teams/114",
-                "name": "Cleveland Guardians"
+                "id": 135,
+                "link": "/api/v1/teams/135",
+                "name": "San Diego Padres"
               }
             }
           },
           "tiebreaker": "N",
           "venue": {
             "active": true,
-            "id": 5,
-            "link": "/api/v1/venues/5",
-            "name": "Progressive Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-849839-2026-10-05",
-          "content": {
-            "link": "/api/v1/game/849839/content"
-          },
-          "dayNight": "night",
-          "description": "ALDS 'A' Game 2",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-06T00:00:00Z",
-          "gameGuid": "8f0516e5-9273-4800-9483-8cf19c530720",
-          "gameNumber": 1,
-          "gamePk": 849839,
-          "gameType": "D",
-          "gamedayType": "P",
-          "gamesInSeries": 5,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849839/feed/live",
-          "officialDate": "2026-10-05",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "AL Division Series",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
-            "startTimeTBD": false,
-            "statusCode": "I"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Cam Schlittler",
-                "id": 693645,
-                "link": "/api/v1/people/693645"
-              },
-              "score": 0,
-              "seriesNumber": 1,
-              "splitSquad": false,
-              "team": {
-                "id": 147,
-                "link": "/api/v1/teams/147",
-                "name": "New York Yankees"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Freddy Peralta",
-                "id": 642547,
-                "link": "/api/v1/people/642547"
-              },
-              "score": 1,
-              "seriesNumber": 1,
-              "splitSquad": false,
-              "team": {
-                "id": 139,
-                "link": "/api/v1/teams/139",
-                "name": "Tampa Bay Rays"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 12,
-            "link": "/api/v1/venues/12",
-            "name": "Tropicana Field",
+            "id": 2680,
+            "link": "/api/v1/venues/2680",
+            "name": "Petco Park",
             "season": "2026"
           }
         }
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 2
 }
