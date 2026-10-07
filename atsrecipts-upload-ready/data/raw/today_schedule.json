@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849819/feed/live",
           "officialDate": "2026-10-06",
           "publicFacing": true,
@@ -34,27 +35,28 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
-                "pct": ".500",
+                "pct": ".667",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
                 "fullName": "Yoshinobu Yamamoto",
                 "id": 808967,
                 "link": "/api/v1/people/808967"
               },
-              "score": 0,
+              "score": 3,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -64,9 +66,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 1,
-                "pct": ".500",
+                "losses": 2,
+                "pct": ".333",
                 "ties": 0,
                 "wins": 1
               },
@@ -75,7 +78,7 @@
                 "id": 519242,
                 "link": "/api/v1/people/519242"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -123,12 +126,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -164,7 +167,7 @@
                 "id": 601713,
                 "link": "/api/v1/people/601713"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
