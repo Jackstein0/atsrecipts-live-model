@@ -34,12 +34,12 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,7 +54,7 @@
                 "id": 682982,
                 "link": "/api/v1/people/682982"
               },
-              "score": 0,
+              "score": 5,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -75,7 +75,7 @@
                 "id": 656794,
                 "link": "/api/v1/people/656794"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -123,12 +123,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -143,6 +143,7 @@
                 "id": 607192,
                 "link": "/api/v1/people/607192"
               },
+              "score": 0,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -163,6 +164,7 @@
                 "id": 641816,
                 "link": "/api/v1/people/641816"
               },
+              "score": 0,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -212,10 +214,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -230,6 +232,7 @@
                 "id": 607259,
                 "link": "/api/v1/people/607259"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -250,6 +253,7 @@
                 "id": 608331,
                 "link": "/api/v1/people/608331"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -299,10 +303,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -311,6 +315,11 @@
                 "pct": ".667",
                 "ties": 0,
                 "wins": 2
+              },
+              "probablePitcher": {
+                "fullName": "Robert Gasser",
+                "id": 688107,
+                "link": "/api/v1/people/688107"
               },
               "seriesNumber": 3,
               "splitSquad": false,
@@ -353,12 +362,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 4,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 2,
       "totalItems": 4
     }
   ],
   "totalEvents": 0,
   "totalGames": 4,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 2,
   "totalItems": 4
 }
