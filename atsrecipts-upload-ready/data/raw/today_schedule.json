@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849833/feed/live",
           "officialDate": "2026-10-07",
           "publicFacing": true,
@@ -34,27 +35,28 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 2,
-                "pct": ".000",
+                "pct": ".333",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
                 "fullName": "Daniel Espino",
                 "id": 682982,
                 "link": "/api/v1/people/682982"
               },
-              "score": 5,
+              "score": 9,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -64,9 +66,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
+                "losses": 1,
+                "pct": ".667",
                 "ties": 0,
                 "wins": 2
               },
@@ -75,7 +78,7 @@
                 "id": 656794,
                 "link": "/api/v1/people/656794"
               },
-              "score": 2,
+              "score": 3,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -112,6 +115,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849822/feed/live",
           "officialDate": "2026-10-07",
           "publicFacing": true,
@@ -123,27 +127,28 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
-                "pct": ".667",
+                "pct": ".750",
                 "ties": 0,
-                "wins": 2
+                "wins": 3
               },
               "probablePitcher": {
                 "fullName": "Tyler Glasnow",
                 "id": 607192,
                 "link": "/api/v1/people/607192"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -153,9 +158,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 2,
-                "pct": ".333",
+                "losses": 3,
+                "pct": ".250",
                 "ties": 0,
                 "wins": 1
               },
@@ -164,7 +170,7 @@
                 "id": 641816,
                 "link": "/api/v1/people/641816"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 4,
               "splitSquad": false,
               "team": {
@@ -212,12 +218,13 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "M",
+            "detailedState": "Player challenge",
+            "reason": "Pitch Result",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "MJ"
           },
           "teams": {
             "away": {
@@ -232,7 +239,7 @@
                 "id": 607259,
                 "link": "/api/v1/people/607259"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -253,7 +260,7 @@
                 "id": 608331,
                 "link": "/api/v1/people/608331"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -301,12 +308,12 @@
           "seriesDescription": "NL Division Series",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -321,6 +328,7 @@
                 "id": 688107,
                 "link": "/api/v1/people/688107"
               },
+              "score": 0,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
@@ -341,6 +349,7 @@
                 "id": 621111,
                 "link": "/api/v1/people/621111"
               },
+              "score": 0,
               "seriesNumber": 3,
               "splitSquad": false,
               "team": {
