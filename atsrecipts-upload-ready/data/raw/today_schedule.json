@@ -34,12 +34,12 @@
           "seriesDescription": "AL Division Series",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -75,7 +75,7 @@
                 "id": 696146,
                 "link": "/api/v1/people/696146"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -97,12 +97,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 1
 }
