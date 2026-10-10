@@ -4,11 +4,11 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-10-10T20:54:21Z",
+        "last_update": "2026-10-10T23:59:16Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:21Z",
+            "last_update": "2026-10-10T23:59:16Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -27,39 +27,16 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-10-10T20:54:38Z",
+        "last_update": "2026-10-10T23:59:00Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:38Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 7.5,
-                "price": 102
-              },
-              {
-                "name": "Under",
-                "point": 7.5,
-                "price": -123
-              }
-            ]
-          }
-        ],
-        "title": "DraftKings"
-      },
-      {
-        "key": "mybookieag",
-        "last_update": "2026-10-10T20:54:39Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-10-10T20:54:39Z",
+            "last_update": "2026-10-10T23:59:00Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 7.0,
-                "price": -124
+                "price": -122
               },
               {
                 "name": "Under",
@@ -69,25 +46,48 @@
             ]
           }
         ],
-        "title": "MyBookie.ag"
+        "title": "DraftKings"
       },
       {
-        "key": "betonlineag",
-        "last_update": "2026-10-10T20:54:38Z",
+        "key": "mybookieag",
+        "last_update": "2026-10-10T23:59:33Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:38Z",
+            "last_update": "2026-10-10T23:59:33Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 7.0,
-                "price": -127
+                "price": -122
               },
               {
                 "name": "Under",
                 "point": 7.0,
-                "price": 107
+                "price": 100
+              }
+            ]
+          }
+        ],
+        "title": "MyBookie.ag"
+      },
+      {
+        "key": "betonlineag",
+        "last_update": "2026-10-10T23:59:17Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-10-10T23:59:17Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 7.0,
+                "price": -115
+              },
+              {
+                "name": "Under",
+                "point": 7.0,
+                "price": -105
               }
             ]
           }
@@ -96,21 +96,21 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-10-10T20:53:33Z",
+        "last_update": "2026-10-10T23:59:16Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:33Z",
+            "last_update": "2026-10-10T23:59:16Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 7.0,
-                "price": -125
+                "price": -113
               },
               {
                 "name": "Under",
                 "point": 7.0,
-                "price": 109
+                "price": -102
               }
             ]
           }
@@ -119,57 +119,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-10-10T20:53:05Z",
+        "last_update": "2026-10-10T23:59:03Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:05Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 7.5,
-                "price": 100
-              },
-              {
-                "name": "Under",
-                "point": 7.5,
-                "price": -120
-              }
-            ]
-          }
-        ],
-        "title": "Bovada"
-      },
-      {
-        "key": "betrivers",
-        "last_update": "2026-10-10T20:54:40Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-10-10T20:54:40Z",
-            "outcomes": [
-              {
-                "name": "Over",
-                "point": 7.0,
-                "price": -118
-              },
-              {
-                "name": "Under",
-                "point": 7.0,
-                "price": -103
-              }
-            ]
-          }
-        ],
-        "title": "BetRivers"
-      },
-      {
-        "key": "betus",
-        "last_update": "2026-10-10T20:54:37Z",
-        "markets": [
-          {
-            "key": "totals",
-            "last_update": "2026-10-10T20:54:37Z",
+            "last_update": "2026-10-10T23:59:03Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -184,15 +138,61 @@
             ]
           }
         ],
+        "title": "Bovada"
+      },
+      {
+        "key": "betrivers",
+        "last_update": "2026-10-10T23:59:21Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-10-10T23:59:21Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 7.0,
+                "price": -120
+              },
+              {
+                "name": "Under",
+                "point": 7.0,
+                "price": -103
+              }
+            ]
+          }
+        ],
+        "title": "BetRivers"
+      },
+      {
+        "key": "betus",
+        "last_update": "2026-10-10T23:59:31Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2026-10-10T23:59:31Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "point": 7.0,
+                "price": -115
+              },
+              {
+                "name": "Under",
+                "point": 7.0,
+                "price": -105
+              }
+            ]
+          }
+        ],
         "title": "BetUS"
       },
       {
         "key": "betmgm",
-        "last_update": "2026-10-10T20:53:36Z",
+        "last_update": "2026-10-10T23:59:31Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:36Z",
+            "last_update": "2026-10-10T23:59:31Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -221,21 +221,21 @@
     "bookmakers": [
       {
         "key": "fanduel",
-        "last_update": "2026-10-10T20:54:21Z",
+        "last_update": "2026-10-10T23:59:16Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:21Z",
+            "last_update": "2026-10-10T23:59:16Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 6.5,
-                "price": 110
+                "price": 114
               },
               {
                 "name": "Under",
                 "point": 6.5,
-                "price": -134
+                "price": -140
               }
             ]
           }
@@ -244,21 +244,21 @@
       },
       {
         "key": "betmgm",
-        "last_update": "2026-10-10T20:53:36Z",
+        "last_update": "2026-10-10T23:59:31Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:36Z",
+            "last_update": "2026-10-10T23:59:31Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 6.0,
-                "price": -115
+                "price": -110
               },
               {
                 "name": "Under",
                 "point": 6.0,
-                "price": -105
+                "price": -110
               }
             ]
           }
@@ -267,11 +267,11 @@
       },
       {
         "key": "draftkings",
-        "last_update": "2026-10-10T20:54:38Z",
+        "last_update": "2026-10-10T23:59:00Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:38Z",
+            "last_update": "2026-10-10T23:59:00Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -290,21 +290,21 @@
       },
       {
         "key": "mybookieag",
-        "last_update": "2026-10-10T20:54:39Z",
+        "last_update": "2026-10-10T23:59:33Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:38Z",
+            "last_update": "2026-10-10T23:59:33Z",
             "outcomes": [
               {
                 "name": "Over",
                 "point": 6.0,
-                "price": -111
+                "price": -110
               },
               {
                 "name": "Under",
                 "point": 6.0,
-                "price": -110
+                "price": -111
               }
             ]
           }
@@ -313,11 +313,11 @@
       },
       {
         "key": "bovada",
-        "last_update": "2026-10-10T20:53:05Z",
+        "last_update": "2026-10-10T23:59:03Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:05Z",
+            "last_update": "2026-10-10T23:59:03Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -336,11 +336,11 @@
       },
       {
         "key": "lowvig",
-        "last_update": "2026-10-10T20:53:33Z",
+        "last_update": "2026-10-10T23:59:16Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:53:33Z",
+            "last_update": "2026-10-10T23:59:16Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -359,11 +359,11 @@
       },
       {
         "key": "betonlineag",
-        "last_update": "2026-10-10T20:54:38Z",
+        "last_update": "2026-10-10T23:59:17Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:38Z",
+            "last_update": "2026-10-10T23:59:17Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -382,11 +382,11 @@
       },
       {
         "key": "betus",
-        "last_update": "2026-10-10T20:54:37Z",
+        "last_update": "2026-10-10T23:59:31Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:37Z",
+            "last_update": "2026-10-10T23:59:31Z",
             "outcomes": [
               {
                 "name": "Over",
@@ -405,11 +405,11 @@
       },
       {
         "key": "betrivers",
-        "last_update": "2026-10-10T20:54:40Z",
+        "last_update": "2026-10-10T23:59:21Z",
         "markets": [
           {
             "key": "totals",
-            "last_update": "2026-10-10T20:54:40Z",
+            "last_update": "2026-10-10T23:59:21Z",
             "outcomes": [
               {
                 "name": "Over",
