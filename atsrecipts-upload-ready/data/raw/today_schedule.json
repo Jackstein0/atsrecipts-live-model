@@ -1,8 +1,106 @@
 {
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-  "dates": [],
+  "dates": [
+    {
+      "date": "2026-10-10",
+      "events": [],
+      "games": [
+        {
+          "calendarEventID": "14-849831-2026-10-10",
+          "content": {
+            "link": "/api/v1/game/849831/content"
+          },
+          "dayNight": "night",
+          "description": "ALDS 'B' Game 5",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-11T00:00:00Z",
+          "gameGuid": "053e2f7c-db94-4a06-a2b6-a27937d20169",
+          "gameNumber": 1,
+          "gamePk": 849831,
+          "gameType": "D",
+          "gamedayType": "P",
+          "gamesInSeries": 5,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849831/feed/live",
+          "officialDate": "2026-10-10",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Division Series",
+          "seriesGameNumber": 5,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 2,
+                "pct": ".500",
+                "ties": 0,
+                "wins": 2
+              },
+              "probablePitcher": {
+                "fullName": "Sean Burke",
+                "id": 680732,
+                "link": "/api/v1/people/680732"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 145,
+                "link": "/api/v1/teams/145",
+                "name": "Chicago White Sox"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 2,
+                "pct": ".500",
+                "ties": 0,
+                "wins": 2
+              },
+              "probablePitcher": {
+                "fullName": "Gavin Williams",
+                "id": 668909,
+                "link": "/api/v1/people/668909"
+              },
+              "seriesNumber": 2,
+              "splitSquad": false,
+              "team": {
+                "id": 114,
+                "link": "/api/v1/teams/114",
+                "name": "Cleveland Guardians"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 5,
+            "link": "/api/v1/venues/5",
+            "name": "Progressive Field",
+            "season": "2026"
+          }
+        }
+      ],
+      "totalEvents": 0,
+      "totalGames": 1,
+      "totalGamesInProgress": 0,
+      "totalItems": 1
+    }
+  ],
   "totalEvents": 0,
-  "totalGames": 0,
+  "totalGames": 1,
   "totalGamesInProgress": 0,
-  "totalItems": 0
+  "totalItems": 1
 }
