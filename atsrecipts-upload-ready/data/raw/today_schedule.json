@@ -34,12 +34,12 @@
           "seriesDescription": "NL Championship Series",
           "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,6 +54,7 @@
                 "id": 808967,
                 "link": "/api/v1/people/808967"
               },
+              "score": 2,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -74,6 +75,7 @@
                 "id": 701656,
                 "link": "/api/v1/people/701656"
               },
+              "score": 3,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -123,10 +125,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -141,6 +143,7 @@
                 "id": 656492,
                 "link": "/api/v1/people/656492"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -161,6 +164,7 @@
                 "id": 656876,
                 "link": "/api/v1/people/656876"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -182,12 +186,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 2
 }
