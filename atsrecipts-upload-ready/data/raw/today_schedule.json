@@ -2,29 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849809-2026-10-11",
+          "calendarEventID": "14-849812-2026-10-12",
           "content": {
-            "link": "/api/v1/game/849809/content"
+            "link": "/api/v1/game/849812/content"
           },
-          "dayNight": "night",
-          "description": "NLCS Game 1",
+          "dayNight": "day",
+          "description": "NLCS Game 2",
           "doubleHeader": "N",
-          "gameDate": "2026-10-12T00:00:00Z",
-          "gameGuid": "9d51b5a1-3ad0-414a-87ce-99ae9bc40fb8",
+          "gameDate": "2026-10-12T21:00:00Z",
+          "gameGuid": "fd803070-af85-4adb-94b3-7b5972e38f3a",
           "gameNumber": 1,
-          "gamePk": 849809,
+          "gamePk": 849812,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849809/feed/live",
-          "officialDate": "2026-10-11",
+          "link": "/api/v1.1/game/849812/feed/live",
+          "officialDate": "2026-10-12",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -32,29 +32,28 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "NL Championship Series",
-          "seriesGameNumber": 1,
+          "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
-                "losses": 0,
+                "losses": 1,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Tarik Skubal",
-                "id": 669373,
-                "link": "/api/v1/people/669373"
+                "fullName": "Yoshinobu Yamamoto",
+                "id": 808967,
+                "link": "/api/v1/people/808967"
               },
-              "score": 0,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -66,16 +65,15 @@
             "home": {
               "leagueRecord": {
                 "losses": 0,
-                "pct": ".000",
+                "pct": "1.000",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
-                "fullName": "Jacob Misiorowski",
-                "id": 694819,
-                "link": "/api/v1/people/694819"
+                "fullName": "Logan Henderson",
+                "id": 701656,
+                "link": "/api/v1/people/701656"
               },
-              "score": 0,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -93,16 +91,103 @@
             "name": "American Family Field",
             "season": "2026"
           }
+        },
+        {
+          "calendarEventID": "14-849820-2026-10-12",
+          "content": {
+            "link": "/api/v1/game/849820/content"
+          },
+          "dayNight": "night",
+          "description": "ALCS Game 1",
+          "doubleHeader": "N",
+          "gameDate": "2026-10-13T00:00:00Z",
+          "gameGuid": "b8e020a5-54ec-41bd-95f4-f864a213536f",
+          "gameNumber": 1,
+          "gamePk": 849820,
+          "gameType": "L",
+          "gamedayType": "P",
+          "gamesInSeries": 7,
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game",
+          "inningBreakLength": 175,
+          "link": "/api/v1.1/game/849820/feed/live",
+          "officialDate": "2026-10-12",
+          "publicFacing": true,
+          "recordSource": "S",
+          "reverseHomeAwayStatus": false,
+          "scheduledInnings": 9,
+          "season": "2026",
+          "seasonDisplay": "2026",
+          "seriesDescription": "AL Championship Series",
+          "seriesGameNumber": 1,
+          "status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Foster Griffin",
+                "id": 656492,
+                "link": "/api/v1/people/656492"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 114,
+                "link": "/api/v1/teams/114",
+                "name": "Cleveland Guardians"
+              }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 0,
+                "pct": ".000",
+                "ties": 0,
+                "wins": 0
+              },
+              "probablePitcher": {
+                "fullName": "Drew Rasmussen",
+                "id": 656876,
+                "link": "/api/v1/people/656876"
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 139,
+                "link": "/api/v1/teams/139",
+                "name": "Tampa Bay Rays"
+              }
+            }
+          },
+          "tiebreaker": "N",
+          "venue": {
+            "active": true,
+            "id": 12,
+            "link": "/api/v1/venues/12",
+            "name": "Tropicana Field",
+            "season": "2026"
+          }
         }
       ],
       "totalEvents": 0,
-      "totalGames": 1,
+      "totalGames": 2,
       "totalGamesInProgress": 0,
-      "totalItems": 1
+      "totalItems": 2
     }
   ],
   "totalEvents": 0,
-  "totalGames": 1,
+  "totalGames": 2,
   "totalGamesInProgress": 0,
-  "totalItems": 1
+  "totalItems": 2
 }
