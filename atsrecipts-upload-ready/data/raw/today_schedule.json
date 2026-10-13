@@ -2,118 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849812-2026-10-12",
+          "calendarEventID": "14-849813-2026-10-13",
           "content": {
-            "link": "/api/v1/game/849812/content"
-          },
-          "dayNight": "day",
-          "description": "NLCS Game 2",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-12T21:00:00Z",
-          "gameGuid": "fd803070-af85-4adb-94b3-7b5972e38f3a",
-          "gameNumber": 1,
-          "gamePk": 849812,
-          "gameType": "L",
-          "gamedayType": "P",
-          "gamesInSeries": 7,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849812/feed/live",
-          "officialDate": "2026-10-12",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "NL Championship Series",
-          "seriesGameNumber": 2,
-          "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
-            "startTimeTBD": false,
-            "statusCode": "I"
-          },
-          "teams": {
-            "away": {
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Yoshinobu Yamamoto",
-                "id": 808967,
-                "link": "/api/v1/people/808967"
-              },
-              "score": 2,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 119,
-                "link": "/api/v1/teams/119",
-                "name": "Los Angeles Dodgers"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Logan Henderson",
-                "id": 701656,
-                "link": "/api/v1/people/701656"
-              },
-              "score": 3,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 158,
-                "link": "/api/v1/teams/158",
-                "name": "Milwaukee Brewers"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 32,
-            "link": "/api/v1/venues/32",
-            "name": "American Family Field",
-            "season": "2026"
-          }
-        },
-        {
-          "calendarEventID": "14-849820-2026-10-12",
-          "content": {
-            "link": "/api/v1/game/849820/content"
+            "link": "/api/v1/game/849813/content"
           },
           "dayNight": "night",
-          "description": "ALCS Game 1",
+          "description": "ALCS Game 2",
           "doubleHeader": "N",
-          "gameDate": "2026-10-13T00:00:00Z",
-          "gameGuid": "b8e020a5-54ec-41bd-95f4-f864a213536f",
+          "gameDate": "2026-10-14T00:00:00Z",
+          "gameGuid": "42d090e5-a911-4046-b180-6afb5c9a6e27",
           "gameNumber": 1,
-          "gamePk": 849820,
+          "gamePk": 849813,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849820/feed/live",
-          "officialDate": "2026-10-12",
+          "link": "/api/v1.1/game/849813/feed/live",
+          "officialDate": "2026-10-13",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -121,29 +32,28 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "AL Championship Series",
-          "seriesGameNumber": 1,
+          "seriesGameNumber": 2,
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
                 "losses": 0,
-                "pct": ".000",
+                "pct": "1.000",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
-                "fullName": "Foster Griffin",
-                "id": 656492,
-                "link": "/api/v1/people/656492"
+                "fullName": "Parker Messick",
+                "id": 800048,
+                "link": "/api/v1/people/800048"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -154,17 +64,16 @@
             },
             "home": {
               "leagueRecord": {
-                "losses": 0,
+                "losses": 1,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Drew Rasmussen",
-                "id": 656876,
-                "link": "/api/v1/people/656876"
+                "fullName": "Freddy Peralta",
+                "id": 642547,
+                "link": "/api/v1/people/642547"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -185,13 +94,13 @@
         }
       ],
       "totalEvents": 0,
-      "totalGames": 2,
-      "totalGamesInProgress": 1,
-      "totalItems": 2
+      "totalGames": 1,
+      "totalGamesInProgress": 0,
+      "totalItems": 1
     }
   ],
   "totalEvents": 0,
-  "totalGames": 2,
-  "totalGamesInProgress": 1,
-  "totalItems": 2
+  "totalGames": 1,
+  "totalGamesInProgress": 0,
+  "totalItems": 1
 }
