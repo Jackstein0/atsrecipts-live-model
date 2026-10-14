@@ -2,44 +2,44 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849813-2026-10-13",
+          "calendarEventID": "14-849811-2026-10-14",
           "content": {
-            "link": "/api/v1/game/849813/content"
+            "link": "/api/v1/game/849811/content"
           },
-          "dayNight": "night",
-          "description": "ALCS Game 2",
+          "dayNight": "day",
+          "description": "NLCS Game 3",
           "doubleHeader": "N",
-          "gameDate": "2026-10-14T00:00:00Z",
-          "gameGuid": "42d090e5-a911-4046-b180-6afb5c9a6e27",
+          "gameDate": "2026-10-15T00:00:00Z",
+          "gameGuid": "5973b553-2646-4ebe-adfc-e236586c95c2",
           "gameNumber": 1,
-          "gamePk": 849813,
+          "gamePk": 849811,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849813/feed/live",
-          "officialDate": "2026-10-13",
+          "link": "/api/v1.1/game/849811/feed/live",
+          "officialDate": "2026-10-14",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
           "scheduledInnings": 9,
           "season": "2026",
           "seasonDisplay": "2026",
-          "seriesDescription": "AL Championship Series",
-          "seriesGameNumber": 2,
+          "seriesDescription": "NL Championship Series",
+          "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
@@ -47,62 +47,60 @@
                 "losses": 0,
                 "pct": "1.000",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
-                "fullName": "Parker Messick",
-                "id": 800048,
-                "link": "/api/v1/people/800048"
+                "fullName": "Robert Gasser",
+                "id": 688107,
+                "link": "/api/v1/people/688107"
               },
-              "score": 0,
-              "seriesNumber": 1,
+              "seriesNumber": 2,
               "splitSquad": false,
               "team": {
-                "id": 114,
-                "link": "/api/v1/teams/114",
-                "name": "Cleveland Guardians"
+                "id": 158,
+                "link": "/api/v1/teams/158",
+                "name": "Milwaukee Brewers"
               }
             },
             "home": {
               "leagueRecord": {
-                "losses": 1,
+                "losses": 2,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Freddy Peralta",
-                "id": 642547,
-                "link": "/api/v1/people/642547"
+                "fullName": "Blake Snell",
+                "id": 605483,
+                "link": "/api/v1/people/605483"
               },
-              "score": 0,
-              "seriesNumber": 1,
+              "seriesNumber": 2,
               "splitSquad": false,
               "team": {
-                "id": 139,
-                "link": "/api/v1/teams/139",
-                "name": "Tampa Bay Rays"
+                "id": 119,
+                "link": "/api/v1/teams/119",
+                "name": "Los Angeles Dodgers"
               }
             }
           },
           "tiebreaker": "N",
           "venue": {
             "active": true,
-            "id": 12,
-            "link": "/api/v1/venues/12",
-            "name": "Tropicana Field",
+            "id": 22,
+            "link": "/api/v1/venues/22",
+            "name": "UNIQLO Field at Dodger Stadium",
             "season": "2026"
           }
         }
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
