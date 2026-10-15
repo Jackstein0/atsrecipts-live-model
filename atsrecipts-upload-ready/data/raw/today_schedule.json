@@ -34,12 +34,12 @@
           "seriesDescription": "AL Championship Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -54,6 +54,7 @@
                 "id": 643377,
                 "link": "/api/v1/people/643377"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -74,6 +75,7 @@
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
+              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -177,12 +179,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 2
 }
