@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849818/feed/live",
           "officialDate": "2026-10-15",
           "publicFacing": true,
@@ -34,18 +35,19 @@
           "seriesDescription": "AL Championship Series",
           "seriesGameNumber": 3,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 1,
-                "pct": ".500",
+                "losses": 2,
+                "pct": ".333",
                 "ties": 0,
                 "wins": 1
               },
@@ -54,7 +56,7 @@
                 "id": 643377,
                 "link": "/api/v1/people/643377"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -64,18 +66,19 @@
               }
             },
             "home": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
-                "pct": ".500",
+                "pct": ".667",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
                 "fullName": "Gavin Williams",
                 "id": 668909,
                 "link": "/api/v1/people/668909"
               },
-              "score": 1,
+              "score": 3,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -125,10 +128,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -137,6 +140,11 @@
                 "pct": "1.000",
                 "ties": 0,
                 "wins": 3
+              },
+              "probablePitcher": {
+                "fullName": "Shane Drohan",
+                "id": 675660,
+                "link": "/api/v1/people/675660"
               },
               "seriesNumber": 2,
               "splitSquad": false,
@@ -179,12 +187,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 2
 }
