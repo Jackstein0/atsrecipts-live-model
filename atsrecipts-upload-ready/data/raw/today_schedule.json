@@ -126,12 +126,12 @@
           "seriesDescription": "NL Championship Series",
           "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Pre-Game",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "I",
+            "detailedState": "In Progress",
             "startTimeTBD": false,
-            "statusCode": "P"
+            "statusCode": "I"
           },
           "teams": {
             "away": {
@@ -146,7 +146,7 @@
                 "id": 675660,
                 "link": "/api/v1/people/675660"
               },
-              "score": 0,
+              "score": 2,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -167,7 +167,7 @@
                 "id": 607192,
                 "link": "/api/v1/people/607192"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 2,
               "splitSquad": false,
               "team": {
@@ -189,12 +189,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 2,
-      "totalGamesInProgress": 0,
+      "totalGamesInProgress": 1,
       "totalItems": 2
     }
   ],
   "totalEvents": 0,
   "totalGames": 2,
-  "totalGamesInProgress": 0,
+  "totalGamesInProgress": 1,
   "totalItems": 2
 }
