@@ -2,29 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849817-2026-10-16",
+          "calendarEventID": "14-849816-2026-10-17",
           "content": {
-            "link": "/api/v1/game/849817/content"
+            "link": "/api/v1/game/849816/content"
           },
           "dayNight": "night",
           "description": "ALCS Game 4",
           "doubleHeader": "N",
-          "gameDate": "2026-10-17T00:00:00Z",
-          "gameGuid": "8d0e6fc3-15ad-4825-b675-df9bb70b9186",
+          "gameDate": "2026-10-18T00:00:00Z",
+          "gameGuid": "45efc00d-f45f-4256-8ba7-efbe91a07ac5",
           "gameNumber": 1,
-          "gamePk": 849817,
+          "gamePk": 849816,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849817/feed/live",
-          "officialDate": "2026-10-16",
+          "link": "/api/v1.1/game/849816/feed/live",
+          "officialDate": "2026-10-17",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -36,11 +36,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "P",
-            "detailedState": "Delayed Start",
-            "reason": "Inclement Weather",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "PI"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
@@ -55,7 +54,6 @@
                 "id": 607259,
                 "link": "/api/v1/people/607259"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -76,7 +74,6 @@
                 "id": 542888,
                 "link": "/api/v1/people/542888"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
