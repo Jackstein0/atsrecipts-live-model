@@ -2,59 +2,60 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849816-2026-10-17",
+          "calendarEventID": "14-849817-2026-10-18",
           "content": {
-            "link": "/api/v1/game/849816/content"
+            "link": "/api/v1/game/849817/content"
           },
           "dayNight": "night",
-          "description": "ALCS Game 4",
+          "description": "ALCS Game 5, Makeup of 10/16",
           "doubleHeader": "N",
-          "gameDate": "2026-10-18T00:08:00Z",
-          "gameGuid": "45efc00d-f45f-4256-8ba7-efbe91a07ac5",
+          "gameDate": "2026-10-18T21:08:00Z",
+          "gameGuid": "8d0e6fc3-15ad-4825-b675-df9bb70b9186",
           "gameNumber": 1,
-          "gamePk": 849816,
+          "gamePk": 849817,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849816/feed/live",
-          "officialDate": "2026-10-17",
+          "link": "/api/v1.1/game/849817/feed/live",
+          "officialDate": "2026-10-18",
           "publicFacing": true,
           "recordSource": "S",
+          "rescheduledFrom": "2026-10-17T00:00:00Z",
+          "rescheduledFromDate": "2026-10-16",
           "reverseHomeAwayStatus": false,
           "scheduledInnings": 9,
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "AL Championship Series",
-          "seriesGameNumber": 4,
+          "seriesGameNumber": 5,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
                 "losses": 2,
-                "pct": ".333",
+                "pct": ".500",
                 "ties": 0,
-                "wins": 1
+                "wins": 2
               },
               "probablePitcher": {
-                "fullName": "Nick Martinez",
-                "id": 607259,
-                "link": "/api/v1/people/607259"
+                "fullName": "Drew Rasmussen",
+                "id": 656876,
+                "link": "/api/v1/people/656876"
               },
-              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -65,17 +66,16 @@
             },
             "home": {
               "leagueRecord": {
-                "losses": 1,
-                "pct": ".667",
+                "losses": 2,
+                "pct": ".500",
                 "ties": 0,
                 "wins": 2
               },
               "probablePitcher": {
-                "fullName": "Shawn Armstrong",
-                "id": 542888,
-                "link": "/api/v1/people/542888"
+                "fullName": "Parker Messick",
+                "id": 800048,
+                "link": "/api/v1/people/800048"
               },
-              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -97,12 +97,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
