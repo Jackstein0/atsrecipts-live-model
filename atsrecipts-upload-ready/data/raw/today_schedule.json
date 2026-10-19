@@ -2,82 +2,53 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849817-2026-10-18",
+          "calendarEventID": "14-849815-2026-10-19",
           "content": {
-            "link": "/api/v1/game/849817/content"
+            "link": "/api/v1/game/849815/content"
           },
           "dayNight": "night",
-          "description": "ALCS Game 5, Makeup of 10/16",
+          "description": "ALCS Game 6",
           "doubleHeader": "N",
-          "gameDate": "2026-10-18T21:08:00Z",
-          "gameGuid": "8d0e6fc3-15ad-4825-b675-df9bb70b9186",
+          "gameDate": "2026-10-20T00:08:00Z",
+          "gameGuid": "e165ab73-3918-48db-8d2e-c4ce9e1b58ae",
           "gameNumber": 1,
-          "gamePk": 849817,
+          "gamePk": 849815,
           "gameType": "L",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849817/feed/live",
-          "officialDate": "2026-10-18",
+          "link": "/api/v1.1/game/849815/feed/live",
+          "officialDate": "2026-10-19",
           "publicFacing": true,
           "recordSource": "S",
-          "rescheduledFrom": "2026-10-17T00:00:00Z",
-          "rescheduledFromDate": "2026-10-16",
           "reverseHomeAwayStatus": false,
           "scheduledInnings": 9,
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "AL Championship Series",
-          "seriesGameNumber": 5,
+          "seriesGameNumber": 6,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
-                "losses": 2,
-                "pct": ".500",
+                "losses": 3,
+                "pct": ".400",
                 "ties": 0,
                 "wins": 2
               },
-              "probablePitcher": {
-                "fullName": "Drew Rasmussen",
-                "id": 656876,
-                "link": "/api/v1/people/656876"
-              },
-              "score": 3,
-              "seriesNumber": 1,
-              "splitSquad": false,
-              "team": {
-                "id": 139,
-                "link": "/api/v1/teams/139",
-                "name": "Tampa Bay Rays"
-              }
-            },
-            "home": {
-              "leagueRecord": {
-                "losses": 2,
-                "pct": ".500",
-                "ties": 0,
-                "wins": 2
-              },
-              "probablePitcher": {
-                "fullName": "Parker Messick",
-                "id": 800048,
-                "link": "/api/v1/people/800048"
-              },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -85,26 +56,41 @@
                 "link": "/api/v1/teams/114",
                 "name": "Cleveland Guardians"
               }
+            },
+            "home": {
+              "leagueRecord": {
+                "losses": 2,
+                "pct": ".600",
+                "ties": 0,
+                "wins": 3
+              },
+              "seriesNumber": 1,
+              "splitSquad": false,
+              "team": {
+                "id": 139,
+                "link": "/api/v1/teams/139",
+                "name": "Tampa Bay Rays"
+              }
             }
           },
           "tiebreaker": "N",
           "venue": {
             "active": true,
-            "id": 5,
-            "link": "/api/v1/venues/5",
-            "name": "Progressive Field",
+            "id": 12,
+            "link": "/api/v1/venues/12",
+            "name": "Tropicana Field",
             "season": "2026"
           }
         }
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
