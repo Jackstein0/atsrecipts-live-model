@@ -2,29 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849805-2026-10-23",
+          "calendarEventID": "14-849802-2026-10-24",
           "content": {
-            "link": "/api/v1/game/849805/content"
+            "link": "/api/v1/game/849802/content"
           },
           "dayNight": "night",
-          "description": "World Series Game 1",
+          "description": "World Series Game 2",
           "doubleHeader": "N",
-          "gameDate": "2026-10-24T00:00:00Z",
-          "gameGuid": "2cdc7b9c-d9c3-4028-85e1-3997012aeed6",
+          "gameDate": "2026-10-25T00:00:00Z",
+          "gameGuid": "9fc70466-5ff7-49b2-91e9-6b44da1e000f",
           "gameNumber": 1,
-          "gamePk": 849805,
+          "gamePk": 849802,
           "gameType": "W",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849805/feed/live",
-          "officialDate": "2026-10-23",
+          "link": "/api/v1.1/game/849802/feed/live",
+          "officialDate": "2026-10-24",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -32,29 +32,28 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "World Series",
-          "seriesGameNumber": 1,
+          "seriesGameNumber": 2,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
-                "losses": 0,
+                "losses": 1,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Nick Martinez",
-                "id": 607259,
-                "link": "/api/v1/people/607259"
+                "fullName": "Drew Rasmussen",
+                "id": 656876,
+                "link": "/api/v1/people/656876"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -66,16 +65,15 @@
             "home": {
               "leagueRecord": {
                 "losses": 0,
-                "pct": ".000",
+                "pct": "1.000",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
               "probablePitcher": {
-                "fullName": "Jacob Misiorowski",
-                "id": 694819,
-                "link": "/api/v1/people/694819"
+                "fullName": "Logan Henderson",
+                "id": 701656,
+                "link": "/api/v1/people/701656"
               },
-              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -97,12 +95,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
