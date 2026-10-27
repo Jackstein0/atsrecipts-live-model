@@ -2,29 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849804-2026-10-26",
+          "calendarEventID": "14-849803-2026-10-27",
           "content": {
-            "link": "/api/v1/game/849804/content"
+            "link": "/api/v1/game/849803/content"
           },
           "dayNight": "night",
-          "description": "World Series Game 3",
+          "description": "World Series Game 4",
           "doubleHeader": "N",
-          "gameDate": "2026-10-27T00:00:00Z",
-          "gameGuid": "e203009b-9225-488d-a599-d9601cc42d85",
+          "gameDate": "2026-10-28T00:00:00Z",
+          "gameGuid": "b482fca8-e258-4f17-85d5-87bfdd9614fd",
           "gameNumber": 1,
-          "gamePk": 849804,
+          "gamePk": 849803,
           "gameType": "W",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849804/feed/live",
-          "officialDate": "2026-10-26",
+          "link": "/api/v1.1/game/849803/feed/live",
+          "officialDate": "2026-10-27",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -32,14 +32,14 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "World Series",
-          "seriesGameNumber": 3,
+          "seriesGameNumber": 4,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
@@ -47,14 +47,8 @@
                 "losses": 0,
                 "pct": "1.000",
                 "ties": 0,
-                "wins": 2
+                "wins": 3
               },
-              "probablePitcher": {
-                "fullName": "Robert Gasser",
-                "id": 688107,
-                "link": "/api/v1/people/688107"
-              },
-              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -65,17 +59,16 @@
             },
             "home": {
               "leagueRecord": {
-                "losses": 2,
+                "losses": 3,
                 "pct": ".000",
                 "ties": 0,
                 "wins": 0
               },
               "probablePitcher": {
-                "fullName": "Freddy Peralta",
-                "id": 642547,
-                "link": "/api/v1/people/642547"
+                "fullName": "Griffin Jax",
+                "id": 643377,
+                "link": "/api/v1/people/643377"
               },
-              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -97,12 +90,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
