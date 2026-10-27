@@ -36,10 +36,10 @@
           "status": {
             "abstractGameCode": "P",
             "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "codedGameState": "P",
+            "detailedState": "Pre-Game",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "P"
           },
           "teams": {
             "away": {
@@ -49,6 +49,12 @@
                 "ties": 0,
                 "wins": 3
               },
+              "probablePitcher": {
+                "fullName": "Dustin May",
+                "id": 669160,
+                "link": "/api/v1/people/669160"
+              },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -69,6 +75,7 @@
                 "id": 643377,
                 "link": "/api/v1/people/643377"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
