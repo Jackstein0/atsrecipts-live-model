@@ -2,29 +2,29 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "events": [],
       "games": [
         {
-          "calendarEventID": "14-849803-2026-10-27",
+          "calendarEventID": "14-849799-2026-10-28",
           "content": {
-            "link": "/api/v1/game/849803/content"
+            "link": "/api/v1/game/849799/content"
           },
           "dayNight": "night",
-          "description": "World Series Game 4",
+          "description": "World Series Game 5",
           "doubleHeader": "N",
-          "gameDate": "2026-10-28T00:00:00Z",
-          "gameGuid": "b482fca8-e258-4f17-85d5-87bfdd9614fd",
+          "gameDate": "2026-10-29T00:00:00Z",
+          "gameGuid": "5443c89f-b503-4934-b6b3-4e5d8be9fb11",
           "gameNumber": 1,
-          "gamePk": 849803,
+          "gamePk": 849799,
           "gameType": "W",
           "gamedayType": "P",
           "gamesInSeries": 7,
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
-          "link": "/api/v1.1/game/849803/feed/live",
-          "officialDate": "2026-10-27",
+          "link": "/api/v1.1/game/849799/feed/live",
+          "officialDate": "2026-10-28",
           "publicFacing": true,
           "recordSource": "S",
           "reverseHomeAwayStatus": false,
@@ -32,29 +32,28 @@
           "season": "2026",
           "seasonDisplay": "2026",
           "seriesDescription": "World Series",
-          "seriesGameNumber": 4,
+          "seriesGameNumber": 5,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "I",
-            "detailedState": "In Progress",
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
             "startTimeTBD": false,
-            "statusCode": "I"
+            "statusCode": "S"
           },
           "teams": {
             "away": {
               "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
+                "losses": 1,
+                "pct": ".750",
                 "ties": 0,
                 "wins": 3
               },
               "probablePitcher": {
-                "fullName": "Dustin May",
-                "id": 669160,
-                "link": "/api/v1/people/669160"
+                "fullName": "Jacob Misiorowski",
+                "id": 694819,
+                "link": "/api/v1/people/694819"
               },
-              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -66,16 +65,10 @@
             "home": {
               "leagueRecord": {
                 "losses": 3,
-                "pct": ".000",
+                "pct": ".250",
                 "ties": 0,
-                "wins": 0
+                "wins": 1
               },
-              "probablePitcher": {
-                "fullName": "Griffin Jax",
-                "id": 643377,
-                "link": "/api/v1/people/643377"
-              },
-              "score": 2,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -97,12 +90,12 @@
       ],
       "totalEvents": 0,
       "totalGames": 1,
-      "totalGamesInProgress": 1,
+      "totalGamesInProgress": 0,
       "totalItems": 1
     }
   ],
   "totalEvents": 0,
   "totalGames": 1,
-  "totalGamesInProgress": 1,
+  "totalGamesInProgress": 0,
   "totalItems": 1
 }
