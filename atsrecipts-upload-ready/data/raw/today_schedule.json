@@ -34,12 +34,12 @@
           "seriesDescription": "World Series",
           "seriesGameNumber": 5,
           "status": {
-            "abstractGameCode": "P",
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
+            "abstractGameCode": "L",
+            "abstractGameState": "Live",
+            "codedGameState": "P",
+            "detailedState": "Warmup",
             "startTimeTBD": false,
-            "statusCode": "S"
+            "statusCode": "PW"
           },
           "teams": {
             "away": {
@@ -54,6 +54,7 @@
                 "id": 694819,
                 "link": "/api/v1/people/694819"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -74,6 +75,7 @@
                 "id": 656876,
                 "link": "/api/v1/people/656876"
               },
+              "score": 0,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
