@@ -23,6 +23,7 @@
           "ifNecessary": "N",
           "ifNecessaryDescription": "Normal Game",
           "inningBreakLength": 175,
+          "isTie": false,
           "link": "/api/v1.1/game/849799/feed/live",
           "officialDate": "2026-10-28",
           "publicFacing": true,
@@ -34,27 +35,28 @@
           "seriesDescription": "World Series",
           "seriesGameNumber": 5,
           "status": {
-            "abstractGameCode": "L",
-            "abstractGameState": "Live",
-            "codedGameState": "P",
-            "detailedState": "Warmup",
+            "abstractGameCode": "F",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
             "startTimeTBD": false,
-            "statusCode": "PW"
+            "statusCode": "F"
           },
           "teams": {
             "away": {
+              "isWinner": true,
               "leagueRecord": {
                 "losses": 1,
-                "pct": ".750",
+                "pct": ".800",
                 "ties": 0,
-                "wins": 3
+                "wins": 4
               },
               "probablePitcher": {
                 "fullName": "Jacob Misiorowski",
                 "id": 694819,
                 "link": "/api/v1/people/694819"
               },
-              "score": 0,
+              "score": 4,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
@@ -64,9 +66,10 @@
               }
             },
             "home": {
+              "isWinner": false,
               "leagueRecord": {
-                "losses": 3,
-                "pct": ".250",
+                "losses": 4,
+                "pct": ".200",
                 "ties": 0,
                 "wins": 1
               },
@@ -75,7 +78,7 @@
                 "id": 656876,
                 "link": "/api/v1/people/656876"
               },
-              "score": 0,
+              "score": 1,
               "seriesNumber": 1,
               "splitSquad": false,
               "team": {
