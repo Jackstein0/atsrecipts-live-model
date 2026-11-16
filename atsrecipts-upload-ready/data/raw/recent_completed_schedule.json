@@ -2,110 +2,6 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-01",
-      "events": [],
-      "games": [
-        {
-          "calendarEventID": "14-849844-2026-10-01",
-          "content": {
-            "link": "/api/v1/game/849844/content"
-          },
-          "dayNight": "night",
-          "description": "NL Wild Card 'A' Game 3",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-02T00:00:00Z",
-          "gameGuid": "daa19a6c-d458-411e-b92d-90ccf952f982",
-          "gameNumber": 1,
-          "gamePk": 849844,
-          "gameType": "F",
-          "gamedayType": "P",
-          "gamesInSeries": 3,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 145,
-          "isTie": false,
-          "link": "/api/v1.1/game/849844/feed/live",
-          "officialDate": "2026-10-01",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "NL Wild Card Series",
-          "seriesGameNumber": 3,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 2,
-                "pct": ".333",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Aaron Nola",
-                "id": 605400,
-                "link": "/api/v1/people/605400",
-                "nameSlug": "aaron-nola-605400"
-              },
-              "score": 2,
-              "seriesNumber": 3,
-              "splitSquad": false,
-              "team": {
-                "id": 143,
-                "link": "/api/v1/teams/143",
-                "name": "Philadelphia Phillies"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".667",
-                "ties": 0,
-                "wins": 2
-              },
-              "probablePitcher": {
-                "fullName": "Ray Kerr",
-                "id": 678061,
-                "link": "/api/v1/people/678061",
-                "nameSlug": "ray-kerr-678061"
-              },
-              "score": 6,
-              "seriesNumber": 3,
-              "splitSquad": false,
-              "team": {
-                "id": 144,
-                "link": "/api/v1/teams/144",
-                "name": "Atlanta Braves"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 4705,
-            "link": "/api/v1/venues/4705",
-            "name": "Truist Park",
-            "season": "2026"
-          }
-        }
-      ],
-      "totalEvents": 0,
-      "totalGames": 1,
-      "totalGamesInProgress": 0,
-      "totalItems": 1
-    },
-    {
       "date": "2026-10-03",
       "events": [],
       "games": [
@@ -3325,7 +3221,7 @@
     }
   ],
   "totalEvents": 0,
-  "totalGames": 33,
+  "totalGames": 32,
   "totalGamesInProgress": 0,
-  "totalItems": 33
+  "totalItems": 32
 }
