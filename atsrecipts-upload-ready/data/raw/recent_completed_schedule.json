@@ -2,110 +2,6 @@
   "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
   "dates": [
     {
-      "date": "2026-10-11",
-      "events": [],
-      "games": [
-        {
-          "calendarEventID": "14-849809-2026-10-11",
-          "content": {
-            "link": "/api/v1/game/849809/content"
-          },
-          "dayNight": "night",
-          "description": "NLCS Game 1",
-          "doubleHeader": "N",
-          "gameDate": "2026-10-12T00:00:00Z",
-          "gameGuid": "9d51b5a1-3ad0-414a-87ce-99ae9bc40fb8",
-          "gameNumber": 1,
-          "gamePk": 849809,
-          "gameType": "L",
-          "gamedayType": "P",
-          "gamesInSeries": 7,
-          "ifNecessary": "N",
-          "ifNecessaryDescription": "Normal Game",
-          "inningBreakLength": 175,
-          "isTie": false,
-          "link": "/api/v1.1/game/849809/feed/live",
-          "officialDate": "2026-10-11",
-          "publicFacing": true,
-          "recordSource": "S",
-          "reverseHomeAwayStatus": false,
-          "scheduledInnings": 9,
-          "season": "2026",
-          "seasonDisplay": "2026",
-          "seriesDescription": "NL Championship Series",
-          "seriesGameNumber": 1,
-          "status": {
-            "abstractGameCode": "F",
-            "abstractGameState": "Final",
-            "codedGameState": "F",
-            "detailedState": "Final",
-            "startTimeTBD": false,
-            "statusCode": "F"
-          },
-          "teams": {
-            "away": {
-              "isWinner": false,
-              "leagueRecord": {
-                "losses": 1,
-                "pct": ".000",
-                "ties": 0,
-                "wins": 0
-              },
-              "probablePitcher": {
-                "fullName": "Tarik Skubal",
-                "id": 669373,
-                "link": "/api/v1/people/669373",
-                "nameSlug": "tarik-skubal-669373"
-              },
-              "score": 1,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 119,
-                "link": "/api/v1/teams/119",
-                "name": "Los Angeles Dodgers"
-              }
-            },
-            "home": {
-              "isWinner": true,
-              "leagueRecord": {
-                "losses": 0,
-                "pct": "1.000",
-                "ties": 0,
-                "wins": 1
-              },
-              "probablePitcher": {
-                "fullName": "Jacob Misiorowski",
-                "id": 694819,
-                "link": "/api/v1/people/694819",
-                "nameSlug": "jacob-misiorowski-694819"
-              },
-              "score": 2,
-              "seriesNumber": 2,
-              "splitSquad": false,
-              "team": {
-                "id": 158,
-                "link": "/api/v1/teams/158",
-                "name": "Milwaukee Brewers"
-              }
-            }
-          },
-          "tiebreaker": "N",
-          "venue": {
-            "active": true,
-            "id": 32,
-            "link": "/api/v1/venues/32",
-            "name": "American Family Field",
-            "season": "2026"
-          }
-        }
-      ],
-      "totalEvents": 0,
-      "totalGames": 1,
-      "totalGamesInProgress": 0,
-      "totalItems": 1
-    },
-    {
       "date": "2026-10-12",
       "events": [],
       "games": [
@@ -1647,7 +1543,7 @@
     }
   ],
   "totalEvents": 0,
-  "totalGames": 16,
+  "totalGames": 15,
   "totalGamesInProgress": 0,
-  "totalItems": 16
+  "totalItems": 15
 }
